@@ -6,8 +6,8 @@ subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>.
 
 profile:
   align: left
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: ysh.png
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
