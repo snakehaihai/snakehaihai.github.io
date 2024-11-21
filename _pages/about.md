@@ -25,6 +25,8 @@ I have contributed over 80 papers to leading journals such as TRO, IJRR, ISPRS, 
 In terms of achievements, I secured second place in the academic track of the 2021 Hilti SLAM Challenge, third place in the visual-inertial track of the 2023 ICCV SLAM Challenge, and was honored with the IROS 2023 Best Entertainment and Amusement Paper Award. Additionally, I received the Outstanding Reviewer Award at ICRA 2024.
 
 I have also been actively involved in organizing events such as the CARIC UAV Swarm Challenge and Workshop at CDC 2023, the UG2 Anti-drone Challenge at CVPR 2024, and the second CARIC UAV Swarm Challenge at IROS 2024.
+
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
