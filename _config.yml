@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-theme: jekyll-theme-minimal
+theme: academic-website
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
 
