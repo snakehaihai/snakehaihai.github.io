@@ -2,10 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>. 
+
+Address: S1-B4c-14, 50 Nanyang Ave, Singapore 639798. 
+
+Contacts： syuan003  AAAATTTTT  e.ntu.edu.sg
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
