@@ -9,9 +9,9 @@ profile:
   image: ysh.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>S1-B4c-14, </p>
-    <p>50 Nanyang Ave, </p>
-    <p>Singapore 639798</p>
+    <p>S1-B4c-14, 50 Nanyang Ave, Singapore 639798</p>
+    <p></p>
+    <p></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
