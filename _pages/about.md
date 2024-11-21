@@ -2,11 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>. 
-
-Address: S1-B4c-14, 50 Nanyang Ave, Singapore 639798. 
-
-Contacts： syuan003  AAAATTTTT  e.ntu.edu.sg
+subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>.  Address: S1-B4c-14, 50 Nanyang Ave, Singapore 639798. Contacts： syuan003  AAAATTTTT  e.ntu.edu.sg
 
 profile:
   align: left
