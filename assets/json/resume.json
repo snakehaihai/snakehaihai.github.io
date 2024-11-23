@@ -28,43 +28,31 @@
       "position": "Senior Research Fellow",
       "url": "https://www.ntu.edu.sg/",
       "startDate": "2019-11-01",
-      "endDate": "2026-03-01",
-      "summary": "Conduct research activity, writing papers, write project proposal, finish projects, writing research proposals, raising PHD kid ",
+      "endDate": "Now",
+      "summary": "Conduct research activity, writing papers, write project proposals, finish projects, writing research proposals, raising PHD kid ",
       "highlights": ["Robotics"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Nanyang Technological University, Singapore",
+      "location": "Singapore",
+      "url": "https://www.ntu.edu.sg/",
+      "area": "Robotics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2014-01-01",
+      "endDate": "2019-01-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "NTU Research Scholarship",
+      "date": "2014-1-01",
+      "awarder": "Nanyang Technological University, Singapore",
+      "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+      "summary": "The NTU Research Scholarship is awarded to outstanding graduate students for research. "
     }
   ],
   "certificates": [
