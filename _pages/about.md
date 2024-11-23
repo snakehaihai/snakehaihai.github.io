@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>. Contacts  syuan003  AT e.ntu.edu.sg
+subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>. 
 
 profile:
   align: left
