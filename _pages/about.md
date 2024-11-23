@@ -9,7 +9,7 @@ profile:
   image: ysh.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>S1-B4c-14, 50 Nanyang Ave, Singapore 639798</p>
+    <p></p>
     <p></p>
     <p></p>
 
