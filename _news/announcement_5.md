@@ -8,4 +8,3 @@ related_posts: false
 
 Organized IROS 2024 Workshop on Multi-Robot Perception and Navigation Challenges in Logistics and Inspection Tasks
 
-https://www.iros2024-mr-panlogin.com/
