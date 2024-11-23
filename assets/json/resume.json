@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Yuan Shenghai",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shyuan AT ntu.edu.sg",
+    "phone": "+65 XXXX XXXX",
+    "url": "https://snakehaihai.github.io/publications/",
+    "summary": "A Chinese-born Singaporean robotics researcher and expert, combining extensive field experience with a strong background in cutting-edge robotics research.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "50 Nanyang Ave, ",
+      "postalCode": "Singapore 639798",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "linkedin",
+        "username": "shenghai-yuan-0613",
+        "url": "https://www.linkedin.com/in/shenghai-yuan-0613/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Nanyang Technological University",
+      "position": "Senior Research Fellow",
+      "url": "https://www.ntu.edu.sg/",
+      "startDate": "2019-11-01",
+      "endDate": "2026-03-01",
+      "summary": "Conduct research activity, writing papers, write project proposal, finish projects, writing research proposals, raising PHD kid ",
+      "highlights": ["Robotics"]
     }
   ],
   "volunteer": [
