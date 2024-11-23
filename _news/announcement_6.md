@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One LIO paper named MM-LINS is accepted by TIV
+One LIO paper "MM-LINS" is accepted by TIV
