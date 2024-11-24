@@ -73,6 +73,30 @@
       "summary": "ICRA 2024 Conference Editorial Board Outstanding Reviewers "
     }
   ],
+    "volunteer": [
+      {
+    "organization": "Unmanned Systems",
+    "position": "Associate Editor",
+    "url": "https://www.worldscientific.com/worldscinet/us",
+    "startDate": "2023-12-01",
+    "endDate": "2025-12-01",
+    "summary": "Manage and oversee the peer review process to ensure it is fair, rigorous, and timely. Maintain and improve the quality of content by ensuring publications meet high academic and professional standards.",
+    "highlights": [
+      "Control the review process to be 90% within 2 months for each round of review."
+    ]
+    },
+    {
+    "organization": "IEEE Conference and Journals",
+    "position": "Reviewer",
+    "url": "https://ras.papercept.net/conferences/scripts/login.pl",
+    "startDate": "2023-12-01",
+    "endDate": "2025-12-01",
+    "summary": "I critically evaluate a manuscript's quality, originality, and validity, provide constructive feedback, and recommend a decision while maintaining confidentiality and ethical standards..",
+    "highlights": [
+      "Received Best reviewer award from IEEE."
+    ]
+    }
+  ],
   "publications": [
    {
       "name": "GPTR: Gaussian Process Trajectory Representation for Continuous-Time Motion Estimation",
