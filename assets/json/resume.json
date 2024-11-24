@@ -39,11 +39,22 @@
       "location": "Singapore",
       "url": "https://www.ntu.edu.sg/",
       "area": "Robotics",
-      "studyType": "PhD",
+      "studyType": "Doctor of Philosophy",
       "startDate": "2014-01-01",
       "endDate": "2019-01-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Electrical and Electronic Engineering"]
+    },
+    {
+      "institution": "Nanyang Technological University, Singapore",
+      "location": "Singapore",
+      "url": "https://www.ntu.edu.sg/",
+      "area": "Robotics",
+      "studyType": "Bachelor degree",
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01",
+      "score": "10",
+      "courses": ["Electrical and Electronic Engineering"]
     }
   ],
   "awards": [
@@ -60,50 +71,6 @@
       "awarder": "Nanyang Technological University, Singapore",
       "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-ceb-awards",
       "summary": "ICRA 2024 Conference Editorial Board Outstanding Reviewers "
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
