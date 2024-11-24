@@ -53,6 +53,13 @@
       "awarder": "Nanyang Technological University, Singapore",
       "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
       "summary": "The NTU Research Scholarship is awarded to outstanding graduate students for research. "
+    },
+    {
+      "title": "ICRA Conference Editorial Board Awards",
+      "date": "2024-5-10",
+      "awarder": "Nanyang Technological University, Singapore",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-ceb-awards",
+      "summary": "ICRA 2024 Conference Editorial Board Outstanding Reviewers "
     }
   ],
   "certificates": [
@@ -128,18 +135,17 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "ROS",
+        "C++",
+        "Python",
+        "Machine Learning",
+        "Computer Vision"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -151,28 +157,28 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Robotics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Unmanned Aerial Vehicles",
+        "Simultaneous Localization And Mapping,",
+        "Computer Vision",
+        "Point Cloud Registration",
+        "Audio Data",
+        "Benchmarking"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Xie Lihua",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "2012-Now. Email: elhxie AT ntu.edu.sg. Prof. Xie, a distinguished Fellow of IEEE, is widely recognized for his outstanding contributions to the field of engineering and technology. As my postdoc supervisor, he has been an exceptional mentor, offering invaluable guidance and support throughout numerous projects and events. His expertise and leadership have profoundly influenced my academic and professional journey. Our collaboration began in 2012, during the prestigious Million Dollar DSTA TechX Challenge, where I joined the NTU team under his mentorship. That experience not only marked the start of our professional relationship but also set the foundation for many successful endeavors together."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Wang Han",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "2012-2019. Email: HW AT ntu.edu.sg. Prof. Wang Han, my PhD supervisor, has played a pivotal role in shaping my academic journey. He has a remarkable ability to identify key research problems and has guided me through a series of impactful projects, offering me opportunities to step onto larger stages. Our connection goes back to my undergraduate years, where he first began teaching me. Our collaborative journey truly began in 2012, during the prestigious Million Dollar DSTA TechX Challenge, which laid the foundation for many achievements that followed."
     }
   ],
   "projects": [
