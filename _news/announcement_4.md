@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Four Papers are accepted by IROS 2024
+Four papers are accepted by IROS 2024
