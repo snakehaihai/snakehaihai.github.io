@@ -22,6 +22,7 @@ I received my B.S. and Ph.D. degrees in Electrical and Electronic Engineering in
 
 I have contributed over 80 papers to leading journals such as TRO, IJRR, ISPRS, TIE, RAL, and prestigious conferences including ICRA, CVPR, ICCV, NeurIPS, and IROS. I serve as an associate editor for the Unmanned Systems Journal and as a guest editor for the Electronics Special Issue on Advanced Technologies of Navigation for Intelligent Vehicles.
 
+I have mentored or co-supervised over 200 undergraduate Design and Innovation project students, more than 45 undergraduate Final Year Project students, 32 Master's students, and eight doctoral students. Additionally, I have delivered over five seminar talks to a combined audience of more than 5,000 individuals in online or offline mode. I am currently seeking an academic position.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
