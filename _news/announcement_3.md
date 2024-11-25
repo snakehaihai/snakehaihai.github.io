@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Four Papers are accepted by ICRA 2024
+Four papers are accepted by ICRA 2024
