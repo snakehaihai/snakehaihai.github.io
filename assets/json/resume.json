@@ -71,6 +71,33 @@
       "awarder": "Nanyang Technological University, Singapore",
       "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-ceb-awards",
       "summary": "ICRA 2024 Conference Editorial Board Outstanding Reviewers "
+    },
+    {
+      "title": "Third place in the visual-inertial track of the 2023 ICCV SLAM Challenge.",
+      "date": "2023-1-01",
+      "awarder": "ICCV 2023 SLAM Challenge",
+      "url": "https://superodometry.com/datasets",
+    },
+    {
+      "title": "Second place in the academic track of the 2021 Hilti SLAM Challenge.",
+      "date": "2021-1-01",
+      "awarder": "Hilti SLAM Challenge",
+      "url": "https://hilti-challenge.com/dataset-2021.htmls"
+    },
+    {
+      "title": "Champion out of 26 teams in Singapore DSTA Techx Swarm Challenge.",
+      "date": "2013-1-01",
+      "awarder": "Defence Science and Technology Agency (DSTA), Singapore"
+    },
+    {
+      "title": "Ranked 6 Out of 140 teams in DAPRA UAVforge Challenge 2012.",
+      "date": "2012-1-01",
+      "awarder": "Defense Advanced Research Projects Agency (DAPRA), Unite States"
+    },
+    {
+      "title": "Champion out of 35 teams in 2011 Taiwan UAV Reconnaissance Challenges.",
+      "date": "2011-1-01",
+      "awarder": "National Cheng Kung University"
     }
   ],
   "volunteer": [
