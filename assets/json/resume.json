@@ -135,7 +135,7 @@
     {
       "name": "Robust Loop Closure by Textual Cues in Challenging Environments",
       "publisher": "IEEE Robotics and Automation Letters",
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2024-12-01",
       "url": "https://github.com/snakehaihai/TXTLCD",
       "summary": "This study proposes a multi-modal loop closure method that leverages explicit human-readable textual cues to enhance robot navigation in featureless, degenerative, and repetitive environments."
     },
