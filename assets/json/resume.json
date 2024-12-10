@@ -166,13 +166,6 @@
       "releaseDate": "2024-01-01",
       "url": "https://arxiv.org/abs/2410.14565",
       "summary": "This study introduces PSS-GOSO, a robust, efficient, and scalable LiDAR Bundle Adjustment method. It features Progressive Spatial Smoothing for robust LiDAR feature association and Graph Optimality-aware Stochastic Optimization for efficient optimization, validated across diverse scenes for superior performance."
-    },
-    {
-      "name": "Robust Loop Closure by Textual Cues in Challenging Environments",
-      "publisher": "arXiv",
-      "releaseDate": "2024-10-15",
-      "url": "https://github.com/snakehaihai/TXTLCD",
-      "summary": "The study presents a novel approach to loop closure detection by leveraging textual cues, improving robustness in challenging environments."
     }
   ],
   "skills": [
