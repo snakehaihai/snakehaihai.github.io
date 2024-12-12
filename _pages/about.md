@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I received my B.S. and Ph.D. degrees in Electrical and Electronic Engineering in 2013 and 2019, respectively, from Nanyang Technological University, Singapore. My research focuses on robotics perception and navigation. Currently, I am a senior research fellow at the Centre for Advanced Robotics Technology Innovation (CARTIN) at Nanyang Technological University, Singapore.
+I received my B.S. and Ph.D. degrees in Electrical and Electronic Engineering in 2013 and 2019, respectively, from Nanyang Technological University, Singapore. My research focuses on robotics perception and navigation. Currently, I am a senior research fellow at the Centre for Advanced Robotics Technology Innovation (CARTIN) at Nanyang Technological University, Singapore. My research interest lies in robotics, with a focus on SLAM, sensor fusion, and autonomous navigation in challenging environments such as mines and dynamic human-robot spaces, aiming to advance adaptive and collaborative robotic systems.
 
 I have authored over 80 papers in top-tier journals such as TRO, IJRR, ISPRS, TIE, and RAL, as well as at prestigious conferences like ICRA, CVPR, ICCV, NeurIPS, and IROS. I also actively contribute as a reviewer for all these journals and conferences. I`ve been cited more than 1400 times as a robotics researcher. Additionally, I serve as an associate editor for the WSPC Unmanned Systems Journal and a guest editor for MDPI the Electronics Journal special issue on Advanced Technologies of Navigation for Intelligent Vehicles.
 
