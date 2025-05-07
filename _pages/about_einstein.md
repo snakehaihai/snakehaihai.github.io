@@ -1,6 +1,6 @@
 I received my B.S. and Ph.D. degrees in Electrical and Electronic Engineering in 2013 and 2019, respectively, from Nanyang Technological University, Singapore. My research focuses on robotics perception and navigation. Currently, I am a postdoctoral senior research fellow at the Centre for Advanced Robotics Technology Innovation (CARTIN) at Nanyang Technological University, Singapore.
 
-I have contributed over 80 papers to leading journals such as TRO, IJRR, ISPRS, TIE, RAL, and prestigious conferences including ICRA, CVPR, ICCV, NeurIPS, and IROS. I serve as an associate editor for the Unmanned Systems Journal and as a guest editor for the Electronics Special Issue on Advanced Technologies of Navigation for Intelligent Vehicles.
+I have contributed over 140 papers to leading journals such as TRO, IJRR, ISPRS, TIE, RAL, and prestigious conferences including ICRA, CVPR, ICCV, NeurIPS, and IROS. I serve as an associate editor for the Unmanned Systems Journal and as a guest editor for the Electronics Special Issue on Advanced Technologies of Navigation for Intelligent Vehicles.
 
 
 <!-- 
