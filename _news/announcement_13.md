@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Track 5](https://ug2-uav-tracking.github.io/track5.html) of the 7th UG2+ Workshop (in conjunction with CVPR 2024) has been completed. Results are available [Here](https://ug2-uav-tracking.github.io/leaderboard24_t5.html)! Congratulations to all the winners! 
+[Track 5](https://ug2-uav-tracking.github.io/track5.html) of the 7th UG2+ Workshop (in conjunction with CVPR 2024) has been completed. Results are available [Here](https://ug2-uav-tracking.github.io/leaderboard24_t5.html)! Congratulations to all the winners!
