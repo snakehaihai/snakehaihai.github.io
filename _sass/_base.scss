@@ -711,8 +711,12 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          color: var(--global-bg-color);
+          color: var(--global-bg-color) !important;
           margin-bottom: 0.5rem;
+
+          div {
+            color: inherit;
+          }
 
           a {
             color: var(--global-bg-color);
