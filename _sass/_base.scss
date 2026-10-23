@@ -697,12 +697,11 @@ footer.sticky-bottom {
         background: white;
       }
 
-      .preview[src*="-16x9."],
-      .preview[src$="/nexusbot.gif"] {
+      .preview-16x9 {
         aspect-ratio: 16 / 9;
       }
 
-      .preview[src*="-5x4."] {
+      .preview-5x4 {
         aspect-ratio: 5 / 4;
       }
 
