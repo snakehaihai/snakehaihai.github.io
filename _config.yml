@@ -2,19 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Dr. Shenghai
-middle_name: 
+middle_name:
 last_name: Yuan
 email: shyuan@ntu.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Shenghai Yuan's research in robotics, spatial intelligence, localization, SLAM, and embodied AI at Nanyang Technological University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/snakehaihai">snakehaihai</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: robotics, SLAM, sensor fusion, UWB localization, spatial intelligence, embodied AI
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: iconsizeysh.PNG #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -82,7 +81,7 @@ flickr_id: # your flickr id
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: 37085527198# your ieeexplore.ieee.org/author/id
-inspirehep_id:  # Inspire HEP author ID
+inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
@@ -114,7 +113,7 @@ youtube_id: snakehaihai# your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  I`m open to questions, collaborations, and academic job offers. Feel free to contact me by any ways. 
+  I welcome research collaborations, academic opportunities, and questions about our work.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -249,7 +248,6 @@ exclude:
   - _pages/dropdown.md
   - _pages/blog.md
   - _pages/projects.md
-  - _pages/teaching.md
   - _pages/profiles.md
   - _pages/repositories.md
   - purgecss.config.js
@@ -381,7 +379,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:  # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -405,7 +403,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # Serve original images and animated GIFs without an ImageMagick dependency.
   widths:
     - 480
     - 800

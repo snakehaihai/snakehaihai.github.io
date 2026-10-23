@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>. 
+subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>.
 
 profile:
   align: left
@@ -18,17 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I received my B.S. and Ph.D. degrees in Electrical and Electronic Engineering in 2013 and 2019, respectively, from Nanyang Technological University, Singapore. My research focuses on robotics perception and navigation. Currently, I am a senior research fellow at the Centre for Advanced Robotics Technology Innovation (CARTIN) at Nanyang Technological University, Singapore. My research interest lies in robotics, with a focus on SLAM, sensor fusion, and autonomous navigation in challenging environments such as mines and dynamic human-robot spaces, aiming to advance adaptive and collaborative robotic systems.
+I am a **Senior Research Fellow** at the [Centre for Advanced Robotics Technology Innovation (CARTIN)](https://www.ntu.edu.sg/cartin), Nanyang Technological University, Singapore. My research focuses on **spatial intelligence and reliable localization for autonomous robots**, connecting SLAM, multi-sensor fusion, UWB-aided state estimation, semantic mapping, and embodied AI. I build perception and navigation systems for aerial and ground robots operating in large, changing environments.
 
-I have authored over 160 papers and patents in top-tier journals such as **T-RO**, **IJRR**, **ISPRS**, **T-IE**, and **RAL**, and at leading conferences including **ICRA**, **CVPR**, **ICCV**, **NeurIPS**, and **IROS**. My work has been cited over **3,000 times**. I actively serve as a reviewer for all major robotics and vision venues, receiving **Outstanding Reviewer Awards** from **ICRA** and **CVPR**, and the **Best Editorial Award** for community service. I am an  **Associate Editor** of **IEEE** *Transactions on Automation Science and Engineering* (**T-ASE**)， **Associate Editor** for *WSPC Unmanned Systems*， **Associate Editor** for *Pattern Recognition* and a **Guest Editor** for *MDPI Electronics* (Special Issue: *Advanced Technologies of Navigation for Intelligent Vehicles*).
+I have authored or co-authored **more than 130 peer-reviewed publications** in robotics, computer vision, and AI. I serve as an **Associate Editor** for _Pattern Recognition_, _IEEE Transactions on Automation Science and Engineering (T-ASE)_, and _Unmanned Systems_, and as an **Area Chair for RSS 2027** and a **Senior Program Committee Member for AAAI 2027**.
 
-Throughout my academic journey and professional career, I have always been passionate about mentoring and guiding others. I have had the privilege of mentoring or co-supervising over 120 undergraduate Design and Innovation project students, more than 25 undergraduate Final Year Project students, 16 Master’s students, and nine doctoral students. Beyond one-on-one mentorship, I have shared my expertise through more than five seminar talks, reaching a combined audience of over 5,000 participants, both online and in person. Currently, I am seeking an academic position where I can further contribute to education, innovation, and research in the field.
+My service has been recognized with **Outstanding Reviewer Awards from ICRA (2024), CVPR (2025), IEEE RA-L (2026), ECCV (2026), and NeurIPS (2026)**, and **Best Associate Editor Awards from Unmanned Systems (2025 and 2026)**. Our work has also received the **IROS 2023 Best Entertainment and Amusement Paper Award** and the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
 
-
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
- -->
-
+I enjoy teaching and mentoring researchers who build working robotic systems. I have co-mentored **more than 12 PhD students**, co-supervised **more than 25 MSc dissertation projects**, and guided **29 undergraduate final-year project groups**. At NTU, I teach aerial robotics through outreach activities and run workshops on ROS, robotics software, and research methods. I received my B.Eng. and Ph.D. in Electrical and Electronic Engineering from NTU, with convocations in **July 2013** and **July 2020**, respectively. I am interested in academic opportunities and collaborations in robotics and embodied AI.
