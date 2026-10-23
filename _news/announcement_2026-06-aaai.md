@@ -1,9 +1,8 @@
 ---
 layout: post
-date: 2026-06-01 12:00:00+0800
+date: 2026-06-25 12:00:00+0800
 inline: true
 related_posts: false
-date_precision: month
 ---
 
 Serving as a **Senior Program Committee Member for AAAI 2027**.
