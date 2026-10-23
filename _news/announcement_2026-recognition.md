@@ -6,4 +6,4 @@ related_posts: false
 date_precision: year
 ---
 
-Honored to receive an **Outstanding Reviewer Award from IEEE Robotics and Automation Letters**, and the **2026 Best Associate Editor Award from Unmanned Systems**. Our work also received the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
+Honored to receive an **Outstanding Reviewer Award from IEEE Robotics and Automation Letters**, and the **2026 Best Associate Editor Award from Unmanned Systems**.

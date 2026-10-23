@@ -22,6 +22,6 @@ I am a **Senior Research Fellow** at the [Centre for Advanced Robotics Technolog
 
 I have authored or co-authored **more than 200 peer-reviewed publications** in robotics, computer vision, and AI, and contributed to **more than 10 patents and other intellectual property outputs**. I serve as an **Associate Editor** for _Pattern Recognition_, _IEEE Transactions on Automation Science and Engineering (T-ASE)_, and _Unmanned Systems_, and as an **Area Chair for RSS 2027** and a **Senior Program Committee Member for AAAI 2027**.
 
-My service has been recognized with **Outstanding Reviewer Awards from ICRA (2024), CVPR (2025), IEEE RA-L (2026), ECCV (2026), and NeurIPS (2026)**, and **Best Associate Editor Awards from Unmanned Systems (2025 and 2026)**. Our work has also received the **IROS 2023 Best Entertainment and Amusement Paper Award** and the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
+My service has been recognized with **Outstanding Reviewer Awards from ICRA (2024), CVPR (2025), IEEE RA-L (2026), ECCV (2026), and NeurIPS (2026)**, and **Best Associate Editor Awards from Unmanned Systems (2025 and 2026)**. Our work has also received the **IROS 2023 Best Entertainment and Amusement Paper Award** and the **Best Paper Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
 
 I received my B.Eng. and Ph.D. in Electrical and Electronic Engineering from NTU, with convocations in **July 2013** and **July 2020**, respectively.
