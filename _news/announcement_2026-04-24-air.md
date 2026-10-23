@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**AIR-Embodied: Active Interactive Reconstruction for 3D Gaussian Splatting with Embodied Multimodal Agents** is now published online in *Unmanned Systems*. [Read the paper](https://doi.org/10.1142/S2301385027410019).
+**AIR-Embodied: Active Interactive Reconstruction for 3D Gaussian Splatting with Embodied Multimodal Agents** is now published online in _Unmanned Systems_. [Read the paper](https://doi.org/10.1142/S2301385027410019).

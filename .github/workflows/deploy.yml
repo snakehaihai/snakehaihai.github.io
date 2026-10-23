@@ -108,6 +108,9 @@ jobs:
             _site/assets/css
             _site/assets/js
             _site/assets/libs
+            _site/assets/img/publication_preview
+            _site/assets/img/ysh*
+            _site/assets/img/wechat*
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
