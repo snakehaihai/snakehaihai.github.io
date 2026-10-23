@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**2 papers accepted to CVPR 2026**. IROS special session **Robotics in Space Exploration** accepted (submission code: **r4up3**).
+**2 papers accepted to CVPR 2026**. IROS special session **Robotics in Space Exploration** accepted.
