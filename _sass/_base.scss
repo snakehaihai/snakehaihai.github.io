@@ -40,7 +40,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -597,7 +597,7 @@ footer.sticky-bottom {
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-bg-color);
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -711,10 +711,11 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          color: var(--global-bg-color);
           margin-bottom: 0.5rem;
 
           a {
-            color: white;
+            color: var(--global-bg-color);
 
             &:hover {
               text-decoration: none;
@@ -1338,5 +1339,5 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-bg-color);
 }
