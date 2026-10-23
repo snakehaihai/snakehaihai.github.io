@@ -6,4 +6,4 @@ related_posts: false
 date_precision: month
 ---
 
-I will serve as an **Area Chair for Robotics: Science and Systems (RSS) 2027** and a **Senior Program Committee Member for AAAI 2027**.
+I will serve as an **Area Chair for Robotics: Science and Systems (RSS) 2027**.
