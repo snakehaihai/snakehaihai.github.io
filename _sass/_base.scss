@@ -874,14 +874,10 @@ footer.sticky-bottom {
   }
 
   @media (min-width: 768px) {
-    .row > .abbr {
-      flex: 0 0 60%;
-      max-width: 60%;
-    }
-
+    .row > .abbr,
     .row > .abbr + div {
-      flex: 0 0 40%;
-      max-width: 40%;
+      flex: 0 0 50%;
+      max-width: 50%;
     }
   }
 
