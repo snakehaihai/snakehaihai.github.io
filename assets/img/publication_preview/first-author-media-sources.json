@@ -376,5 +376,39 @@
     "loop": "continuous",
     "bytes": 9592296,
     "sha256": "174f4fd105454f8ca40a305b4e2fc5ceb3c565a0e79c882cbfa8288f41e06208"
+  },
+  "peral-direct-16x9.gif": {
+    "source": "332ac9571013d2b61bfdc314c8b33f76_raw.mp4",
+    "source_sha256": "b37379e1e04a8548b5ab59a01d4e03ab78266fb1493da750ad6e5c7bfb3e7d3c",
+    "source_duration_seconds": 40.0,
+    "source_segments_seconds": [[0, 40.0]],
+    "source_speed_multiplier": 1,
+    "processing": "Direct conversion of the complete source video. Original sequence, captions, framing, and playback speed preserved. Proportional 16:9 scaling, 10 fps, and a 192-color palette without dithering; no added overlays or cuts.",
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 40.0,
+    "fps": 10,
+    "frames": 400,
+    "captions": "Original source captions preserved",
+    "loop": "continuous",
+    "bytes": 19849372,
+    "sha256": "30b71a52c530671a5ef53c77651fedadbe90c49c270cf0b434fffa13288153b7"
+  },
+  "magperch-hanging-direct-16x9.gif": {
+    "source": "flybrain-perch-hanging.mp4",
+    "source_sha256": "0bd9e493e89712d27f220da5c35caf922a8a3911946ed2fcf4d56a57b135713a",
+    "source_duration_seconds": 28.0,
+    "source_segments_seconds": [[0, 28.0]],
+    "source_speed_multiplier": 1,
+    "processing": "Direct conversion of the complete source video. Original sequence, captions, framing, and playback speed preserved. Proportional 16:9 scaling, 10 fps, and a 192-color palette without dithering; no added overlays or cuts.",
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 28.0,
+    "fps": 10,
+    "frames": 280,
+    "captions": "Original source captions preserved",
+    "loop": "continuous",
+    "bytes": 18978073,
+    "sha256": "fd4c2ebe837016e2802c755a195b2a85a2b705cd189ed3b5e4f6df5b67d62b7a"
   }
 }
