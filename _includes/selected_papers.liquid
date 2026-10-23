@@ -1,5 +1,8 @@
 <div class="publications featured-publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% capture selected_publications %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  {% endcapture %}
+  {{ selected_publications | prioritize_publications: 'yuan2026peralperceptionaware,lee2025magperchamagnetically' }}
 </div>
 
 <h3>Manuscripts under review</h3>
