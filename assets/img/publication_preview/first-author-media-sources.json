@@ -1,4 +1,12 @@
 {
+  "cetus-framework.png": {
+    "source": "https://arxiv.org/html/2509.13784v1/figs/flowchart.png",
+    "figure": 4,
+    "processing": "Original event-camera framework figure, unchanged. Natural aspect ratio; no added panels or padding.",
+    "size": [3036, 1498],
+    "bytes": 774029,
+    "sha256": "2eb0901e90965ca3c77ed9ae412576af43c21f035f39abdb6ed79190332a8937"
+  },
   "peral.png": {
     "source": "https://arxiv.org/html/2509.14915v1/images/motivation.png",
     "figure": 1,
