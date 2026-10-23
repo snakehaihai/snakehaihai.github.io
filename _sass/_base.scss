@@ -693,6 +693,17 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        object-fit: contain;
+        background: white;
+      }
+
+      .preview[src*="-16x9."],
+      .preview[src$="/nexusbot.gif"] {
+        aspect-ratio: 16 / 9;
+      }
+
+      .preview[src*="-5x4."] {
+        aspect-ratio: 5 / 4;
       }
 
       .abbr {
@@ -829,6 +840,31 @@ footer.sticky-bottom {
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+}
+
+.featured-publications {
+  ol.bibliography li {
+    margin-bottom: 1.75rem;
+  }
+
+  @media (min-width: 576px) {
+    .row > .abbr {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+
+    .row > .abbr + div {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .row > .abbr {
+      flex: 0 0 100%;
+      max-width: 26rem;
     }
   }
 }

@@ -42,5 +42,116 @@
     "slide": 20,
     "media": "ppt/media/image94.png",
     "processing": "Original A3PRL pipeline figure extracted losslessly from the seminar deck."
+  },
+  "adaptive-3d-16x9.png": {
+    "size": [1120, 630],
+    "processing": "Complete A3PRL pipeline above the original sparse-LiDAR problem figure; proportional scaling on a 16:9 canvas.",
+    "sources": ["adaptive-3d-pipeline.png", "image74.png"],
+    "ratio": "16:9",
+    "frames": 1,
+    "source_deck": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx, slides 18 and 20"
+  },
+  "fam-hri-5x4.png": {
+    "size": [1000, 800],
+    "processing": "Four complete original scenario panels reflowed into a 2-by-2 layout; original annotations retained.",
+    "sources": ["fam-hri.png", "fam-hri.png", "fam-hri.png", "fam-hri.png"],
+    "ratio": "5:4",
+    "frames": 1
+  },
+  "hico-nav-16x9.png": {
+    "size": [960, 540],
+    "processing": "Complete original figure, proportionally fitted to 16:9.",
+    "sources": ["hico-nav.png"],
+    "ratio": "16:9",
+    "frames": 1
+  },
+  "splatssc-5x4.png": {
+    "size": [1000, 800],
+    "processing": "Complete original comparison figure, proportionally fitted to 5:4.",
+    "sources": ["splatssc.png"],
+    "ratio": "5:4",
+    "frames": 1
+  },
+  "icassp2026-5x4.png": {
+    "size": [1000, 800],
+    "processing": "Complete original pipeline (Figure 1) above the experimental result (Figure 2) from the formal ICASSP paper.",
+    "sources": ["icassp2026-sltds.png", "icassp-result.png"],
+    "ratio": "5:4",
+    "frames": 1,
+    "source": "Unsupervised_UAV_Detection_from_Sparse_Lidar_via_Temporal_Dispersion_Signatures.pdf, Figures 1 and 2, pages 2 and 3"
+  },
+  "uwb-calibration-5x4.png": {
+    "size": [1000, 800],
+    "processing": "Complete system figure above original survey-map calibration result from seminar slide 24.",
+    "sources": ["uwb-calibration.png", "image116.png"],
+    "ratio": "5:4",
+    "frames": 1,
+    "source_deck": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx, slide 24"
+  },
+  "starc-16x9.png": {
+    "size": [960, 540],
+    "processing": "Complete original three-view experiment figure, proportionally fitted to 16:9.",
+    "sources": ["starc.png"],
+    "ratio": "16:9",
+    "frames": 1
+  },
+  "mauformer-16x9.png": {
+    "size": [1200, 675],
+    "processing": "Complete current manuscript framework, proportionally fitted to 16:9.",
+    "sources": ["mauformer.png"],
+    "ratio": "16:9",
+    "frames": 1
+  },
+  "peral-16x9.gif": {
+    "processing": "Original platform schematic held for 2.4 s followed by the complete outdoor rolling demo from seminar slide 6; original speed, 10 fps, 512 x 288.",
+    "sources": ["slide6/image23.png", "slide6/media6.mp4"],
+    "size": [512, 288],
+    "ratio": "16:9",
+    "frames": 57,
+    "source_deck": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx"
+  },
+  "mmaud-16x9.gif": {
+    "processing": "Original dataset sensor-rig diagram beside the first 12 s of the original field data-collection video from seminar slide 15; original speed.",
+    "sources": ["slide15/image63.png", "slide15/media14.mp4"],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "frames": 120,
+    "source_deck": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx"
+  },
+  "serve-16x9.gif": {
+    "processing": "Original side-by-side simulation and hardware panels presented sequentially at full width, each at original speed.",
+    "sources": ["slide31/image136.gif"],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "frames": 140,
+    "source_deck": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx"
+  },
+  "air-embodied-5x4.gif": {
+    "processing": "Complete original animation, original speed, sampled at 10 fps and proportionally fitted to 320 x 256 (5:4).",
+    "sources": ["qi2024air.gif"],
+    "size": [320, 256],
+    "ratio": "5:4",
+    "frames": 155
+  },
+  "airslam-16x9.gif": {
+    "processing": "First 12 seconds of the original experiment demo, original speed, sampled at 8 fps and fitted to 512 x 288 (16:9).",
+    "sources": ["xu2024airslam.gif"],
+    "size": [512, 288],
+    "ratio": "16:9",
+    "frames": 96
+  },
+  "ntu-viral-16x9.gif": {
+    "processing": "Original complete animation, proportional fitting to 640:360; sampled at 2 fps with original playback speed.",
+    "sources": ["nguyen2022ntu.gif"],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "frames": 14
+  },
+  "fsuloc-16x9.gif": {
+    "processing": "Original complete animation, proportional fitting to 640:360; sampled at 10 fps with original playback speed.",
+    "sources": ["fsuloc.gif"],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "frames": 120
   }
 }

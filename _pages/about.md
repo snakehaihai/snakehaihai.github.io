@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a **Senior Research Fellow** at the [Centre for Advanced Robotics Technology Innovation (CARTIN)](https://www.ntu.edu.sg/cartin), Nanyang Technological University, Singapore. My research focuses on **spatial intelligence and reliable localization for autonomous robots**, connecting SLAM, multi-sensor fusion, UWB-aided state estimation, semantic mapping, and embodied AI. I build perception and navigation systems for aerial and ground robots operating in large, changing environments.
 
-I have authored or co-authored **more than 130 peer-reviewed publications** in robotics, computer vision, and AI. I serve as an **Associate Editor** for _Pattern Recognition_, _IEEE Transactions on Automation Science and Engineering (T-ASE)_, and _Unmanned Systems_, and as an **Area Chair for RSS 2027** and a **Senior Program Committee Member for AAAI 2027**.
+I have authored or co-authored **more than 200 peer-reviewed publications** in robotics, computer vision, and AI, and contributed to **more than 10 patents and other intellectual property outputs**. I serve as an **Associate Editor** for _Pattern Recognition_, _IEEE Transactions on Automation Science and Engineering (T-ASE)_, and _Unmanned Systems_, and as an **Area Chair for RSS 2027** and a **Senior Program Committee Member for AAAI 2027**.
 
 My service has been recognized with **Outstanding Reviewer Awards from ICRA (2024), CVPR (2025), IEEE RA-L (2026), ECCV (2026), and NeurIPS (2026)**, and **Best Associate Editor Awards from Unmanned Systems (2025 and 2026)**. Our work has also received the **IROS 2023 Best Entertainment and Amusement Paper Award** and the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
 
