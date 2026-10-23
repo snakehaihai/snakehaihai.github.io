@@ -19,7 +19,7 @@ nav_order: 2
 
 </div>
 
-## Published and accepted papers
+## Publications and preprints
 
 <!-- Bibsearch Feature -->
 
