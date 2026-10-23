@@ -322,5 +322,59 @@
     "sha256": "fc52180049216bba4b1c737805ec72351397d498434814b3917c54afd62fc431",
     "source_deck": "IROS2026_6slides_v8.pptx",
     "label": "Simulation"
+  },
+  "magperch-hanging-18s-16x9.gif": {
+    "source": "flybrain-perch-hanging.mp4",
+    "source_sha256": "0bd9e493e89712d27f220da5c35caf922a8a3911946ed2fcf4d56a57b135713a",
+    "source_duration_seconds": 28,
+    "source_segments_seconds": [[0, 28]],
+    "source_speed_multiplier": 1.5555555555555556,
+    "processing": "Complete source sequence accelerated to 18 seconds. English caption panels cover the Chinese overlays. Persistent Concept Animation label; proportional 16:9 scaling and 128-color palette without dithering.",
+    "stages": [
+      {
+        "source_start_seconds": 0,
+        "source_end_seconds": 6,
+        "caption": "Track the branch"
+      },
+      {
+        "source_start_seconds": 6,
+        "source_end_seconds": 9.333333333333334,
+        "caption": "Align the gripper"
+      },
+      {
+        "source_start_seconds": 9.333333333333334,
+        "source_end_seconds": 12,
+        "caption": "Grip and lock"
+      },
+      {
+        "source_start_seconds": 12,
+        "source_end_seconds": 15,
+        "caption": "Stop the rotors"
+      },
+      {
+        "source_start_seconds": 15,
+        "source_end_seconds": 21,
+        "caption": "Rotate into suspension"
+      },
+      {
+        "source_start_seconds": 21,
+        "source_end_seconds": 25,
+        "caption": "Observe while hanging"
+      },
+      {
+        "source_start_seconds": 25,
+        "source_end_seconds": 28,
+        "caption": "Stable suspended perch"
+      }
+    ],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 18,
+    "fps": 10,
+    "frames": 180,
+    "language": "English",
+    "loop": "continuous",
+    "bytes": 9592296,
+    "sha256": "174f4fd105454f8ca40a305b4e2fc5ceb3c565a0e79c882cbfa8288f41e06208"
   }
 }
