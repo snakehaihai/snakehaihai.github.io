@@ -410,5 +410,26 @@
     "loop": "continuous",
     "bytes": 18978073,
     "sha256": "fd4c2ebe837016e2802c755a195b2a85a2b705cd189ed3b5e4f6df5b67d62b7a"
+  },
+  "icassp2026-results-5x4.svg": {
+    "source": "Unsupervised_UAV_Detection_from_Sparse_Lidar_via_Temporal_Dispersion_Signatures.pdf",
+    "source_sha256": "5290515577038844f2aba7c6add3f784d1730920b898475b1d296c40fd5ee45c",
+    "sources": ["icassp2026-sltds.png"],
+    "figure": 1,
+    "table": 1,
+    "pages": [2, 4],
+    "processing": "Original pipeline figure above a vector table containing every LiDAR row from Table 1. Training type and overall RMSE copied from the published paper; visual and audio rows and per-axis/day/night columns omitted. No values recalculated.",
+    "columns": ["Method", "Training", "Overall RMSE (m)"],
+    "rows": [
+      ["VoxelNet", "Supervised", "11.79"],
+      ["SECOND", "Supervised", "9.88"],
+      ["PointPillars", "Supervised", "9.32"],
+      ["SPVNAS", "Supervised", "6.84"],
+      ["U3DTE", "Unsupervised", "1.76"],
+      ["SLTDS (ours)", "Unsupervised", "1.45"]
+    ],
+    "size": [1000, 800],
+    "ratio": "5:4",
+    "frames": 1
   }
 }

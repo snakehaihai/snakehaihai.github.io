@@ -875,22 +875,12 @@ footer.sticky-bottom {
 
   @media (min-width: 768px) {
     .row > .abbr {
-      flex: 0 0 45%;
-      max-width: 45%;
-    }
-
-    .row > .abbr + div {
-      flex: 0 0 55%;
-      max-width: 55%;
-    }
-
-    .row.media-wide > .abbr {
-      flex-basis: 60%;
+      flex: 0 0 60%;
       max-width: 60%;
     }
 
-    .row.media-wide > .abbr + div {
-      flex-basis: 40%;
+    .row > .abbr + div {
+      flex: 0 0 40%;
       max-width: 40%;
     }
   }
