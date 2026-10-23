@@ -1,4 +1,16 @@
 {
+  "splatssc-composite-16x9.png": {
+    "source": "https://arxiv.org/pdf/2508.02261v3",
+    "source_sha256": "3aa7e0be79abecca534b5486a235aef21107b46f4013277036dc08a56e9fcccb",
+    "figures": [2, 4, 5],
+    "pdf_pages": [3, 5, 7],
+    "processing": "Original PDF figure objects composed without cropping: Figure 2 at upper left, Figure 4 at lower left, Figure 5 at right. Uniform scaling preserves every panel, label, and legend. Rendered from the vector composition at 2880 x 1620.",
+    "size": [2880, 1620],
+    "ratio": "16:9",
+    "frames": 1,
+    "bytes": 1712535,
+    "sha256": "0d8664c9de09061d250a911bde4f31e297adbded7d7ebd578c2d088037f3628e"
+  },
   "uavscenes-overview.png": {
     "source": "https://github.com/sijieaaa/UAVScenes/raw/main/pics/supp_demo.png",
     "paper": "UAVScenes: A Multi-Modal Dataset for UAVs (ICCV 2025)",
