@@ -1,8 +1,9 @@
 {
   "adaptive-3d-perception.png": {
-    "source": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yuan_Adaptive_3D_Perception_for_Small_Aerial_Targets_Under_Sparse_Sampling_CVPR_2026_paper.pdf",
-    "figure": 4,
-    "processing": "Rendered complete figure from PDF page 6 at 216 dpi; excluded caption and body text."
+    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
+    "slide": 20,
+    "media": "ppt/media/image94.png",
+    "processing": "Original A3PRL pipeline figure extracted losslessly from the seminar deck."
   },
   "peral.png": {
     "source": "https://arxiv.org/html/2509.14915v1/images/motivation.png",
@@ -13,5 +14,33 @@
     "source": "https://arxiv.org/html/2509.15507v1/images/result_ntutitive.png",
     "figure": 4,
     "processing": "Original figure resized proportionally to maximum dimension 960 pixels."
+  },
+  "icassp2026-sltds.png": {
+    "source": "Unsupervised_UAV_Detection_from_Sparse_Lidar_via_Temporal_Dispersion_Signatures.pdf",
+    "page": 2,
+    "figure": 1,
+    "processing": "Rendered complete original flowchart at 158.4 dpi; excluded caption and surrounding text."
+  },
+  "serve.gif": {
+    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
+    "slide": 31,
+    "media": "ppt/media/image136.gif",
+    "processing": "Original experiment demo resized proportionally to 640 pixels wide, resampled at 15 fps with original playback speed, 128-color palette; loops continuously."
+  },
+  "nexusbot.gif": {
+    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
+    "slide": 34,
+    "media": "ppt/media/image161.gif",
+    "processing": "Original experiment demo resized proportionally to 480 pixels wide, resampled at 8 fps with original playback speed, 128-color palette; loops continuously."
+  },
+  "fsuloc.gif": {
+    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
+    "slide": 30,
+    "media": "ppt/media/image134.gif",
+    "processing": "Original experiment demo resized proportionally to 640 pixels wide, resampled at 10 fps with original playback speed, 128-color palette; loops continuously."
+  },
+  "mauformer.png": {
+    "source": "MAUFormer manuscript, figures/framework_v11/framework.png",
+    "processing": "Original manuscript framework figure resized proportionally to 1200 pixels wide."
   }
 }
