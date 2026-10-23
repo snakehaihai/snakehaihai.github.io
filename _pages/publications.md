@@ -7,7 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+[Google Scholar](https://scholar.google.com/citations?user=XcV_sesAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/133/3411.html)
+
+* denotes corresponding author; † denotes equal contribution where indicated in the publication.
 
 <!-- Bibsearch Feature -->
 

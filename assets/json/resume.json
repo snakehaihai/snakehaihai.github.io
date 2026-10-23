@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Yuan Shenghai",
-    "label": "Scientist",
-    "image": "",
-    "email": "shyuan AT ntu.edu.sg",
-    "phone": "+65 XXXX XXXX",
-    "url": "https://snakehaihai.github.io/publications/",
-    "summary": "A Chinese-born Singaporean robotics researcher and expert, combining extensive field experience with a strong background in cutting-edge robotics research.",
+    "name": "Shenghai Yuan",
+    "label": "Senior Research Fellow, CARTIN, Nanyang Technological University",
+    "email": "shyuan@ntu.edu.sg",
+    "url": "https://snakehaihai.github.io/",
+    "summary": "Robotics researcher working on spatial intelligence, reliable localization, multi-sensor fusion, SLAM, and embodied AI.",
     "location": {
-      "address": "50 Nanyang Ave, ",
-      "postalCode": "Singapore 639798",
       "city": "Singapore",
-      "countryCode": "SG",
-      "region": "Singapore"
+      "countryCode": "SG"
     },
     "profiles": [
       {
-        "network": "linkedin",
-        "username": "shenghai-yuan-0613",
-        "url": "https://www.linkedin.com/in/shenghai-yuan-0613/"
+        "network": "Google Scholar",
+        "username": "Shenghai Yuan",
+        "url": "https://scholar.google.com/citations?user=XcV_sesAAAAJ"
+      },
+      {
+        "network": "GitHub",
+        "username": "snakehaihai",
+        "url": "https://github.com/snakehaihai"
       }
     ]
   },
@@ -26,203 +26,189 @@
     {
       "name": "Nanyang Technological University",
       "position": "Senior Research Fellow",
-      "url": "https://www.ntu.edu.sg/",
-      "startDate": "2019-11-01",
-      "endDate": "Now",
-      "summary": "Conduct research activity, writing papers, write project proposals, finish projects, writing research proposals, raising PHD kid ",
-      "highlights": ["Robotics"]
+      "startDate": "2022-05",
+      "summary": "Centre for Advanced Robotics Technology Innovation (CARTIN).",
+      "highlights": [
+        "Spatial intelligence, multi-sensor localization, SLAM, UWB-aided state estimation, and embodied AI.",
+        "Proposal writing, technical planning, recruitment, and delivery of externally funded and industry-linked robotics projects."
+      ]
+    },
+    {
+      "name": "Nanyang Technological University",
+      "position": "Research Fellow",
+      "startDate": "2019-11",
+      "endDate": "2022-05"
+    },
+    {
+      "name": "AIBOT Technology Pte. Ltd.",
+      "position": "Co-Founder",
+      "startDate": "2025",
+      "endDate": "2026"
     }
   ],
   "education": [
     {
-      "institution": "Nanyang Technological University, Singapore",
-      "location": "Singapore",
-      "url": "https://www.ntu.edu.sg/",
-      "area": "Robotics",
+      "institution": "Nanyang Technological University",
       "studyType": "Doctor of Philosophy",
-      "startDate": "2014-01-01",
-      "endDate": "2019-01-01",
-      "score": "10",
-      "courses": ["Electrical and Electronic Engineering"]
+      "area": "Electrical and Electronic Engineering",
+      "endDate": "2020-07",
+      "courses": [
+        "Convocation: July 2020"
+      ]
     },
     {
-      "institution": "Nanyang Technological University, Singapore",
-      "location": "Singapore",
-      "url": "https://www.ntu.edu.sg/",
-      "area": "Robotics",
-      "studyType": "Bachelor degree",
-      "startDate": "2010-01-01",
-      "endDate": "2014-01-01",
-      "score": "10",
-      "courses": ["Electrical and Electronic Engineering"]
+      "institution": "Nanyang Technological University",
+      "studyType": "Bachelor of Engineering",
+      "area": "Electrical and Electronic Engineering",
+      "endDate": "2013-07",
+      "courses": [
+        "Convocation: July 2013"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "NTU Research Scholarship",
-      "date": "2014-1-01",
-      "awarder": "Nanyang Technological University, Singapore",
-      "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
-      "summary": "The NTU Research Scholarship is awarded to outstanding graduate students for research. "
+      "date": "2026",
+      "title": "Outstanding Reviewer Award",
+      "awarder": "NeurIPS"
     },
     {
-      "title": "ICRA Conference Editorial Board Awards",
-      "date": "2024-5-10",
-      "awarder": "Nanyang Technological University, Singapore",
-      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-ceb-awards",
-      "summary": "ICRA 2024 Conference Editorial Board Outstanding Reviewers "
+      "date": "2026",
+      "title": "Outstanding Reviewer Award",
+      "awarder": "European Conference on Computer Vision (ECCV)"
     },
     {
-      "title": "Third place in the visual-inertial track of the 2023 ICCV SLAM Challenge.",
-      "date": "2023-1-01",
-      "awarder": "ICCV 2023 SLAM Challenge",
-      "url": "https://superodometry.com/datasets"
+      "date": "2026",
+      "title": "Outstanding Reviewer Award",
+      "awarder": "IEEE Robotics and Automation Letters (RA-L)"
     },
     {
-      "title": "Second place in the academic track of the 2021 Hilti SLAM Challenge.",
-      "date": "2021-1-01",
-      "awarder": "Hilti SLAM Challenge",
-      "url": "https://hilti-challenge.com/dataset-2021.htmls"
+      "date": "2026",
+      "title": "Best Associate Editor Award",
+      "awarder": "Unmanned Systems"
     },
     {
-      "title": "Champion out of 26 teams in Singapore DSTA Techx Swarm Challenge.",
-      "date": "2013-1-01",
-      "awarder": "Defence Science and Technology Agency (DSTA), Singapore"
+      "date": "2026",
+      "title": "Best Poster Award",
+      "awarder": "Robot Meets Prior Map Workshop, ICRA"
     },
     {
-      "title": "Ranked 6 Out of 140 teams in DAPRA UAVforge Challenge 2012.",
-      "date": "2012-1-01",
-      "awarder": "Defense Advanced Research Projects Agency (DAPRA), Unite States"
+      "date": "2025",
+      "title": "Best Associate Editor Award",
+      "awarder": "Unmanned Systems"
     },
     {
-      "title": "Champion out of 35 teams in 2011 Taiwan UAV Reconnaissance Challenges.",
-      "date": "2011-1-01",
-      "awarder": "National Cheng Kung University"
+      "date": "2025",
+      "title": "Outstanding Reviewer Award",
+      "awarder": "IEEE/CVF CVPR"
+    },
+    {
+      "date": "2025",
+      "title": "Best Paper Award Candidate",
+      "awarder": "IEEE ICRA"
+    },
+    {
+      "date": "2024",
+      "title": "Outstanding Reviewer Award",
+      "awarder": "IEEE ICRA"
+    },
+    {
+      "date": "2023",
+      "title": "Best Entertainment and Amusement Paper Award",
+      "awarder": "IEEE/RSJ IROS"
+    },
+    {
+      "date": "2023",
+      "title": "Third Place, Visual-Inertial Track",
+      "awarder": "ICCV SLAM Challenge"
+    },
+    {
+      "date": "2021",
+      "title": "Second Place, Academic Track",
+      "awarder": "Hilti SLAM Challenge"
+    },
+    {
+      "date": "2013–2017",
+      "title": "Nanyang Graduate Scholarship",
+      "awarder": "Nanyang Technological University"
     }
   ],
   "volunteer": [
-  {
-    "organization": "Unmanned Systems",
-    "position": "Associate Editor",
-    "url": "https://www.worldscientific.com/worldscinet/us",
-    "startDate": "2023-12-01",
-    "endDate": "2025-12-01",
-    "summary": "Manage and oversee the peer review process to ensure it is fair, rigorous, and timely. Maintain and improve the quality of content by ensuring publications meet high academic and professional standards.",
-    "highlights": [
-      "Control the review process to be 90% within 2 months for each round of review."
-    ]
-  },
-  {
-    "organization": "ICRA, IROS, TRO, RAL, CVPR, NeurIPS, TCDS, ISPRS, TIE, etc.",
-    "position": "Reviewer",
-    "url": "https://ras.papercept.net/conferences/scripts/login.pl",
-    "startDate": "2023-12-01",
-    "endDate": "2025-12-01",
-    "summary": "I critically evaluate a manuscript's quality, originality, and validity, provide constructive feedback, and recommend a decision while maintaining confidentiality and ethical standards.",
-    "highlights": [
-      "Received Best Reviewer award from IEEE."
-    ]
-  }
-  ],
-  "publications": [
-   {
-      "name": "GPTR: Gaussian Process Trajectory Representation for Continuous-Time Motion Estimation",
-      "publisher": "arXiv preprint arXiv:2410.22931",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/pdf/2410.22931",
-      "summary": "This paper introduces a Gaussian Process Trajectory Representation (GPTR) framework for continuous-time motion estimation, employing a third-order random jerk model to provide smooth, continuous trajectory representations crucial for precise estimation of complex motion."
+    {
+      "organization": "Robotics: Science and Systems (RSS) 2027",
+      "position": "Area Chair",
+      "startDate": "2027",
+      "summary": "Appointment announced in October 2026."
     },
     {
-      "name": "Robust Loop Closure by Textual Cues in Challenging Environments",
-      "publisher": "IEEE Robotics and Automation Letters",
-      "releaseDate": "2024-12-01",
-      "url": "https://github.com/snakehaihai/TXTLCD",
-      "summary": "This study proposes a multi-modal loop closure method that leverages explicit human-readable textual cues to enhance robot navigation in featureless, degenerative, and repetitive environments."
+      "organization": "AAAI 2027",
+      "position": "Senior Program Committee Member",
+      "startDate": "2027",
+      "summary": "Appointment announced in October 2026."
     },
     {
-      "name": "Compact 3D Gaussian Splatting for Dense Visual SLAM",
-      "publisher": "arXiv preprint arXiv:2403.11247",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/pdf/2403.11247",
-      "summary": "This research presents a method to reduce memory and storage costs in 3D Gaussian-based SLAM systems while maintaining high-quality scene reconstruction and rendering, utilizing techniques like sliding window-based masking and codebook-based compression."
+      "organization": "Pattern Recognition, Elsevier",
+      "position": "Associate Editor",
+      "startDate": "2026"
     },
     {
-      "name": "Incremental Joint Learning of Depth, Pose and Implicit Scene Representation on Monocular Camera in Large-Scale Scenes",
-      "publisher": "arXiv preprint arXiv:2404.06050",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/abs/2404.06050",
-      "summary": "This paper proposes an incremental joint learning framework that achieves accurate depth and pose estimation, along with large-scale scene reconstruction, using a monocular camera. The method employs a vision transformer-based network for enhanced scale information estimation and introduces a feature-metric bundle adjustment for robust camera tracking."
+      "organization": "IEEE Transactions on Automation Science and Engineering",
+      "position": "Associate Editor",
+      "startDate": "2025"
     },
     {
-      "name": "AirSLAM: An Efficient and Illumination-Robust Point-Line Visual SLAM System",
-      "publisher": "arXiv preprint arXiv:2408.03520",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/abs/2408.03520",
-      "summary": "AirSLAM is a visual SLAM system designed to handle both short-term and long-term illumination challenges. It combines deep learning techniques for feature detection and matching with traditional backend optimization methods, utilizing a unified convolutional neural network to extract keypoints and structural lines for improved accuracy and robustness."
+      "organization": "Unmanned Systems, World Scientific",
+      "position": "Associate Editor",
+      "startDate": "2022"
     },
     {
-      "name": "Graph Optimality-Aware Stochastic LiDAR Bundle Adjustment with Progressive Spatial Smoothing",
-      "publisher": "arXiv preprint arXiv:2410.14565",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/abs/2410.14565",
-      "summary": "This study introduces PSS-GOSO, a robust, efficient, and scalable LiDAR Bundle Adjustment method. It features Progressive Spatial Smoothing for robust LiDAR feature association and Graph Optimality-aware Stochastic Optimization for efficient optimization, validated across diverse scenes for superior performance."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "ROS",
-        "C++",
-        "Python",
-        "Machine Learning",
-        "Computer Vision"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "organization": "IEEE International Conference on Control and Automation",
+      "position": "Associate Editor",
+      "startDate": "2022",
+      "endDate": "2025"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "organization": "IROS 2026",
+      "position": "Organizer",
+      "summary": "Special Sessions on Space Robotics; Workshop and Competition on Intelligent Information Gathering for Multi-Robot Systems."
+    },
+    {
+      "organization": "ICRA 2026",
+      "position": "Workshop Organizer",
+      "summary": "Robot Meets Ranging."
+    },
+    {
+      "organization": "IROS 2024 and 2025",
+      "position": "Workshop and Competition Organizer",
+      "summary": "Cooperative Aerial Robot Inspection Challenge (CARIC); Multi-Robot Perception and Navigation Challenges."
+    },
+    {
+      "organization": "CVPR 2024",
+      "position": "Challenge and Workshop Organizer",
+      "summary": "UAV Tracking and Pose Estimation Challenge; 7th UG2+ Workshop."
+    },
+    {
+      "organization": "University of Glasgow",
+      "position": "External PhD Viva Examiner",
+      "startDate": "2025"
+    },
+    {
+      "organization": "Dutch Research Council (NWO)",
+      "position": "External Funding Proposal Reviewer",
+      "startDate": "2023"
     }
   ],
   "interests": [
     {
-      "name": "Robotics",
-      "icon": "fa-solid fa-tag",
+      "name": "Robotics and spatial intelligence",
       "keywords": [
-        "Unmanned Aerial Vehicles",
-        "Simultaneous Localization And Mapping,",
-        "Computer Vision",
-        "Point Cloud Registration",
-        "Audio Data",
-        "Benchmarking"
+        "SLAM",
+        "Multi-sensor fusion",
+        "UWB localization",
+        "Semantic mapping",
+        "Embodied AI",
+        "Multi-robot autonomy"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor Xie Lihua",
-      "icon": "fa-solid fa-laptop",
-      "reference": "2012-Now. Email: elhxie AT ntu.edu.sg. Prof. Xie, a distinguished Fellow of IEEE, is widely recognized for his outstanding contributions to the field of engineering and technology. As my postdoc supervisor, he has been an exceptional mentor, offering invaluable guidance and support throughout numerous projects and events. His expertise and leadership have profoundly influenced my academic and professional journey. Our collaboration began in 2012, during the prestigious Million Dollar DSTA TechX Challenge, where I joined the NTU team under his mentorship. That experience not only marked the start of our professional relationship but also set the foundation for many successful endeavors together."
-    },
-    {
-      "name": "Dr. Thien-Minh Nguyen",
-      "icon": "fa-solid fa-tag",
-      "reference": "2017-Now. Email: thienminh.npn  AT  ieee.org. Dr. Thien Minh is a Research Assistant Professor at Nanyang Technological University (NTU). Over the years, we have collaborated extensively, publishing numerous high-impact research papers together. Beyond being a trusted colleague, Thien Minh is also a close friend, and we often engage in productive brainstorming sessions to tackle challenging problems. Whether it’s reviewing papers, writing code, or generating ideas for new projects, we frequently rely on each other’s expertise and perspectives to refine our work and ensure the highest standards of quality and innovation.."
-    },
-    {
-      "name": "Professor Wang Han",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "2012-2019. Email: HW AT ntu.edu.sg. Prof. Wang Han, my PhD supervisor, has played a pivotal role in shaping my academic journey. He has a remarkable ability to identify key research problems and has guided me through a series of impactful projects, offering me opportunities to step onto larger stages. Our connection goes back to my undergraduate years, where he first began teaching me. Our collaborative journey truly began in 2012, during the prestigious Million Dollar DSTA TechX Challenge, which laid the foundation for many achievements that followed. He is now in Xiamen university Malaysia."
     }
   ]
 }

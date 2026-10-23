@@ -93,6 +93,21 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Save preview for pull requests
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: homepage-preview
+          retention-days: 7
+          path: |
+            _site/index.html
+            _site/publications/index.html
+            _site/news/index.html
+            _site/cv/index.html
+            _site/teaching/index.html
+            _site/assets/css
+            _site/assets/js
+            _site/assets/libs
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
