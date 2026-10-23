@@ -1,10 +1,4 @@
 {
-  "adaptive-3d-perception.png": {
-    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
-    "slide": 20,
-    "media": "ppt/media/image94.png",
-    "processing": "Original A3PRL pipeline figure extracted losslessly from the seminar deck."
-  },
   "peral.png": {
     "source": "https://arxiv.org/html/2509.14915v1/images/motivation.png",
     "figure": 1,
@@ -42,5 +36,11 @@
   "mauformer.png": {
     "source": "MAUFormer manuscript, figures/framework_v11/framework.png",
     "processing": "Original manuscript framework figure resized proportionally to 1200 pixels wide."
+  },
+  "adaptive-3d-pipeline.png": {
+    "source": "SIT_Reliable_Robotic_Systems_Unified_Design_v2.pptx",
+    "slide": 20,
+    "media": "ppt/media/image94.png",
+    "processing": "Original A3PRL pipeline figure extracted losslessly from the seminar deck."
   }
 }
