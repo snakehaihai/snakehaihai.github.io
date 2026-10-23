@@ -153,5 +153,25 @@
     "size": [640, 360],
     "ratio": "16:9",
     "frames": 120
+  },
+  "magperch-concept-16x9.gif": {
+    "source": "d70a9c3cf9c8e772553094da9f4a6f16_raw.mp4",
+    "source_sha256": "bafef0e832012067b6aa0221bac5b51d352a517dab37191bcc596ce257eeb87e",
+    "source_segments_seconds": [
+      [9.8, 11.8],
+      [14.0, 20.0],
+      [25.5, 27.5]
+    ],
+    "playback": "Original speed, three excerpts joined with straight cuts.",
+    "processing": "English caption panels replace Chinese overlays. A persistent Concept Animation label identifies the source as a 3D visualization.",
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 10,
+    "fps": 10,
+    "frames": 100,
+    "language": "English",
+    "loop": "continuous",
+    "bytes": 4497755,
+    "sha256": "02eca5592421c10e5e95e799653d3b7c401a8e8fe6875361d60cc45b076a6f77"
   }
 }
