@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**1 paper accepted to CVPR 2025**. Received the **CVPR 2025 Outstanding Reviewer Award**.
+**1 paper accepted to CVPR 2025**.
