@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk at the **Hangzhou International Innovation Institute of Beihang University** — *“Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention.”*  
-Shared system-level insights connecting SLAM, perception, and multi-modal human–robot interaction across cooperative and adversarial contexts.
+Invited talk at **Beihang University's Hangzhou International Innovation Institute** on _Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention_.

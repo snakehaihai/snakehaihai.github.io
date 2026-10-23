@@ -6,4 +6,4 @@ related_posts: false
 date_precision: month
 ---
 
-Honored to receive an **Outstanding Reviewer Award at ECCV 2026**.
+Received the **ECCV 2026 Outstanding Reviewer Award**.

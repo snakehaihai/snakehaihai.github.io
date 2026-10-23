@@ -6,4 +6,4 @@ related_posts: false
 date_precision: month
 ---
 
-I will serve as a **Senior Program Committee Member for AAAI 2027**.
+Serving as a **Senior Program Committee Member for AAAI 2027**.

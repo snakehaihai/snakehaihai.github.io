@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk at the **School of Artificial Intelligence, Nankai University** — *“Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention.”*
-Discussed advances in spatial intelligence, SLAM, and embodied interaction, highlighting recent progress in human–robot cooperation and autonomous systems research.
+Invited talk at **Nankai University** on _Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention_.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One LIO paper "MM-LINS" is accepted by TIV
+**1 paper accepted to TIV**: _MM-LINS_.

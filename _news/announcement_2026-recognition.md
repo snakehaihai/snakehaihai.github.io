@@ -6,4 +6,4 @@ related_posts: false
 date_precision: year
 ---
 
-Honored to receive an **Outstanding Reviewer Award from IEEE Robotics and Automation Letters**.
+Received the **IEEE Robotics and Automation Letters Outstanding Reviewer Award**.

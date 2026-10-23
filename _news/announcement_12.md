@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I`m invited to serve as IROS chair of three sessions.
+Invited to chair **3 sessions at IROS 2024**.

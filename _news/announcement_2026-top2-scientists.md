@@ -6,4 +6,4 @@ related_posts: false
 date_precision: year
 ---
 
-Honored to be named among the **World's Top 2% Scientists in 2026**.
+Named among the **World's Top 2% Scientists in 2026**.

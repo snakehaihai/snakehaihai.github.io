@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk at the **School of Artificial Intelligence and Automation, Huazhong University of Science and Technology (HUST)** — *“Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention.”*  
-Discussed embodied and spatial intelligence for robust human–robot interaction, covering cooperative and adversarial scenarios from crowd-aware navigation to anti-UAV autonomy.
+Invited talk at **Huazhong University of Science and Technology (HUST)** on _Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention_.

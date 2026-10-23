@@ -6,4 +6,4 @@ related_posts: false
 date_precision: year
 ---
 
-Received the **Outstanding Reviewer Award at CVPR 2025** and the **Best Associate Editor Award from Unmanned Systems (2025)**.
+Received the **CVPR 2025 Outstanding Reviewer Award** and the **2025 Best Associate Editor Award from Unmanned Systems**.

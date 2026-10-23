@@ -6,4 +6,4 @@ related_posts: false
 date_precision: month
 ---
 
-Honored to receive the **2026 Best Associate Editor Award from Unmanned Systems**.
+Received the **2026 Best Associate Editor Award from Unmanned Systems**.

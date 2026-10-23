@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk at the **SJTU Paris Elite Institute of Technology (Shanghai Jiao Tong University)** during the *China–France International Young Scholars Forum 2025*.
-Delivered the talk *“Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention,”* sharing insights on embodied and spatial intelligence for robust human–robot interaction across cooperative and adversarial contexts.
+Invited talk at **SJTU Paris Elite Institute of Technology**, **China–France International Young Scholars Forum 2025**, on _Spatial Intelligence for Human–Robot Interaction: From SLAM to Cooperation and Contention_.

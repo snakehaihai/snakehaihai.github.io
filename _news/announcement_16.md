@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepted by IEEE Transactions on Robotics (TRO)
+**2 papers accepted to IEEE Transactions on Robotics (TRO)**.

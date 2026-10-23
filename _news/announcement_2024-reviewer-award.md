@@ -6,4 +6,4 @@ related_posts: false
 date_precision: year
 ---
 
-Received the **Outstanding Reviewer Award at ICRA 2024**.
+Received the **ICRA 2024 Outstanding Reviewer Award**.

@@ -5,6 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Conference news: **8 papers have been accepted to ICRA 2026** (4 conference papers and 4 journal-to-conference presentations). Our workshop **"Robot Meets Ranging"** has also been accepted. We warmly invite the community to submit and participate.  
-
-In addition, **one paper has been accepted to ICASSP 2026**.
+**8 papers accepted to ICRA 2026** (4 conference papers and 4 journal presentations) and **1 to ICASSP 2026**. Workshop **Robot Meets Ranging** also accepted.

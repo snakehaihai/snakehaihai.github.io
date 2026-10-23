@@ -5,6 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper **“SplatSSC: Decoupled Depth-Guided Gaussian Splatting for Semantic Scene Completion”** has been **accepted to AAAI 2026**.
-This work targets large-scale 3D scene completion from sparse/range views, and shows how separating depth guidance from semantic splatting improves robustness and efficiency.
-Congrats to all co-authors! 👏
+**1 paper accepted to AAAI 2026**: _SplatSSC_.

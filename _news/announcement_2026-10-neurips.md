@@ -6,4 +6,4 @@ related_posts: false
 date_precision: month
 ---
 
-Honored to receive an **Outstanding Reviewer Award at NeurIPS 2026**.
+Received the **NeurIPS 2026 Outstanding Reviewer Award**.

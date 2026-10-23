@@ -6,5 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Organized and chair of IROS 2024 Workshop on Multi-Robot Perception and Navigation Challenges in Logistics and Inspection Tasks. Here are the winning teams [Leaderboard](https://ntu-aris.github.io/caric/leaderboard/#:~:text=IROS%202024%2C%20Abu%20Dhabi). Congratulations.
-
+Organized and chaired the **IROS 2024 PANLOGIN Workshop** on multi-robot perception and navigation for logistics and inspection. [Competition results](https://ntu-aris.github.io/caric/leaderboard/#:~:text=IROS%202024%2C%20Abu%20Dhabi).

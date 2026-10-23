@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepted by ICRA 2023
+**2 papers accepted to ICRA 2023**.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by CVPR 2024
+**1 paper accepted to CVPR 2024**.

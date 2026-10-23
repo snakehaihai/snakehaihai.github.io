@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by NeurIPS 2023
+**1 paper accepted to NeurIPS 2023**.

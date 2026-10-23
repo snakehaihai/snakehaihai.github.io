@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work also received the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.
+Received the **Best Poster Award at the ICRA 2026 Robot Meets Prior Map Workshop**.

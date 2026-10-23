@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers are accepted by IROS 2023
+**3 papers accepted to IROS 2023**.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper "Robust Loop Closure by Textual Cues" is accepted by RAL
+**1 paper accepted to RA-L**: _Robust Loop Closure by Textual Cues_.
