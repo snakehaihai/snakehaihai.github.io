@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**8 papers accepted to ICRA 2026**. Workshop **Robot Meets Ranging** also accepted.
+**8 papers accepted to ICRA 2026**. ICRA workshop **Robot Meets Ranging** also accepted.

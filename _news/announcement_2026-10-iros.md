@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**7 papers accepted to IROS 2026**.
+**8 papers accepted to IROS 2026**. IROS workshop **Informative Path Planning** also accepted.
