@@ -173,5 +173,154 @@
     "loop": "continuous",
     "bytes": 4497755,
     "sha256": "02eca5592421c10e5e95e799653d3b7c401a8e8fe6875361d60cc45b076a6f77"
+  },
+  "gpusimbench-16x9.gif": {
+    "paper_key": "zhang2026gpusimbenchtowardsscalable",
+    "sources_sha256": {
+      "IROS26_1118_VI_fi (1).mp4": "f0cfe1ab974cab782aaa9292fdd986dcebc82f468a2633f3ecd42befe832b693"
+    },
+    "processing": "Source excerpts accelerated, cropped to retain the complete experiment panels, proportionally fitted to canvas, and captioned in English. Straight cuts; 192-color palette.",
+    "segments": [
+      {
+        "source": "IROS26_1118_VI_fi (1).mp4",
+        "start_seconds": 18,
+        "end_seconds": 32,
+        "output_seconds": 7,
+        "source_speed_multiplier": 2.0,
+        "crop_xywh": [100, 140, 1080, 440],
+        "caption": "Simulators vs real-world collisions",
+        "speed_label": "2x source"
+      },
+      {
+        "source": "IROS26_1118_VI_fi (1).mp4",
+        "start_seconds": 33,
+        "end_seconds": 41,
+        "output_seconds": 4,
+        "source_speed_multiplier": 2.0,
+        "crop_xywh": [100, 56, 1080, 572],
+        "caption": "Run-to-run variability",
+        "speed_label": "2x source"
+      },
+      {
+        "source": "IROS26_1118_VI_fi (1).mp4",
+        "start_seconds": 41,
+        "end_seconds": 49,
+        "output_seconds": 4,
+        "source_speed_multiplier": 2.0,
+        "crop_xywh": [100, 56, 1080, 566],
+        "caption": "Scaling parallel environments",
+        "speed_label": "2x source"
+      }
+    ],
+    "size": [768, 432],
+    "ratio": "16:9",
+    "duration_seconds": 15,
+    "fps": 10,
+    "frames": 150,
+    "language": "English",
+    "loop": "continuous",
+    "bytes": 1919824,
+    "sha256": "af42ace5456522734098ae695b91b95775cbe9a32b440009d3caff5377b52069"
+  },
+  "em-fall-16x9.gif": {
+    "paper_key": "lu2026emfallembodied",
+    "sources_sha256": {
+      "IROS26_2390_VI_fi.mp4": "4686c4f7a4ef638d14aff2561b8df9bded9579c6211a1d8ad40c1d3d07ced472"
+    },
+    "processing": "Source excerpts accelerated, cropped to retain the complete experiment panels, proportionally fitted to canvas, and captioned in English. Straight cuts; 128-color palette.",
+    "segments": [
+      {
+        "source": "IROS26_2390_VI_fi.mp4",
+        "start_seconds": 32,
+        "end_seconds": 41,
+        "output_seconds": 6,
+        "source_speed_multiplier": 1.5,
+        "crop_xywh": [0, 60, 852, 370],
+        "caption": "Autonomous robot following",
+        "speed_label": "6x real time"
+      },
+      {
+        "source": "IROS26_2390_VI_fi.mp4",
+        "start_seconds": 43,
+        "end_seconds": 49,
+        "output_seconds": 4,
+        "source_speed_multiplier": 1.5,
+        "crop_xywh": [0, 70, 852, 410],
+        "caption": "Human-centered radar filtering",
+        "speed_label": "1.5x source"
+      },
+      {
+        "source": "IROS26_2390_VI_fi.mp4",
+        "start_seconds": 52,
+        "end_seconds": 58.5,
+        "output_seconds": 5,
+        "source_speed_multiplier": 1.3,
+        "crop_xywh": [0, 70, 852, 410],
+        "caption": "Fall detection across visibility conditions",
+        "speed_label": "1.3x source"
+      }
+    ],
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 15,
+    "fps": 10,
+    "frames": 150,
+    "language": "English",
+    "loop": "continuous",
+    "bytes": 6703495,
+    "sha256": "3352ac37c071658c0917b82433c6fc19c087b2c733e985da1260e2ea954d8b7b",
+    "tracking_speed_note": "The source tracking excerpt is labelled Autonomous 4x; further 1.5x acceleration gives 6x real-time playback."
+  },
+  "offworld-exploration-5x4.gif": {
+    "paper_key": "qiao2026multiagentoff",
+    "sources_sha256": {
+      "synchronized_page_04.mp4": "e0678367deb20818e9bf315755f9f25c46fa253f3711a26169a6ab9a2590145e",
+      "synchronized_page_05.mp4": "dec257a14530f3aca94ed2658bd68f7fe41d223373e62e428921a48f5c95b6e7",
+      "synchronized_page_03.mp4": "5f9c09a28915ecbf4154f96be7f175a3c4fcee5063a4a9b9faab7bc2500112bd"
+    },
+    "processing": "Source excerpts accelerated, cropped to retain the complete experiment panels, proportionally fitted to canvas, and captioned in English. Straight cuts; 192-color palette.",
+    "segments": [
+      {
+        "source": "synchronized_page_04.mp4",
+        "start_seconds": 13,
+        "end_seconds": 25,
+        "output_seconds": 6,
+        "source_speed_multiplier": 2.0,
+        "crop_xywh": [240, 230, 1440, 810],
+        "caption": "Multi-robot exploration",
+        "speed_label": "2x source"
+      },
+      {
+        "source": "synchronized_page_05.mp4",
+        "start_seconds": 27,
+        "end_seconds": 45,
+        "output_seconds": 6,
+        "source_speed_multiplier": 3.0,
+        "crop_xywh": [285, 125, 1350, 925],
+        "caption": "Belief maps and trajectory intent",
+        "speed_label": "3x source"
+      },
+      {
+        "source": "synchronized_page_03.mp4",
+        "start_seconds": 34,
+        "end_seconds": 40,
+        "output_seconds": 3,
+        "source_speed_multiplier": 2.0,
+        "crop_xywh": [130, 230, 1640, 810],
+        "caption": "Belief-to-waypoint policy",
+        "speed_label": "2x source"
+      }
+    ],
+    "size": [800, 640],
+    "ratio": "5:4",
+    "duration_seconds": 15,
+    "fps": 10,
+    "frames": 150,
+    "language": "English",
+    "loop": "continuous",
+    "bytes": 1014451,
+    "sha256": "fc52180049216bba4b1c737805ec72351397d498434814b3917c54afd62fc431",
+    "source_deck": "IROS2026_6slides_v8.pptx",
+    "label": "Simulation"
   }
 }
