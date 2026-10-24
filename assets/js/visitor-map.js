@@ -39,7 +39,11 @@
         const id = `visitor-heat-${serial++}`;
         const defs = element("defs", { class: "visitor-density-defs" });
         const gradient = element("radialGradient", { id });
-        [["0%", .32], ["40%", .16], ["100%", 0]].forEach(([offset, opacity]) => {
+        [
+          ["0%", 0.32],
+          ["40%", 0.16],
+          ["100%", 0],
+        ].forEach(([offset, opacity]) => {
           gradient.appendChild(element("stop", { offset, "stop-color": "#d54242", "stop-opacity": opacity }));
         });
         defs.appendChild(gradient);
