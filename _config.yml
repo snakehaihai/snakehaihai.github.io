@@ -112,8 +112,12 @@ x_username: # your X handle
 youtube_id: snakehaihai# your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  I welcome research collaborations, academic opportunities, and questions about our work.
+contact_note: ""
+
+visitor_map:
+  enabled: true
+  widget_id: "-RMm3VS_E9b9mkmGW_O58Wee3vYnV3UGDJs2xuT2fMU"
+  statistics_url: "https://mapmyvisitors.com/web/1c92f"
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

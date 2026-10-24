@@ -69,8 +69,14 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        {% if site.contact_note != blank %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        {% endif %}
       </div>
+    {% endif %}
+
+    {% if site.visitor_map.enabled %}
+      {% include visitor_map.liquid %}
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}

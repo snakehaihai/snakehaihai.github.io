@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="{{ '/assets/css/visitor-map.css' | relative_url }}">
+<section class="visitor-map-section" id="visitor-map" aria-labelledby="visitor-map-title" data-statistics-url="{{ site.visitor_map.statistics_url }}">
+  <div class="visitor-map-heading">
+    <h2 id="visitor-map-title">Visitors around the world</h2>
+    <a href="{{ site.visitor_map.statistics_url }}" target="_blank" rel="noopener noreferrer">Visitor statistics <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="visitor-map-frame">
+    <script
+      async
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="https://mapmyvisitors.com/map.js?cl=c3d1df&amp;w=a&amp;t=tt&amp;d={{ site.visitor_map.widget_id | url_encode }}&amp;co=f4f7fa&amp;cmo=d54242&amp;cmn=e84949&amp;ct=254c6b"
+    ></script>
+    <noscript>
+      <a href="{{ site.visitor_map.statistics_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="https://mapmyvisitors.com/map.png?d={{ site.visitor_map.widget_id | url_encode }}&amp;cl=c3d1df&amp;co=f4f7fa&amp;cmo=d54242&amp;cmn=e84949&amp;ct=254c6b&amp;t=tt&amp;w=720" alt="World map of homepage visitors" width="720" height="353" loading="lazy">
+      </a>
+    </noscript>
+  </div>
+  <div class="visitor-map-caption">
+    <span><span class="visitor-map-dot" aria-hidden="true"></span> Visitor locations <span class="visitor-map-heat-key" aria-hidden="true"></span> Relative activity</span>
+    <span>Approximate locations · Hover for details</span>
+  </div>
+</section>
+<script defer src="{{ '/assets/js/visitor-map.js' | relative_url }}"></script>
