@@ -458,5 +458,25 @@
     "loop": "continuous",
     "bytes": 20904997,
     "sha256": "061e5b668bcbbc01c8a1fd075ff1787c9ec639309769ee97702ce5aff3289d3d"
+  },
+  "peral-full-15s-16x9.gif": {
+    "source": "332ac9571013d2b61bfdc314c8b33f76_raw.mp4",
+    "source_sha256": "b37379e1e04a8548b5ab59a01d4e03ab78266fb1493da750ad6e5c7bfb3e7d3c",
+    "source_duration_seconds": 40.0,
+    "source_size": [1920, 1080],
+    "source_frames": 1200,
+    "source_fps": 30.0,
+    "source_segments_seconds": [[0, 40.0]],
+    "source_speed_multiplier": 2.6666666666666665,
+    "processing": "Complete source video uniformly accelerated from 40 to 15 seconds. Original sequence, English captions, and framing preserved. Proportional 16:9 scaling, 20 fps, and a 256-color palette without dithering; no cuts or added overlays.",
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 15,
+    "fps": 20,
+    "frames": 300,
+    "captions": "Original English source captions preserved",
+    "loop": "continuous",
+    "bytes": 16652737,
+    "sha256": "74209fb520012fbb3182d09e32e36e9159156632f7119f53cc2acd4c74989c45"
   }
 }
