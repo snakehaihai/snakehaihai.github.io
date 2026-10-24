@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.ntu.edu.sg'>Nanyang Technological University</a>.
 

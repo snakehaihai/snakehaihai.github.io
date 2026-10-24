@@ -1,4 +1,37 @@
 $(document).ready(function () {
+  // Load and play publication videos only while their cards are visible.
+  const previewVideos = document.querySelectorAll("video.preview-video");
+  const visibleVideos = new Set();
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const playPreview = (video) => {
+    if (!document.hidden && !reducedMotion.matches) {
+      video.play().catch(() => {});
+    }
+  };
+  if ("IntersectionObserver" in window) {
+    const previewObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (isIntersecting) {
+            visibleVideos.add(target);
+            playPreview(target);
+          } else {
+            visibleVideos.delete(target);
+            target.pause();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    previewVideos.forEach((video) => previewObserver.observe(video));
+    document.addEventListener("visibilitychange", () => {
+      visibleVideos.forEach((video) => (document.hidden ? video.pause() : playPreview(video)));
+    });
+    reducedMotion.addEventListener("change", () => {
+      visibleVideos.forEach((video) => (reducedMotion.matches ? video.pause() : playPreview(video)));
+    });
+  }
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");

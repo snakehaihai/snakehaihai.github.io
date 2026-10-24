@@ -34,21 +34,24 @@
         {% endif %}
         {% if entry.preview_video %}
           {% assign preview_poster = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign preview_description = 'method demonstration' %}
+          {% if entry.preview contains '-concept-' %}
+            {% assign preview_description = 'concept illustration' %}
+          {% endif %}
           <video
             class="{{ preview_class }} preview-video w-100"
             src="{{ entry.preview_video | relative_url }}"
             poster="{{ preview_poster | relative_url }}"
-            aria-label="{{ entry.title | escape }} — method demonstration"
+            aria-label="{{ entry.title | escape }} — {{ preview_description }}"
             width="1920"
             height="1080"
-            autoplay
             muted
             loop
             playsinline
             controls
-            preload="metadata"
+            preload="none"
           >
-            <a href="{{ entry.preview_video | relative_url }}">Watch the method demonstration</a>
+            <a href="{{ entry.preview_video | relative_url }}">Watch the {{ preview_description }}</a>
           </video>
         {% elsif entry.preview contains '://' %}
           <img class="{{ preview_class }}" src="{{ entry.preview }}">

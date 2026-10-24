@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Teaching, technical training, and research mentorship at NTU.
 nav: true
 nav_order: 6
