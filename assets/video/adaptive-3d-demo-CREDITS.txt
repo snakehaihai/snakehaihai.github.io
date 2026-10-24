@@ -1,0 +1,19 @@
+Adaptive 3D Perception: 30-second method demonstration
+
+The complete approved animation is presented at its original speed.
+Format: 1920 x 1080, 24 fps, 720 frames, 30.00 seconds.
+
+Method: Adaptive 3D Perception for Small Aerial Targets Under Sparse Sampling
+via Reinforcement Learning, Shenghai Yuan et al., CVPR 2026.
+
+Environment and target points are drawn from MMAUD V2/V3 recordings.
+The sensing rig follows the MMAUD layout: upward Avia, level MID-360,
+and stereo cameras. The scene uses measured structural coordinates with
+photo-guided completion of the facade, parking area and vegetation.
+
+The aircraft appearance, red transient noise, temporal charts and policy
+actions illustrate the method. The animation does not execute a trained PPO
+policy or report detector accuracy. Recorded target range is preserved;
+source flight time is compressed within the approved 30-second animation.
+
+Rendered in Blender and composed in Remotion, October 2026.

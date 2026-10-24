@@ -32,7 +32,25 @@
         {% elsif entry.preview contains '-16x9.' or entry.preview == 'nexusbot.gif' %}
           {% assign preview_class = preview_class | append: ' preview-16x9' %}
         {% endif %}
-        {% if entry.preview contains '://' %}
+        {% if entry.preview_video %}
+          {% assign preview_poster = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          <video
+            class="{{ preview_class }} preview-video w-100"
+            src="{{ entry.preview_video | relative_url }}"
+            poster="{{ preview_poster | relative_url }}"
+            aria-label="{{ entry.title | escape }} — method demonstration"
+            width="1920"
+            height="1080"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+            preload="metadata"
+          >
+            <a href="{{ entry.preview_video | relative_url }}">Watch the method demonstration</a>
+          </video>
+        {% elsif entry.preview contains '://' %}
           <img class="{{ preview_class }}" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}

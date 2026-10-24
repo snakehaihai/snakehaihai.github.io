@@ -508,5 +508,31 @@
     "mp4_frames": 720,
     "mp4_fps": 48,
     "scope": "Scripted 3D method demonstration; GPT planning and reconstruction are visualized."
+  },
+  "adaptive-3d-method-30s.mp4": {
+    "source": "Approved Adaptive 3D Perception 30-second Remotion demonstration, site and transient-noise revision",
+    "source_sha256": "f9496ebc1df33456f7040e391dc56799062141f704f7deffdc5c5f8270e32a6d",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [
+      [
+        0,
+        30
+      ]
+    ],
+    "source_speed_multiplier": 1,
+    "processing": "Complete approved MP4 copied without re-encoding, acceleration or cuts. Native inline video with playback controls, muted autoplay and looping.",
+    "size": [
+      1920,
+      1080
+    ],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 13755178,
+    "sha256": "f9496ebc1df33456f7040e391dc56799062141f704f7deffdc5c5f8270e32a6d",
+    "demo_video": "/assets/video/adaptive-3d-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/adaptive-3d-demo-30s-16x9.jpg",
+    "scope": "Recorded MMAUD environment and target returns with photo-guided 3D completion; red transient noise and policy actions illustrated."
   }
 }
