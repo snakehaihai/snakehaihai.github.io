@@ -554,5 +554,46 @@
     "demo_video": "/assets/video/offworld-exploration-belief-30s.mp4",
     "poster": "/assets/img/publication_preview/offworld-exploration-belief-30s-16x9.jpg",
     "scope": "Synthetic method illustration. Both resource and hazard beliefs begin unknown and update from local observations shared by three continuously moving rovers. Existing authored routes and wide camera are retained; no online planner is executed."
+  },
+  "peral-normal-speed-30s.mp4": {
+    "source": "332ac9571013d2b61bfdc314c8b33f76_raw.mp4",
+    "source_sha256": "b37379e1e04a8548b5ab59a01d4e03ab78266fb1493da750ad6e5c7bfb3e7d3c",
+    "source_duration_seconds": 40.0,
+    "source_segments_seconds": [
+      [2, 6],
+      [8, 14],
+      [16, 20],
+      [24, 40]
+    ],
+    "source_speed_multiplier": 1,
+    "ending_hold_seconds": 0,
+    "processing": "Selected core segments joined at original speed; no time scaling. Original English captions and framing preserved. Silent 1080p inline website preview with playback controls and looping.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 30,
+    "frames": 900,
+    "bytes": 41651727,
+    "sha256": "682ddcf221bd50c68beb8f3626761b1f7e237687018607acc56d63e76ba671e4",
+    "demo_video": "/assets/video/peral-normal-speed-30s.mp4",
+    "poster": "/assets/img/publication_preview/peral-normal-speed-30s-16x9.jpg"
+  },
+  "magperch-normal-speed-30s.mp4": {
+    "source": "flybrain-perch-dji-rapid-flip-en.mp4",
+    "source_sha256": "7476c54043743f8ebd4b6978eb9a84f47d48bf4a388629f1532be33ec10289d9",
+    "source_duration_seconds": 28.0,
+    "source_segments_seconds": [[0, 28]],
+    "source_speed_multiplier": 1,
+    "ending_hold_seconds": 2,
+    "processing": "Complete original 28-second video at original speed, followed by a 2-second hold of the final frame. Original English captions and framing preserved. Silent 1080p inline website preview with playback controls and looping.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 14498934,
+    "sha256": "cac146a5d81fa9d944f4ede744269ec8e35b80284e0b85c20cc6b7ff3b04418d",
+    "demo_video": "/assets/video/magperch-normal-speed-30s.mp4",
+    "poster": "/assets/img/publication_preview/magperch-normal-speed-30s-16x9.jpg"
   }
 }
