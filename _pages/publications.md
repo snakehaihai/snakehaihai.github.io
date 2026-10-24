@@ -13,7 +13,7 @@ nav_order: 2
 
 ## Manuscripts
 
-<div class="publications featured-publications">
+<div class="publications">
 
 {% bibliography --file under_review --group_by none %}
 
@@ -27,7 +27,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications featured-publications">
+<div class="publications">
 
 {% bibliography %}
 
