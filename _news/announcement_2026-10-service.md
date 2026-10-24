@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as an **Area Chair for Robotics: Science and Systems (RSS) 2027**.
+Serving as an **Area Chair for Robotics: Science and Systems (RSS) 2027**.
