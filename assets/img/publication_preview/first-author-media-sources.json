@@ -438,5 +438,25 @@
     "loop": "continuous",
     "bytes": 18978073,
     "sha256": "fd4c2ebe837016e2802c755a195b2a85a2b705cd189ed3b5e4f6df5b67d62b7a"
+  },
+  "magperch-rapid-flip-15s-16x9.gif": {
+    "source": "flybrain-perch-dji-rapid-flip-en.mp4",
+    "source_sha256": "7476c54043743f8ebd4b6978eb9a84f47d48bf4a388629f1532be33ec10289d9",
+    "source_duration_seconds": 28.0,
+    "source_size": [1920, 1080],
+    "source_frames": 672,
+    "source_fps": 24.0,
+    "source_segments_seconds": [[0, 28.0]],
+    "source_speed_multiplier": 1.8666666666666667,
+    "processing": "Complete source video uniformly accelerated from 28 to 15 seconds. Original sequence, English captions, and framing preserved. Proportional 16:9 scaling, 20 fps, and a 256-color palette without dithering; no cuts or added overlays.",
+    "size": [640, 360],
+    "ratio": "16:9",
+    "duration_seconds": 15,
+    "fps": 20,
+    "frames": 300,
+    "captions": "Original English source captions preserved",
+    "loop": "continuous",
+    "bytes": 20904997,
+    "sha256": "061e5b668bcbbc01c8a1fd075ff1787c9ec639309769ee97702ce5aff3289d3d"
   }
 }
