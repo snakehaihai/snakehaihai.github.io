@@ -536,5 +536,23 @@
     "demo_video": "/assets/video/mmaud-dataset-30s.mp4",
     "poster": "/assets/img/publication_preview/mmaud-dataset-30s-16x9.jpg",
     "scope": "Original MMAUD field and sensing-rig photographs, five UAV camera recordings, Leica reference trajectories, mixed field audio and raw sparse mmWave returns. Flight regimes and visual/LiDAR interference are illustrated from SIT seminar slides 15-17."
+  },
+  "offworld-exploration-belief-30s.mp4": {
+    "source": "Approved Multi-Agent Off-World Exploration v3 film: continuous wide survey with evolving shared beliefs",
+    "source_sha256": "37bfadecc620d1f661a223a7cb93aca719180451d539859f65cd28f1de267165",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [[0, 30]],
+    "source_speed_multiplier": 1,
+    "processing": "Complete approved 1080p MP4 copied unchanged, without re-encoding, acceleration or cuts. Inline playback controls, muted looping and matching 16:9 poster.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 41104742,
+    "sha256": "37bfadecc620d1f661a223a7cb93aca719180451d539859f65cd28f1de267165",
+    "demo_video": "/assets/video/offworld-exploration-belief-30s.mp4",
+    "poster": "/assets/img/publication_preview/offworld-exploration-belief-30s-16x9.jpg",
+    "scope": "Synthetic method illustration. Both resource and hazard beliefs begin unknown and update from local observations shared by three continuously moving rovers. Existing authored routes and wide camera are retained; no online planner is executed."
   }
 }
