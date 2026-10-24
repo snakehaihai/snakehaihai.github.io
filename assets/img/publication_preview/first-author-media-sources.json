@@ -483,18 +483,10 @@
     "source": "AIR-Embodied Remotion 3D method demonstration (air-embodied-30s.mp4)",
     "source_sha256": "4ec1102a6bd3db15618a5bfe46a81d9eaa00dabe565dcfa47ff54e4aeee36c56",
     "source_duration_seconds": 30,
-    "source_segments_seconds": [
-      [
-        0,
-        30
-      ]
-    ],
+    "source_segments_seconds": [[0, 30]],
     "source_speed_multiplier": 2,
     "processing": "Complete approved 30-second method animation uniformly accelerated to 15 seconds. All phases, English captions, and framing preserved. 640 x 360, 20 fps, 256-color GIF; no cuts. The 1080p MP4 retains all 720 source frames at 48 fps with 2x audio tempo.",
-    "size": [
-      640,
-      360
-    ],
+    "size": [640, 360],
     "ratio": "16:9",
     "duration_seconds": 15,
     "fps": 20,
@@ -513,18 +505,10 @@
     "source": "Approved Adaptive 3D Perception 30-second Remotion demonstration, site and transient-noise revision",
     "source_sha256": "f9496ebc1df33456f7040e391dc56799062141f704f7deffdc5c5f8270e32a6d",
     "source_duration_seconds": 30,
-    "source_segments_seconds": [
-      [
-        0,
-        30
-      ]
-    ],
+    "source_segments_seconds": [[0, 30]],
     "source_speed_multiplier": 1,
     "processing": "Complete approved MP4 copied without re-encoding, acceleration or cuts. Native inline video with playback controls, muted autoplay and looping.",
-    "size": [
-      1920,
-      1080
-    ],
+    "size": [1920, 1080],
     "ratio": "16:9",
     "duration_seconds": 30,
     "fps": 24,
