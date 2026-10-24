@@ -595,5 +595,24 @@
     "sha256": "cac146a5d81fa9d944f4ede744269ec8e35b80284e0b85c20cc6b7ff3b04418d",
     "demo_video": "/assets/video/magperch-normal-speed-30s.mp4",
     "poster": "/assets/img/publication_preview/magperch-normal-speed-30s-16x9.jpg"
+  },
+  "fam-hri-assistive-care-30s.mp4": {
+    "source": "Approved FAM-HRI concept-to-experiment film, rendered with Blender and Remotion",
+    "source_sha256": "ac0f8d49c6e8d9b7c474343562ce20541c2f4bf850369cf9bac0e7fdb5378daa",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [[0, 30]],
+    "source_speed_multiplier": 1,
+    "processing": "Complete approved 1080p MP4 copied unchanged, including its English request voice, captions and Meta acknowledgment. Inline controls, muted autoplay, looping and matching 16:9 poster.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 18491736,
+    "sha256": "ac0f8d49c6e8d9b7c474343562ce20541c2f4bf850369cf9bac0e7fdb5378daa",
+    "demo_video": "/assets/video/fam-hri-assistive-care-30s.mp4",
+    "poster": "/assets/img/publication_preview/fam-hri-concept-to-real-30s-16x9.jpg",
+    "scope": "Assistive-care concept showing gaze target selection, speech intent and robotic eating assistance. A 2.75-second dissolve begins at 20 seconds and transitions to real FAM-HRI tabletop experiments from the supplied supplementary video. The care scenario is illustrated, not a recorded clinical trial.",
+    "acknowledgment_source": "https://arxiv.org/html/2503.16492v2"
   }
 }
