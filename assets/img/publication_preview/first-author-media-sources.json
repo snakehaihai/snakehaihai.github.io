@@ -518,5 +518,23 @@
     "demo_video": "/assets/video/adaptive-3d-method-30s.mp4",
     "poster": "/assets/img/publication_preview/adaptive-3d-demo-30s-16x9.jpg",
     "scope": "Recorded MMAUD environment and target returns with photo-guided 3D completion; red transient noise and policy actions illustrated."
+  },
+  "mmaud-dataset-30s.mp4": {
+    "source": "MMAUD Remotion film with original field photographs, multi-flight recordings and illustrated sensing conditions",
+    "source_sha256": "abe4a01c037a6322f0d59a0d2a70c666ae7c70df883d2e47958cf71d51774584",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [[0, 30]],
+    "source_speed_multiplier": 1,
+    "processing": "Complete 30-second 1080p film copied without further encoding or cuts. Inline video with controls, muted autoplay and looping.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 9903757,
+    "sha256": "abe4a01c037a6322f0d59a0d2a70c666ae7c70df883d2e47958cf71d51774584",
+    "demo_video": "/assets/video/mmaud-dataset-30s.mp4",
+    "poster": "/assets/img/publication_preview/mmaud-dataset-30s-16x9.jpg",
+    "scope": "Original MMAUD field and sensing-rig photographs, five UAV camera recordings, Leica reference trajectories, mixed field audio and raw sparse mmWave returns. Flight regimes and visual/LiDAR interference are illustrated from SIT seminar slides 15-17."
   }
 }

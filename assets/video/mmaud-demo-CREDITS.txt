@@ -1,0 +1,22 @@
+MMAUD: 30-second dataset demonstration
+
+Shenghai Yuan et al., ICRA 2024.
+MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats.
+Original project: https://github.com/ntu-aris/MMAUD
+Format: 1920 x 1080, 24 fps, 720 frames, 30.00 seconds.
+
+The opening includes the original outdoor collection photograph and complete
+sensing-rig photograph from the SIT Applied Research Seminar, plus an original
+MMAUD stereo camera observation. The rig photograph is displayed upright.
+
+Camera excerpts and Leica reference profiles cover Mavic 2, Mavic 3, Phantom 4,
+Avata and M300 recordings. Audio waveform and spectrum come from the original
+mixed field recording. LiDAR panels use original M300 background returns;
+mmWave panels retain raw sparse single-scan detections.
+
+Separate 3D flight regimes, visual stress cases, urban sound-source geometry,
+target sequences and added red LiDAR interference illustrate the observation
+conditions discussed in SIT seminar slides 15-17. They do not report detector
+performance or isolate individual acoustic sources from the recorded mixture.
+
+Rendered in Blender and composed in Remotion, October 2026.
