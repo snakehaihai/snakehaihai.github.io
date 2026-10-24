@@ -368,6 +368,7 @@ filtered_bibtex_keywords:
     demo,
     google_scholar_id,
     html,
+    huggingface,
     inspirehep_id,
     pdf,
     poster,
