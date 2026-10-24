@@ -11,11 +11,13 @@ nav_order: 2
 
 \* denotes corresponding author; † denotes equal contribution where indicated in the publication.
 
-## Manuscripts under review
+## Manuscripts
 
 <div class="publications">
 
 {% bibliography --file under_review --group_by none %}
+
+{% bibliography --file research_manuscripts --group_by none %}
 
 </div>
 
