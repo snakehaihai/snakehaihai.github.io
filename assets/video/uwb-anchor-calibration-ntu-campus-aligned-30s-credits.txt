@@ -1,0 +1,31 @@
+GP-UWB: Large-Scale UWB Anchor Calibration and One-Shot Localization Using Gaussian Process
+S. Yuan, B. Lou et al. | ICRA 2025
+https://arxiv.org/abs/2412.16880
+https://github.com/luobodan/GP-UWB-calibration
+
+30-second NTU campus reconstruction. Blender Cycles + Remotion, 1920x1080, 24 fps.
+Buildings and roads: OpenStreetMap contributors, ODbL.
+https://www.openstreetmap.org/copyright
+Visual reference: https://ntumap.app/ and the author's supplied campus screenshots.
+No NTU Map meshes, textures, or proprietary application assets were copied.
+Building heights, facade details, terrain and tropical vegetation are authored for illustration.
+Map registration: existing map-only rigid SE(2) candidate from the author's
+mapping workspace. Fixed unit scale; no fitting to trajectory predictions or anchor estimates.
+Map, reference trajectory, true anchor positions and inferred centres use the same
+NTU world frame and the same Blender camera projection.
+
+Public trajectory and UWB ranges: GP-UWB-calibration / MCDUWB / ntu_day_01.
+The reference trajectory is used as calibration input for this explanatory GP refit.
+This is not a replay of the paper's LiDAR-inertial predictions or its original benchmark.
+The planar Matérn GP refit uses inverse-log-square-root range response and chronological prefixes.
+Anchor ground truth is displayed separately and does not enter GP fitting or peak search.
+Ground markers preserve anchor XY coordinates; reconstructed terrain elevations are illustrative.
+Map registration residuals are not independent surveyed positioning accuracy.
+Acquisition time is condensed; main camera remains at campus-wide scale.
+
+Acquisition inset: original Blender ATV/operator illustration.
+MakeHuman human base, eyes and clothing: CC0.
+https://www.makehumancommunity.org/content/license.html
+Industrial Sunset 02 HDRI, Sergej Majboroda / Poly Haven: CC0.
+https://polyhaven.com/a/industrial_sunset_02
+Instrument Sans and DM Mono: SIL Open Font License.
