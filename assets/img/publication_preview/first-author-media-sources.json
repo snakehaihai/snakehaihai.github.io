@@ -1080,5 +1080,72 @@
     "poster": "/assets/img/publication_preview/uwb-anchor-calibration-campus-multiview-30s-16x9.jpg",
     "credits": "/assets/video/uwb-anchor-calibration-campus-multiview-30s-credits.txt",
     "poster_sha256": "219d30aaba1a850a160ae2b10d04666fd337ff9f0c6f007f9bb0ffc0891c2b99"
+  },
+  "uwb-anchor-calibration-campus-continuous-40s.mp4": {
+    "duration_seconds": 40,
+    "fps": 24,
+    "frames": 960,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 27608232,
+    "sha256": "bff531a3b993f4e14e338402f739c9b772d05ad2d21096dca0c1d0934aee775d",
+    "audio_streams": 0,
+    "full_decode": "passed",
+    "source_sequence": "ntu_day_01",
+    "camera_topic": "/d455b/color/image_raw",
+    "max_camera_offset_seconds": 0.0336155891418457,
+    "recorded_camera_fps": 24,
+    "rendered_scene_fps": 12,
+    "source_interval_seconds": [58.0, 589.1221210956573],
+    "playback_speed": 13.278053027391433,
+    "all_previous_observations_retained": true,
+    "shared_anchor_route_and_estimate_coordinates": true,
+    "estimate_uses_anchor_truth": false,
+    "scope": "Public MCD reference trajectory and UWB ranges. GP refit uses reference poses for this method illustration, not LIO predictions or a benchmark replay. Anchor truth never enters fitting. Existing map-only SE(2) registration is a candidate, not an independently surveyed registration. One continuous recording interval, uniformly time-compressed to 40 seconds. No excerpt cuts or route jumps. Camera heading is eased for the third-person reconstruction; all GP fits retain chronological prefixes.",
+    "sample_frames": [40, 160, 280, 400, 520, 640, 760, 900, 948],
+    "camera_projection_check_max_error_px": 0.0006029423979050514,
+    "continuous_timing": {
+      "frames": 960,
+      "duration": 40,
+      "source_interval_seconds": [58.0, 589.1221210956573],
+      "source_dt_min": 0.5538289546966553,
+      "source_dt_max": 0.5538291931152344,
+      "max_vehicle_step_m": 5.148906964838412,
+      "max_camera_yaw_step_deg": 3.4377467707849423,
+      "no_cuts": true
+    },
+    "wide_view_frame_audit": {
+      "minimum_mean_luminance": 0.4622765875897685,
+      "largest_adjacent_image_changes": [
+        {
+          "frame": 400,
+          "mean_absolute_difference": 0.03605563624626806
+        },
+        {
+          "frame": 366,
+          "mean_absolute_difference": 0.035879125312676514
+        },
+        {
+          "frame": 162,
+          "mean_absolute_difference": 0.035658990962640205
+        },
+        {
+          "frame": 252,
+          "mean_absolute_difference": 0.03565167836681998
+        },
+        {
+          "frame": 352,
+          "mean_absolute_difference": 0.03563780965060922
+        }
+      ]
+    },
+    "source": "https://arxiv.org/abs/2412.16880",
+    "processing": "Wide NTU campus reconstruction with terrain-conforming cyan GP response, true anchors and estimated centres; timestamp-matched recorded RGB inset and original third-person ATV reconstruction.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "demo_video": "/assets/video/uwb-anchor-calibration-campus-continuous-40s.mp4",
+    "poster": "/assets/img/publication_preview/uwb-anchor-calibration-campus-continuous-40s-16x9.jpg",
+    "credits": "/assets/video/uwb-anchor-calibration-campus-continuous-40s-credits.txt",
+    "poster_sha256": "5d5b44a2e56f0a894cf3c93221968b08d6a628b33b9daa951c76fc8fa4dcd397"
   }
 }

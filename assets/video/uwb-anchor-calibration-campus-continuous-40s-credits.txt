@@ -1,0 +1,33 @@
+GP-UWB: Large-Scale UWB Anchor Calibration and One-Shot Localization Using Gaussian Process
+S. Yuan, B. Lou et al. | ICRA 2025
+https://arxiv.org/abs/2412.16880
+https://github.com/luobodan/GP-UWB-calibration
+
+40-second continuous NTU campus multi-view. Blender Cycles + Remotion, 1920x1080, 24 fps.
+Wide rotating campus reconstruction with a semitransparent cyan GP response surface.
+Upper left: recorded ntu_day_01 D455b colour camera, matched by timestamp to the displayed reference trajectory.
+Upper right: original third-person ATV reconstruction based on the author's supplied vehicle photograph.
+One continuous interval from T+58.0 to T+589.122 seconds, uniformly time-compressed by approximately 13.3x. No excerpt cuts or route jumps.
+All GP updates retain previously accumulated observations; no future samples are used.
+Recorded camera timestamps are matched within 0.05 seconds of the requested source time.
+The follow-camera heading is eased; obstructing building geometry fades smoothly in the inset to preserve vehicle visibility. Camera colours are retained from the recording. Third-person camera and vehicle geometry are authored illustration.
+
+Buildings and roads: OpenStreetMap contributors, ODbL.
+https://www.openstreetmap.org/copyright
+Visual reference: https://ntumap.app/ and the author's supplied campus screenshots.
+Building heights, facades, terrain and tropical vegetation are authored reconstruction.
+The close-up uses wider authored carriageways along the existing OSM centre-lines, without trajectory fitting.
+Map registration: existing map-only rigid SE(2) candidate, not independently surveyed positioning accuracy.
+Route, true anchors, fitted centres and heatmap share the same world frame and camera projection.
+
+Public trajectory and UWB ranges: GP-UWB-calibration / MCDUWB / ntu_day_01.
+The GP explanatory refit uses reference poses and ranges, not the paper's original LiDAR-inertial benchmark predictions.
+Each planar Matern GP models inverse-log-square-root range response using a chronological sample prefix.
+Estimated centres are maxima of the fitted response. Anchor ground truth does not enter fitting or peak search.
+The cyan terrain overlay shows the maximum fitted response across anchors, with confidence-weighted opacity.
+White squares: true anchors. Cyan crosshairs: estimated centres. Gold: collected reference route.
+Ground marker XY positions are preserved; terrain heights are illustrative.
+
+MakeHuman human base, eyes and clothing: CC0.
+https://www.makehumancommunity.org/content/license.html
+Instrument Sans: SIL Open Font License.
