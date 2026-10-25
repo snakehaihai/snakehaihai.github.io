@@ -1,0 +1,19 @@
+Uno: Unified Self-Supervised Monocular Odometry for Platform-Agnostic Deployment
+Paper: https://doi.org/10.1049/cit2.70095
+30-second 3D method illustration. 1920 x 1080, 24 fps, silent.
+Blender Cycles scene plates; Remotion typography and method graphics.
+Main 3D plates: 1440 x 810 at 12 fps, adjacent-frame blending at 24 fps.
+Camera-view inset: 640 x 360 at 6 fps. Main output: 1080p / 24 fps.
+
+The film shows ground, aerial and handheld motion. Shared image features, a mixture of pose experts, Gumbel-Softmax inter-frame selection and depth-prior bundle adjustment are illustrated. Poses and depth scale/shift are refined together. Expert activations and trajectories are illustrative; the film does not claim a new algorithm run or metric-scale recovery without an external scale reference.
+
+Visual credits:
+- Courtyard and wheeled platform: original authored Blender geometry reused from the existing formation-navigation visualization.
+- Lighting: industrial_sunset_02 HDRI by Poly Haven, CC0, https://polyhaven.com/a/industrial_sunset_02
+- Ground: concrete_floor_02 by Poly Haven, CC0, https://polyhaven.com/a/concrete_floor_02
+- DJI Mini 4 Pro aircraft geometry, credited to DJI, reused from the local approved MMAUD scene. Rendered images only; no source model is redistributed.
+  https://dji-official-fe.djicdn.com/reactor/assets/_next/static/3d/529a47d4-0f26-43b4-ba7c-fda1400b9114.glb
+- Instrument Sans, Rodrigo Fuenzalida and Jordan Egstad: SIL Open Font License.
+- DM Mono, Colophon Foundry: SIL Open Font License.
+
+Only reviewed rendered video, poster and this credit file are published. Manuscripts and source scene files remain local.

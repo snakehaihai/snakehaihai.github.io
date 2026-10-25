@@ -1,0 +1,15 @@
+TGSFormer: Scalable Temporal Gaussian Splatting for Embodied Semantic Scene Completion
+Paper: https://arxiv.org/abs/2512.00300
+30-second 3D method illustration. 1920 x 1080, 24 fps, silent.
+Blender Cycles scene plates; Remotion typography and method graphics.
+Main 3D plates: 1440 x 810 at 12 fps, adjacent-frame blending at 24 fps.
+Camera-view inset: 640 x 360 at 6 fps. Main output: 1080p / 24 fps.
+
+RGB observations, camera poses and a depth prior initialize local Gaussians. Persistent Gaussian memory retains prior regions. Dual temporal encoding and confidence-aware attention exchange current and historical features; confidence-aware voxel fusion merges overlapping primitives. The illustrated semantic geometry is generated from the authored room, not a replay of model predictions.
+
+Visual credits:
+- Interior, furnishings, camera rig, materials, semantic Gaussian representation and motion: original authored Blender scene.
+- Instrument Sans, Rodrigo Fuenzalida and Jordan Egstad: SIL Open Font License.
+- DM Mono, Colophon Foundry: SIL Open Font License.
+
+Only reviewed rendered video, poster and this credit file are published. Manuscripts and source scene files remain local.
