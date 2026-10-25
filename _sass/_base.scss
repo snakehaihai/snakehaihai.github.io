@@ -761,9 +761,11 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
-          border-bottom: 1px solid;
+        strong {
+          border-bottom: 0;
+          text-decoration: none;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
