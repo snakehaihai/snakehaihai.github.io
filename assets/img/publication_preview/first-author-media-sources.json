@@ -1031,5 +1031,46 @@
     "demo_video": "/assets/video/uno-motion-and-refinement-30s.mp4",
     "poster": "/assets/img/publication_preview/uno-motion-and-refinement-30s-16x9.jpg",
     "credits": "/assets/video/uno-motion-and-refinement-30s-credits.txt"
+  },
+  "uwb-anchor-calibration-ntu-campus-aligned-30s.mp4": {
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 21005731,
+    "sha256": "1bf8be740033837af162779eca538ae3a34d864c05979362ed4aefa3319b8128",
+    "audio_streams": 0,
+    "full_decode": "passed",
+    "scope": "Public MCD reference trajectory and UWB ranges. GP refit uses reference poses for this method illustration, not LIO predictions or a benchmark replay. Anchor truth never enters fitting. Existing map-only SE(2) registration is a candidate, not an independently surveyed registration.",
+    "prefix_only": true,
+    "truth_and_estimates_visible": true,
+    "camera_projection_max_error_px": 0.0004079547240461347,
+    "sample_frames": [
+      24,
+      120,
+      216,
+      300,
+      360,
+      432,
+      504,
+      576,
+      650,
+      690
+    ],
+    "source_sequence": "MCDUWB/all/ntu_day_01_packed.csv",
+    "map_alignment": "world=(utm-t)@R; scene=world-[140,-50]; applied once to map; all trajectories and anchors already in world",
+    "scene_source_fps": 12,
+    "source": "https://arxiv.org/abs/2412.16880",
+    "processing": "Shared-frame NTU campus reconstruction with public recorded reference trajectory, true anchor squares, inferred GP centre crosshairs, and terrain-conforming Viridis heatmap. Original Blender acquisition inset retained.",
+    "size": [
+      1920,
+      1080
+    ],
+    "ratio": "16:9",
+    "demo_video": "/assets/video/uwb-anchor-calibration-ntu-campus-aligned-30s.mp4",
+    "poster": "/assets/img/publication_preview/uwb-anchor-calibration-ntu-campus-aligned-30s-16x9.jpg",
+    "credits": "/assets/video/uwb-anchor-calibration-ntu-campus-aligned-30s-credits.txt",
+    "poster_sha256": "114641379f819f1d62f58e43dff10d5c6ea7e960872fc1774027f6ab40b6e92c"
   }
 }
