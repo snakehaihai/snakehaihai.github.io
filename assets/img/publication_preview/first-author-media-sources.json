@@ -974,5 +974,32 @@
     "poster": "/assets/img/publication_preview/range-aerial-contact-interception-30s-16x9.jpg",
     "credits": "/assets/video/range-aerial-contact-interception-30s-credits.txt",
     "revision": "Encirclement, renewed target approach, contact interception, recoil and target descent. Hand-authored Blender animation, with a closer camera for the contact and a final wide view of the protected vehicle."
+  },
+  "rtg-solar-rover-energy-comparison-30s.mp4": {
+    "key": "hu2026energyconstrainednavigation",
+    "stem": "rtg-solar-rover",
+    "arxiv": "2509.15062",
+    "title": "Energy-Constrained Navigation for Planetary Rovers under Hybrid RTG-Solar Power",
+    "source": "https://arxiv.org/abs/2509.15062",
+    "processing": "New Blender Cycles scene animation with Remotion method explanation. Native 3D plates at 1440 x 810 and 12 fps; 1080p compositing with 24 fps diagrams and interpolated adjacent plates.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "kind": "rover",
+    "duration_seconds": 30,
+    "frames": 720,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "full_decode": "passed",
+    "audio_streams": 0,
+    "bytes": 7299881,
+    "sha256": "7b1823a676898a413c8dfd8ba3056a9996265c5415e70140fbe43c69fefcae2f",
+    "poster_sha256": "a16370e4ce363f5e909e5809be3b99ec7b2c0bdab51729b684f48ace124ca439",
+    "frame_samples": [36, 180, 288, 360, 420, 552, 600, 648, 710],
+    "scope": "Authored terrain and route comparison with a simple illustrative energy model; not paper benchmark results. Time compressed. No recovery of downhill potential energy is assumed. Same rover, endpoints, initial mission energy allowance and power cap.",
+    "demo_video": "/assets/video/rtg-solar-rover-energy-comparison-30s.mp4",
+    "poster": "/assets/img/publication_preview/rtg-solar-rover-energy-comparison-30s-16x9.jpg",
+    "credits": "/assets/video/rtg-solar-rover-energy-comparison-30s-credits.txt",
+    "revision": "Direct ridge-crossing versus energy-aware low-gradient traversal. Equal mission limits; climb stall and energy depletion versus arrival with reserve. Persistent wide terrain view plus a rover close-up."
   }
 }
