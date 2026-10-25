@@ -1,0 +1,24 @@
+UNO: Unified Self-Supervised Monocular Odometry for Platform-Agnostic Deployment
+Paper: https://arxiv.org/abs/2506.07013
+Journal: https://doi.org/10.1049/cit2.70095
+30-second method illustration, 1920 x 1080, 24 fps, silent.
+
+Fixed overview shows actual camera translation and turning in an authored courtyard.
+Sequential RGB frames and camera frusta expose motion; the inset shows its view.
+The eight-expert bank and Gumbel-Softmax connections explain the paper's selection
+mechanism. These selections are illustrative, not outputs of the trained networks.
+The backend visualization uses a small joint geometric fit with camera poses and
+affine depth parameters. The first pose and one scale fix the arbitrary gauge.
+Reprojected image overlays are computed from the fitted poses and scene depth.
+The alignment curve is computed from that illustrative fit, not paper results.
+Image/geometry consistency and joint depth/pose refinement follow Sections 3-5.
+
+Production: Blender Cycles scene plates; Remotion composition.
+Wide plates: 1440 x 810 / 12 fps, blended at 24 fps; POV: 640 x 360 / 6 fps.
+Visual assets:
+- Courtyard and rover: original authored geometry from the approved formation scene.
+- Industrial sunset 02 HDRI, Poly Haven, CC0: https://polyhaven.com/a/industrial_sunset_02
+- Concrete floor 02, Poly Haven, CC0: https://polyhaven.com/a/concrete_floor_02
+- Instrument Sans: Rodrigo Fuenzalida and Jordan Egstad, SIL Open Font License.
+- DM Mono: Colophon Foundry, SIL Open Font License.
+Only the final video, poster and credits are published. Source documents stay local.
