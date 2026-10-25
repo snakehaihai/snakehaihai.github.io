@@ -1,0 +1,49 @@
+MDS-FGS / Distributed Formation Navigation — 3D method illustration
+
+Paper: Distributed Formation Navigation for Quadruped and Wheeled Robots via Artificial Potential Fields
+Bo Zhang, Weili Chen, Chunyang Xu, Ruocheng Li, Chenxi Deng, Shiyu Chen, Shenghai Yuan, Bin Xin
+IEEE Internet of Things Journal, 2026, Early Access
+https://doi.org/10.1109/JIOT.2026.3746317
+
+Original scene, wheeled robot geometry, motion illustration and composition created with Blender and Remotion.
+Method explanation follows the official abstract and the author's supplied MDS-FGS clarification.
+This four-robot scene is a method illustration, separate from the paper's three-platform physical experiments.
+The figures 94.5% and 31.7% are reported paper results; they are not measurements from this animation.
+
+Environment assets — CC0:
+Industrial Sunset 02 HDRI, Sergej Majboroda / Poly Haven
+https://polyhaven.com/a/industrial_sunset_02
+Concrete Floor 02 material, Rob Tuytel / Poly Haven
+https://polyhaven.com/a/concrete_floor_02
+
+Go2 robot meshes — Unitree Robotics, via Google DeepMind MuJoCo Menagerie:
+https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_go2
+License reproduced below.
+
+Copyright (c) 2016-2022 HangZhou YuShu TECHNOLOGY CO.,LTD. ("Unitree Robotics")
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
