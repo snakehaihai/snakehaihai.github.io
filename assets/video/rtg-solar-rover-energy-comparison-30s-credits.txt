@@ -1,0 +1,24 @@
+Energy-Constrained Navigation for Planetary Rovers under Hybrid RTG-Solar Power
+Paper: https://arxiv.org/abs/2509.15062
+30-second 3D method illustration, 1920 x 1080, 24 fps.
+Blender Cycles scene animation with Remotion explanation and comparison overlays.
+
+Two illustrative runs use identical rover hardware, start/goal, initial mission
+energy allowance, fixed RTG-solar supply and instantaneous power limit.
+The direct route climbs the ridge, stalls at an infeasible climb and expends its
+remaining allowance during repeated attempts. The lower route avoids unnecessary
+ascent and descent, reaches the shared goal and retains energy.
+The terrain, routes, stalled motion and normalized resource traces are authored
+for explaining the method. They are not experimental results or measured paper
+benchmarks. The simple explanatory model includes a baseline subsystem load,
+rolling resistance and the additional cost of uphill motion; downhill potential
+energy is not recovered. Time is compressed.
+
+Visual assets:
+- Newly authored lunar ridge/corridor terrain, non-repeating procedural regolith,
+  irregular basalt fragments and wheel tracks.
+- Existing original articulated six-wheel rover and RTG hardware from the local
+  approved research-film scene, with terrain-aligned chassis and wheel suspension.
+- Instrument Sans, Rodrigo Fuenzalida and Jordan Egstad: SIL Open Font License.
+- DM Mono, Colophon Foundry: SIL Open Font License.
+Only the final video, poster and this credit file are published.
