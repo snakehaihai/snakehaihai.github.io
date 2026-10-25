@@ -2,7 +2,7 @@ MDS-FGS / Distributed Formation Navigation — 3D method illustration
 
 Paper: Distributed Formation Navigation for Quadruped and Wheeled Robots via Artificial Potential Fields
 Bo Zhang, Weili Chen, Chunyang Xu, Ruocheng Li, Chenxi Deng, Shiyu Chen, Shenghai Yuan, Bin Xin
-IEEE Internet of Things Journal, 2026, Early Access
+IEEE Internet of Things Journal, 2026
 https://doi.org/10.1109/JIOT.2026.3746317
 
 Original scene, wheeled robot geometry, motion illustration and composition created with Blender and Remotion.
