@@ -1,0 +1,26 @@
+GP-UWB / Large-Scale UWB Anchor Calibration and One-Shot Localization Using Gaussian Process
+S. Yuan, B. Lou, T.-M. Nguyen, P. Yin, M. Cao, X. Xu, J. Li, J. Xu, S. Chen, L. Xie
+IEEE International Conference on Robotics and Automation (ICRA), 2025
+https://arxiv.org/abs/2412.16880
+https://github.com/luobodan/GP-UWB-calibration
+
+30-second NTU-map edition, 1920 x 1080, 24 fps.
+The actual NTU survey point-cloud map is reproduced from the author's supplied
+CVlife_Lou_UWB_achor_mapping slides (embedded image198.png).
+Viridis colors follow the Gaussian Process heatmap figures in the same slides.
+The trajectory is traced along visible campus roads for this explanation.
+Synthetic UWB observations and prefix-only Matern GP updates illustrate how
+additional trajectory coverage refines the range-response field and anchor estimates.
+The background survey map does not enter GP fitting. The animation is not a
+replay of experimental predictions or a quantitative benchmark.
+Response transform: 1 / log10(sqrt(range) + 1).
+The close-up retains the original Blender ATV/operator animation; this is a
+separate illustrative acquisition segment. Overview acquisition time is condensed.
+No original PDF, slide deck, or raw experiment data are included.
+
+External assets used in the Blender acquisition inset:
+- MakeHuman human base, eyes, clothing and character assets: CC0.
+  https://www.makehumancommunity.org/content/license.html
+- Industrial Sunset 02 HDRI, Sergej Majboroda / Poly Haven: CC0.
+  https://polyhaven.com/a/industrial_sunset_02
+- Instrument Sans and DM Mono: SIL Open Font License.
