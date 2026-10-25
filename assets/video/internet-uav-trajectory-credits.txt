@@ -1,0 +1,17 @@
+3D UAV Trajectory Estimation and Classification from Internet Videos via Language Model
+Paper source: https://arxiv.org/abs/2603.09070
+30-second 3D method illustration, 1920 x 1080, 24 fps.
+Blender Cycles renders the scene; Remotion composes the English explanation.
+
+Authored Blender 3D method illustration. Trajectories, signal traces, window changes and power profiles are explanatory animations, not experimental measurements or algorithm benchmarks.
+Detector agreement and VLM category/size cues feed monocular geometry and sequential motion refinement.
+Original manuscript PDFs, source models and private experiment files are not included in this publication.
+
+Visual assets:
+- Previously prepared campus geometry and materials from the approved MMAUD visualization, with new cameras, flight motion and analytical overlays.
+- DJI Mini 4 Pro aircraft visualization geometry, credited to DJI; reused from the existing local concept scene.
+  Source: https://dji-official-fe.djicdn.com/reactor/assets/_next/static/3d/529a47d4-0f26-43b4-ba7c-fda1400b9114.glb
+  Only rendered imagery is included; the model itself is not redistributed.
+- Original explanatory overlays and motion authored for this film.
+- Instrument Sans, Rodrigo Fuenzalida and Jordan Egstad: SIL Open Font License.
+- DM Mono, Colophon Foundry: SIL Open Font License.
