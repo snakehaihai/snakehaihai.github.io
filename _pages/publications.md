@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: List of my publications in reversed chronological order.
+description: Publications grouped by conference and ordered by conference or journal publication date, newest first.
 nav: true
 nav_order: 2
 ---
@@ -29,6 +29,9 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% capture publication_list %}
+{% bibliography --group_by none %}
+{% endcapture %}
+{{ publication_list | chronological_publications: site.data.publication_timeline }}
 
 </div>

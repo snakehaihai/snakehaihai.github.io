@@ -1,0 +1,1722 @@
+{
+  "policy": "Newest first. Conference papers stay together by edition and use the event start date. Journals use verified first-online dates; missing dates fall back to supplied publication dates or citation year. DOI creation, indexing and acceptance dates are never treated as online publication dates. Partial dates retain their real precision. Citation text and homepage selection are unchanged.",
+  "checked_on": "2026-10-26",
+  "conferences": {
+    "2026-ICARCV": {
+      "label": "ICARCV 2026",
+      "venue": "19th International Conference on Control, Automation, Robotics and Vision (ICARCV)",
+      "start": "2026-11-14",
+      "end": "2026-11-17",
+      "source": "https://vinuni.edu.vn/call-for-papers-vinuniversity-and-nanyang-technological-university-host-19th-international-conference-on-control-automation-robotics-and-vision/"
+    },
+    "2027-WACV": {
+      "label": "WACV 2027",
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "start": "2027-01-04",
+      "end": "2027-01-08",
+      "source": "https://wacv.thecvf.com/Conferences/2027"
+    },
+    "2026-CVPR": {
+      "label": "CVPR 2026",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": "2026-06-03",
+      "end": "2026-06-07",
+      "source": "https://cvpr.thecvf.com/Conferences/2026/Dates"
+    },
+    "2026-AAAI": {
+      "label": "AAAI 2026",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
+      "start": "2026-01-20",
+      "end": "2026-01-27",
+      "source": "https://aaai.org/conference/aaai/aaai-26/program-overview/"
+    },
+    "2026-IROS": {
+      "label": "IROS 2026",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "start": "2026-09-27",
+      "end": "2026-10-01",
+      "source": "https://www.rsj.or.jp/event/international/iros"
+    },
+    "2026-ICRA": {
+      "label": "ICRA 2026",
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "start": "2026-06-01",
+      "end": "2026-06-05",
+      "source": "https://2026.ieee-icra.org/about/"
+    },
+    "2026-ICCA": {
+      "label": "ICCA 2026",
+      "venue": "20th IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2026-06-16",
+      "end": "2026-06-19",
+      "source": "https://ieeecss.org/sites/ieeecss/files/2026-01/CDC-2025_BoG_meeting_minutes.pdf"
+    },
+    "2026-CoRL": {
+      "label": "CoRL 2026",
+      "venue": "Conference on Robot Learning (CoRL)",
+      "start": "2026-11-09",
+      "end": "2026-11-12",
+      "source": "https://www.corl.org/"
+    },
+    "2026-ICASSP": {
+      "label": "ICASSP 2026",
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+      "start": "2026-05-03",
+      "end": "2026-05-08",
+      "source": "https://api.crossref.org/works/10.1109/icassp55912.2026.11464432"
+    },
+    "2025-ICRA": {
+      "label": "ICRA 2025",
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "start": "2025-05-19",
+      "end": "2025-05-23",
+      "source": "https://api.crossref.org/works/10.1109/icra55743.2025.11127688"
+    },
+    "2025-IROS": {
+      "label": "IROS 2025",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "start": "2025-10-19",
+      "end": "2025-10-25",
+      "source": "https://api.crossref.org/works/10.1109/iros60139.2025.11246032"
+    },
+    "2025-ICASSP": {
+      "label": "ICASSP 2025",
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+      "start": "2025-04-06",
+      "end": "2025-04-11",
+      "source": "https://api.crossref.org/works/10.1109/icassp49660.2025.10887734"
+    },
+    "2025-CVPR": {
+      "label": "CVPR 2025",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": "2025-06-11",
+      "end": "2025-06-15",
+      "source": "https://cvpr.thecvf.com/Conferences/2025/Dates"
+    },
+    "2025-ICCV": {
+      "label": "ICCV 2025",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "start": "2025-10-19",
+      "end": "2025-10-25",
+      "source": "https://api.crossref.org/works/10.1109/iccv51701.2025.02688"
+    },
+    "2024-ICRA": {
+      "label": "ICRA 2024",
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "start": "2024-05-13",
+      "end": "2024-05-17",
+      "source": "https://api.crossref.org/works/10.1109/icra57147.2024.10610957"
+    },
+    "2024-ICCA": {
+      "label": "ICCA 2024",
+      "venue": "18th IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2024-06-18",
+      "end": "2024-06-21",
+      "source": "https://api.crossref.org/works/10.1109/icca62789.2024.10591842"
+    },
+    "2024-IROS": {
+      "label": "IROS 2024",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "start": "2024-10-14",
+      "end": "2024-10-18",
+      "source": "https://api.crossref.org/works/10.1109/iros58592.2024.10801455"
+    },
+    "2024-CVPR": {
+      "label": "CVPR 2024",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": "2024-06-17",
+      "end": "2024-06-21",
+      "source": "https://cvpr.thecvf.com/Conferences/2024/Dates"
+    },
+    "2024-ECCV": {
+      "label": "ECCV 2024",
+      "venue": "Computer Vision – ECCV 2024, Lecture Notes in Computer Science",
+      "start": "2024-09-29",
+      "end": "2024-10-04",
+      "source": "https://eccv.ecva.net/Conferences/2024"
+    },
+    "2023-IROS": {
+      "label": "IROS 2023",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "start": "2023-10-01",
+      "end": "2023-10-05",
+      "source": "https://api.crossref.org/works/10.1109/iros55552.2023.10341914"
+    },
+    "2023-NeurIPS": {
+      "label": "NeurIPS 2023",
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "start": "2023-12-10",
+      "end": "2023-12-16",
+      "source": "https://nips.cc/Conferences/2023"
+    },
+    "2023-ICCV": {
+      "label": "ICCV 2023",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "start": "2023-10-01",
+      "end": "2023-10-06",
+      "source": "https://api.crossref.org/works/10.1109/iccv51070.2023.01724"
+    },
+    "2023-ICRA": {
+      "label": "ICRA 2023",
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "start": "2023-05-29",
+      "end": "2023-06-02",
+      "source": "https://api.crossref.org/works/10.1109/icra48891.2023.10161054"
+    },
+    "2023-RSS": {
+      "label": "RSS 2023",
+      "venue": "Robotics: Science and Systems XIX (RSS)",
+      "start": "2023-07-10",
+      "end": "2023-07-14",
+      "source": "https://roboticsconference.org/2023/"
+    },
+    "2022-ICARCV": {
+      "label": "ICARCV 2022",
+      "venue": "International Conference on Control, Automation, Robotics and Vision (ICARCV)",
+      "start": "2022-12-11",
+      "end": "2022-12-13",
+      "source": "https://api.crossref.org/works/10.1109/icarcv57592.2022.10004288"
+    },
+    "2021-ICRA": {
+      "label": "ICRA 2021",
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "start": "2021-05-30",
+      "end": "2021-06-05",
+      "source": "https://api.crossref.org/works/10.1109/icra48506.2021.9560954"
+    },
+    "2020-ICCA": {
+      "label": "ICCA 2020",
+      "venue": "IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2020-10-09",
+      "end": "2020-10-11",
+      "source": "https://api.crossref.org/works/10.1109/icca51439.2020.9264577"
+    },
+    "2020-ICARCV": {
+      "label": "ICARCV 2020",
+      "venue": "International Conference on Control, Automation, Robotics and Vision (ICARCV)",
+      "start": "2020-12-13",
+      "end": "2020-12-15",
+      "source": "https://api.crossref.org/works/10.1109/icarcv50220.2020.9305437"
+    },
+    "2019-ICMRE": {
+      "label": "ICMRE 2019",
+      "venue": "5th International Conference on Mechatronics and Robotics Engineering (ICMRE)",
+      "start": "2019-02-16",
+      "end": "2019-02-19",
+      "source": "https://www.icmre.org/2019.html"
+    },
+    "2019-ICCA": {
+      "label": "ICCA 2019",
+      "venue": "IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2019-07-16",
+      "end": "2019-07-19",
+      "source": "https://api.crossref.org/works/10.1109/icca.2019.8899572"
+    },
+    "2018-ICCA": {
+      "label": "ICCA 2018",
+      "venue": "IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2018-06-12",
+      "end": "2018-06-15",
+      "source": "https://api.crossref.org/works/10.1109/icca.2018.8444299"
+    },
+    "2017-TENCON": {
+      "label": "TENCON 2017",
+      "venue": "IEEE Region 10 Conference (TENCON)",
+      "start": "2017-11-05",
+      "end": "2017-11-08",
+      "source": "https://api.crossref.org/works/10.1109/tencon.2017.8227967"
+    },
+    "2015-CIS-RAM": {
+      "label": "CIS-RAM 2015",
+      "venue": "IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE Conference on Robotics, Automation and Mechatronics (RAM)",
+      "start": "2015-07-15",
+      "end": "2015-07-17",
+      "source": "https://api.crossref.org/works/10.1109/iccis.2015.7274604"
+    },
+    "2014-ICARCV": {
+      "label": "ICARCV 2014",
+      "venue": "International Conference on Control, Automation, Robotics and Vision (ICARCV)",
+      "start": "2014-12-10",
+      "end": "2014-12-12",
+      "source": "https://api.crossref.org/works/10.1109/icarcv.2014.7064275"
+    },
+    "2013-ICCA": {
+      "label": "ICCA 2013",
+      "venue": "IEEE International Conference on Control and Automation (ICCA)",
+      "start": "2013-06-12",
+      "end": "2013-06-14",
+      "source": "https://api.crossref.org/works/10.1109/icca.2013.6564974"
+    }
+  },
+  "entries": {
+    "zhang2026distributedformationnavigation": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-10-23",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11751627/",
+      "doi": "10.1109/jiot.2026.3746317",
+      "precision": "day"
+    },
+    "huynh2026interactiveobjecttracking": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICARCV",
+      "date": "2026-11-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "zhong2026flexbenchmark": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICARCV",
+      "date": "2026-11-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lai2025seervarsemantic": {
+      "citation_year": "2027",
+      "kind": "conference",
+      "conference": "2027-WACV",
+      "date": "2027-01-04",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "fan2025structuredtasksolving": {
+      "citation_year": "2027",
+      "kind": "journal",
+      "date": "2027",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "yuan2026adaptive3dperception": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-CVPR",
+      "date": "2026-06-03",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "qi2024air": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-04-24",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s2301385027410019",
+      "doi": "10.1142/s2301385027410019",
+      "precision": "day"
+    },
+    "lai2026famhrifoundation": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-05-22",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11534298/",
+      "doi": "10.1109/tase.2026.3695438",
+      "precision": "day"
+    },
+    "xu2026hiconava": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-10-12",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11733577/",
+      "doi": "10.1109/tmech.2026.3735118",
+      "precision": "day"
+    },
+    "qian2026splatsscdecoupleddepth": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-AAAI",
+      "date": "2026-01-20",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lei20263duavtrajectory": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "nguyen2024gptr": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-06-09",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11554951/",
+      "doi": "10.1109/tro.2026.3701957",
+      "precision": "day"
+    },
+    "chen2026accuratecalibrationand": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-02-09",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11386907/",
+      "doi": "10.1109/lra.2026.3662643",
+      "precision": "day"
+    },
+    "su2026adaptivecollaborativemulti": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-05-18",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11523680/",
+      "doi": "10.1109/tim.2026.3690810",
+      "precision": "day"
+    },
+    "deng2026adaptiveworldmemory": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2609.21502",
+      "precision": "month"
+    },
+    "li2026aeosactiveenvironment": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-02",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.isprsjprs.2026.01.006",
+      "doi": "10.1016/j.isprsjprs.2026.01.006",
+      "precision": "month"
+    },
+    "liu2026aerialtargetencirclement": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-01",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.automatica.2025.112600",
+      "doi": "10.1016/j.automatica.2025.112600",
+      "precision": "month"
+    },
+    "lei2026audiobaseduav": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2609.24218",
+      "precision": "month"
+    },
+    "xiao2026avdtecself": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-04-10",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11479681/",
+      "doi": "10.1109/jsen.2026.3680898",
+      "precision": "day"
+    },
+    "zhu2026benchmarkingvisualinertial": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICARCV",
+      "date": "2026-11-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "sheng2026beyondimitationreinforcement": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lai2026beyondobjectselection": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2609.00478",
+      "precision": "month"
+    },
+    "zhou2026biascompensatedsliding": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-04-17",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s2301385026410116",
+      "doi": "10.1142/s2301385026410116",
+      "precision": "day"
+    },
+    "ding2026bmtexo": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "liang2026cetuscausalevent": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICRA",
+      "date": "2026-06-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "xu2026colormapvioa": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2025-12-11",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11297796/",
+      "doi": "10.1109/lra.2025.3643289",
+      "precision": "day"
+    },
+    "li2026doaadegeneracy": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-05-12",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11516533/",
+      "doi": "10.1109/tie.2026.3672732",
+      "precision": "day"
+    },
+    "ning2026doesrobustvio": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-07",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2607.17956",
+      "precision": "month"
+    },
+    "lu2026emfallembodied": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "hu2026energyconstrainednavigation": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICCA",
+      "date": "2026-06-16",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "zhang2026fuseonlywhat": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-08",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.isprsjprs.2026.05.031",
+      "doi": "10.1016/j.isprsjprs.2026.05.031",
+      "precision": "month"
+    },
+    "liao2026g2navgrounded": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-CoRL",
+      "date": "2026-11-09",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "liu2026globalplanningfor": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICRA",
+      "date": "2026-06-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "zhang2026gpusimbenchtowardsscalable": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "chai2026learningstructuralconsistency": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-10",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.neucom.2026.134414",
+      "doi": "10.1016/j.neucom.2026.134414",
+      "precision": "month"
+    },
+    "bai2026lineofsight": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2603.26314",
+      "precision": "month"
+    },
+    "shi2026modelingmultisegment": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-11",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.patcog.2026.113946",
+      "doi": "10.1016/j.patcog.2026.113946",
+      "precision": "month"
+    },
+    "xiao2026mtvselectivestate": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-09-30",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11717526/",
+      "doi": "10.1109/tcsvt.2026.3738977",
+      "precision": "day"
+    },
+    "qiao2026multiagentoff": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yang2026neuralmusicahybrid": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-IROS",
+      "date": "2026-09-27",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "ma2026nvmsslamnormal": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-04-10",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11479301/",
+      "doi": "10.1109/tase.2026.3682733",
+      "precision": "day"
+    },
+    "zhong2026panodplearningcollision": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2603.07644",
+      "precision": "month"
+    },
+    "yuan2026peralperceptionaware": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICRA",
+      "date": "2026-06-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "mao2026predictbeforeyou": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2609.25969",
+      "precision": "month"
+    },
+    "du2026proactiveriskaware": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICRA",
+      "date": "2026-06-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "wei2026reccurarecursive": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-01",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2601.03011",
+      "precision": "month"
+    },
+    "yuan2026rpmsenhancingllm": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2603.17831",
+      "precision": "month"
+    },
+    "jin2026saogspatialattribute": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-09-30",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11716669/",
+      "doi": "10.1109/lra.2026.3739027",
+      "precision": "day"
+    },
+    "lai2026stickyglancerobust": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2603.06121",
+      "precision": "month"
+    },
+    "li2026taskleveldecisions": {
+      "citation_year": "2026",
+      "kind": "preprint",
+      "date": "2026-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2603.05783",
+      "precision": "month"
+    },
+    "qian2026tgsformerscalabletemporal": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-CVPR",
+      "date": "2026-06-03",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "zhao2026unounifiedself": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2025-12-18",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1049/cit2.70095",
+      "doi": "10.1049/cit2.70095",
+      "precision": "day"
+    },
+    "yuan2026unsuperviseduavdetection": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICASSP",
+      "date": "2026-05-03",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "deng2026voxelized3dgaussian": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026-09-23",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1007/s11263-026-03039-z",
+      "doi": "10.1007/s11263-026-03039-z",
+      "precision": "day"
+    },
+    "deng2026vpgsslamvoxel": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2026",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "liang2026watchyourstep": {
+      "citation_year": "2026",
+      "kind": "conference",
+      "conference": "2026-ICARCV",
+      "date": "2026-11-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "xu2024airslam": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-02-05",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10874215/",
+      "doi": "10.1109/tro.2025.3539171",
+      "precision": "day"
+    },
+    "yuan2025largescaleuwb": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yang2024fast": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2024-09-19",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s2301385025500591",
+      "doi": "10.1142/s2301385025500591",
+      "precision": "day"
+    },
+    "zhao2025adaptivelioenhancing": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2024-12-18",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10806842/",
+      "doi": "10.1109/jiot.2024.3519533",
+      "precision": "day"
+    },
+    "li2025airswarmenablingcost": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lei2025audioarraybased": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICASSP",
+      "date": "2025-04-06",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "liu2025autonomous3dmoving": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cai2025bevliolc": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2025braidbasedentanglement": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-12-22",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1177/02783649251400382",
+      "doi": "10.1177/02783649251400382",
+      "precision": "day"
+    },
+    "deng2024compact": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "li2025cleanupbenchembodiedsweeping": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-08",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2508.05543",
+      "precision": "month"
+    },
+    "cao2025cooperativeaerialrobot": {
+      "citation_year": "2026",
+      "kind": "journal",
+      "date": "2025-07-14",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11079769/",
+      "doi": "10.1109/mra.2025.3584341",
+      "precision": "day"
+    },
+    "liu2024distance": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2024-10-14",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10716213/",
+      "doi": "10.1109/tcst.2024.3469032",
+      "precision": "day"
+    },
+    "qu2025dpgpahybrid": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "min2025dvdpanend": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2509.13024",
+      "precision": "month"
+    },
+    "xu2025dynamicinitializationfor": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-04-15",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10965521/",
+      "doi": "10.1109/tmech.2025.3554878",
+      "precision": "day"
+    },
+    "chen2025egsslamrgb": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11123744/",
+      "doi": "10.1109/lra.2025.3598665",
+      "precision": "day"
+    },
+    "xu2025enhancingscenecoordinate": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11123778/",
+      "doi": "10.1109/lra.2025.3598670",
+      "precision": "day"
+    },
+    "liao2025followingisall": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11123734/",
+      "doi": "10.1109/lra.2025.3598567",
+      "precision": "day"
+    },
+    "yin2025gaussiansemanticfield": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-10",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2510.12101",
+      "precision": "month"
+    },
+    "li2024gera": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "li2024graph": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-19",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11130595/",
+      "doi": "10.1109/tits.2025.3597242",
+      "precision": "day"
+    },
+    "li2025gvdtgtopological": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-11",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2511.18708",
+      "precision": "month"
+    },
+    "li2024helmetposer": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "deng2024incremental": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-10-03",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11192537/",
+      "doi": "10.1109/tase.2025.3617654",
+      "precision": "day"
+    },
+    "liang2025labelfreelong": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-07",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2507.03365",
+      "precision": "month"
+    },
+    "li2025limocalibon": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "li2025lllocalizera": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11123901/",
+      "doi": "10.1109/tim.2025.3598401",
+      "precision": "day"
+    },
+    "lee2025magperchamagnetically": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-08-11",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/11122598",
+      "doi": "10.1109/lra.2025.3597896",
+      "precision": "day"
+    },
+    "deng2025mcnslammulti": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-06",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2506.18678",
+      "precision": "month"
+    },
+    "ma2024mm": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2024-06-14",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10557776/",
+      "doi": "10.1109/tiv.2024.3414852",
+      "precision": "day"
+    },
+    "deng2025mneslammulti": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-CVPR",
+      "date": "2025-06-11",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lai2025naturalmultimodalfusion": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-03-05",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10910098/",
+      "doi": "10.1109/mra.2025.3543957",
+      "precision": "day"
+    },
+    "lai2025nvphrizero": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-04",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.eswa.2024.126360",
+      "doi": "10.1016/j.eswa.2024.126360",
+      "precision": "month"
+    },
+    "lou2025qlioquantizedlidar": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "bai2025realmrealtime": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "chen2025relativelocalizabilityand": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-02-20",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10896856/",
+      "doi": "10.1109/tro.2025.3544103",
+      "precision": "day"
+    },
+    "deng2025relocvggtvisual": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-12",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2512.21883",
+      "precision": "month"
+    },
+    "jin2024robust": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2024-12-04",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10777294/",
+      "doi": "10.1109/lra.2024.3511397",
+      "precision": "day"
+    },
+    "ke2025signalllmageneral": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2509.17197",
+      "precision": "month"
+    },
+    "yuan2025starcseethrough": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-09",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2509.15507",
+      "precision": "month"
+    },
+    "hu2025sweptvolumeaware": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "hu2025tirewearaware": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025-12",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.jai.2025.05.003",
+      "doi": "10.1016/j.jai.2025.05.003",
+      "precision": "month"
+    },
+    "li2025uampcuncertainty": {
+      "citation_year": "2025",
+      "kind": "journal",
+      "date": "2025",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "wang2025uavscenesamulti": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICCV",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "nguyen2024uloc": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICRA",
+      "date": "2025-05-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "liu2025underwatertarget6d": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-IROS",
+      "date": "2025-10-19",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yang2025unsupervisedanomalydetection": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-05",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2505.05811",
+      "precision": "month"
+    },
+    "liang2025unsuperviseduav3d": {
+      "citation_year": "2025",
+      "kind": "conference",
+      "conference": "2025-ICASSP",
+      "date": "2025-04-06",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "deng2025whatisthe": {
+      "citation_year": "2025",
+      "kind": "preprint",
+      "date": "2025-12",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2512.03422",
+      "precision": "month"
+    },
+    "yuan2024MMAUD": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ICRA",
+      "date": "2024-05-13",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "xu2024costeffective": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ICCA",
+      "date": "2024-06-18",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yang2024av": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-09",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.jai.2024.06.002",
+      "doi": "10.1016/j.jai.2024.06.002",
+      "precision": "month"
+    },
+    "nguyen2024eigen": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-04-18",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10504969/",
+      "doi": "10.1109/lra.2024.3391049",
+      "precision": "day"
+    },
+    "li2024hcto": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-05",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.isprsjprs.2024.04.004",
+      "doi": "10.1016/j.isprsjprs.2024.04.004",
+      "precision": "month"
+    },
+    "lu2024i2ekflo": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-IROS",
+      "date": "2024-10-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "chen2024ig": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-01-04",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10380742/",
+      "doi": "10.1109/lra.2024.3349915",
+      "precision": "day"
+    },
+    "li2024jacquard": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ICRA",
+      "date": "2024-05-13",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2024lattespatialtemporal": {
+      "citation_year": "2024",
+      "kind": "preprint",
+      "date": "2024-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2403.06461",
+      "precision": "month"
+    },
+    "ji2024lio": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-01-16",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10400857/",
+      "doi": "10.1109/lra.2024.3354616",
+      "precision": "day"
+    },
+    "xu2024m": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-07-29",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10612831/",
+      "doi": "10.1109/jiot.2024.3434588",
+      "precision": "day"
+    },
+    "nguyen2024mcd": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-CVPR",
+      "date": "2024-06-17",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2024mopa": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ICRA",
+      "date": "2024-05-13",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "bai2024collaborative": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-IROS",
+      "date": "2024-10-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yin2024outram": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ICRA",
+      "date": "2024-05-13",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "li2024pssba": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-IROS",
+      "date": "2024-10-14",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2025reliable": {
+      "citation_year": "2024",
+      "kind": "conference",
+      "conference": "2024-ECCV",
+      "date": "2024-09-29",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "chen2024salient": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-04-04",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10490100/",
+      "doi": "10.1109/lra.2024.3384757",
+      "precision": "day"
+    },
+    "ji2024sgba": {
+      "citation_year": "2024",
+      "kind": "journal",
+      "date": "2024-10-14",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10715566/",
+      "doi": "10.1109/lra.2024.3479699",
+      "precision": "day"
+    },
+    "zhi2024uapgouncertaintyaware": {
+      "citation_year": "2024",
+      "kind": "preprint",
+      "date": "2024",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "xu2023airvo": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-IROS",
+      "date": "2023-10-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yang2023av": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-IROS",
+      "date": "2023-10-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2023doublebee": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-IROS",
+      "date": "2023-10-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "deng2022gaitfi": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2022-09-12",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9887951/",
+      "doi": "10.1109/jiot.2022.3203559",
+      "precision": "day"
+    },
+    "zhou2023metafi++": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-03-29",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10086600/",
+      "doi": "10.1109/jiot.2023.3262940",
+      "precision": "day"
+    },
+    "yang2024mm": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-NeurIPS",
+      "date": "2023-12-10",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2023multi": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-ICCV",
+      "date": "2023-10-01",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "liu2023multiple": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-03-20",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10077542/",
+      "doi": "10.1109/tie.2023.3257364",
+      "precision": "day"
+    },
+    "cao2023neptune": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-04-20",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10106112/",
+      "doi": "10.1109/tro.2023.3264950",
+      "precision": "day"
+    },
+    "liu2023non": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-ICRA",
+      "date": "2023-05-29",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "cao2023path": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-RSS",
+      "date": "2023-07-10",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "liao2023se": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-05-19",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10129871/",
+      "doi": "10.1109/tgrs.2023.3278024",
+      "precision": "day"
+    },
+    "yin2023segregator": {
+      "citation_year": "2023",
+      "kind": "conference",
+      "conference": "2023-ICRA",
+      "date": "2023-05-29",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "nguyen2023slict": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-02-17",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10048526/",
+      "doi": "10.1109/lra.2023.3246390",
+      "precision": "day"
+    },
+    "lyu2023spins": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-01-30",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1002/rob.22161",
+      "doi": "10.1002/rob.22161",
+      "precision": "day"
+    },
+    "xie2023unmanned": {
+      "citation_year": "2023",
+      "kind": "preprint",
+      "date": "2023",
+      "basis": "citation_year",
+      "precision": "year"
+    },
+    "lyu2023vision": {
+      "citation_year": "2023",
+      "kind": "journal",
+      "date": "2023-08-15",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/10218325/",
+      "doi": "10.1109/tsmc.2023.3299237",
+      "precision": "day"
+    },
+    "nguyen2023vr": {
+      "citation_year": "2023",
+      "kind": "preprint",
+      "date": "2023-03",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2303.10903",
+      "precision": "month"
+    },
+    "nguyen2022ntu": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2021-11-06",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1177/02783649211052312",
+      "doi": "10.1177/02783649211052312",
+      "precision": "day"
+    },
+    "wu2020achieving": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2020-10-28",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9242287/",
+      "doi": "10.1109/tits.2020.3031962",
+      "precision": "day"
+    },
+    "cao2022direct": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2022-01-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9681227/",
+      "doi": "10.1109/lra.2022.3142744",
+      "precision": "day"
+    },
+    "wu2021learn": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2021-05-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9430693/",
+      "doi": "10.1109/tie.2021.3078353",
+      "precision": "day"
+    },
+    "yang2022overcoming": {
+      "citation_year": "2022",
+      "kind": "conference",
+      "conference": "2022-ICARCV",
+      "date": "2022-12-11",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "ji2022robust": {
+      "citation_year": "2022",
+      "kind": "conference",
+      "conference": "2022-ICARCV",
+      "date": "2022-12-11",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "lyu2022structure": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2022-01-13",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9681223/",
+      "doi": "10.1109/taes.2022.3142663",
+      "precision": "day"
+    },
+    "nguyen2021viral": {
+      "citation_year": "2022",
+      "kind": "journal",
+      "date": "2021-07-30",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9502143/",
+      "doi": "10.1109/tro.2021.3094157",
+      "precision": "day"
+    },
+    "wu2019bnd": {
+      "citation_year": "2021",
+      "kind": "journal",
+      "date": "2019-07-16",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/8764461/",
+      "doi": "10.1109/tcds.2019.2928820",
+      "precision": "day"
+    },
+    "cao2021distributed": {
+      "citation_year": "2021",
+      "kind": "journal",
+      "date": "2021-12-02",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1007/s43684-021-00011-1",
+      "doi": "10.1007/s43684-021-00011-1",
+      "precision": "day"
+    },
+    "esfahani2021learning": {
+      "citation_year": "2021",
+      "kind": "journal",
+      "date": "2021-07",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.asoc.2021.107424",
+      "doi": "10.1016/j.asoc.2021.107424",
+      "precision": "month"
+    },
+    "nguyen2021liro": {
+      "citation_year": "2021",
+      "kind": "conference",
+      "conference": "2021-ICRA",
+      "date": "2021-05-30",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "nguyen2021miliom": {
+      "citation_year": "2021",
+      "kind": "journal",
+      "date": "2021-05-14",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/9431754/",
+      "doi": "10.1109/lra.2021.3080633",
+      "precision": "day"
+    },
+    "yuan2021survey": {
+      "citation_year": "2021",
+      "kind": "journal",
+      "date": "2021-02-05",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s230138502150014x",
+      "doi": "10.1142/s230138502150014x",
+      "precision": "day"
+    },
+    "lyu2021vision": {
+      "citation_year": "2021",
+      "kind": "preprint",
+      "date": "2021-02",
+      "basis": "arxiv_identifier_month",
+      "source": "https://arxiv.org/abs/2102.01423",
+      "precision": "month"
+    },
+    "esfahani2019aboldeepio": {
+      "citation_year": "2020",
+      "kind": "journal",
+      "date": "2019-04-18",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/8693766/",
+      "doi": "10.1109/tits.2019.2909064",
+      "precision": "day"
+    },
+    "esfahani2020local": {
+      "citation_year": "2020",
+      "kind": "journal",
+      "date": "2019-05-23",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s0218001420550022",
+      "doi": "10.1142/s0218001420550022",
+      "precision": "day"
+    },
+    "cao2020online": {
+      "citation_year": "2020",
+      "kind": "conference",
+      "conference": "2020-ICCA",
+      "date": "2020-10-09",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "esfahani2019orinet": {
+      "citation_year": "2020",
+      "kind": "journal",
+      "date": "2019-12-12",
+      "basis": "published_online",
+      "source": "https://ieeexplore.ieee.org/document/8931590/",
+      "doi": "10.1109/lra.2019.2959507",
+      "precision": "day"
+    },
+    "esfahani2020unsupervised": {
+      "citation_year": "2020",
+      "kind": "conference",
+      "conference": "2020-ICARCV",
+      "date": "2020-12-13",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "abolfazli2019deepdsair": {
+      "citation_year": "2019",
+      "kind": "journal",
+      "date": "2019-09",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.imavis.2019.06.014",
+      "doi": "10.1016/j.imavis.2019.06.014",
+      "precision": "month"
+    },
+    "wu2019depth": {
+      "citation_year": "2019",
+      "kind": "conference",
+      "conference": "2019-ICMRE",
+      "date": "2019-02-16",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "wu2019tdpp": {
+      "citation_year": "2019",
+      "kind": "journal",
+      "date": "2019-09",
+      "basis": "publication_date_fallback",
+      "source": "https://api.crossref.org/works/10.1016/j.neucom.2019.05.001",
+      "doi": "10.1016/j.neucom.2019.05.001",
+      "precision": "month"
+    },
+    "esfahani2019towards": {
+      "citation_year": "2019",
+      "kind": "conference",
+      "conference": "2019-ICCA",
+      "date": "2019-07-16",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "esfahani2018new": {
+      "citation_year": "2018",
+      "kind": "conference",
+      "conference": "2018-ICCA",
+      "date": "2018-06-12",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "wu2018learn": {
+      "citation_year": "2018",
+      "kind": "journal",
+      "date": "2018-10-27",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.3390/s18113650",
+      "doi": "10.3390/s18113650",
+      "precision": "day"
+    },
+    "wang2017heterogeneous": {
+      "citation_year": "2017",
+      "kind": "conference",
+      "conference": "2017-TENCON",
+      "date": "2017-11-05",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "wang2015automatic": {
+      "citation_year": "2015",
+      "kind": "journal",
+      "date": "2015-10-29",
+      "basis": "published_online",
+      "source": "https://api.crossref.org/works/10.1142/s230138501540004x",
+      "doi": "10.1142/s230138501540004x",
+      "precision": "day"
+    },
+    "wang2015vision": {
+      "citation_year": "2015",
+      "kind": "conference",
+      "conference": "2015-CIS-RAM",
+      "date": "2015-07-15",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "yuan2014autonomous": {
+      "citation_year": "2014",
+      "kind": "conference",
+      "conference": "2014-ICARCV",
+      "date": "2014-12-10",
+      "basis": "conference_start",
+      "precision": "day"
+    },
+    "er2013development": {
+      "citation_year": "2013",
+      "kind": "conference",
+      "conference": "2013-ICCA",
+      "date": "2013-06-12",
+      "basis": "conference_start",
+      "precision": "day"
+    }
+  }
+}
