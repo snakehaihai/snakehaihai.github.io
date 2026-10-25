@@ -1001,5 +1001,35 @@
     "poster": "/assets/img/publication_preview/rtg-solar-rover-energy-comparison-30s-16x9.jpg",
     "credits": "/assets/video/rtg-solar-rover-energy-comparison-30s-credits.txt",
     "revision": "Direct ridge-crossing versus energy-aware low-gradient traversal. Equal mission limits; climb stall and energy depletion versus arrival with reserve. Persistent wide terrain view plus a rover close-up."
+  },
+  "uno-motion-and-refinement-30s.mp4": {
+    "kind": "uno",
+    "duration_seconds": 30,
+    "frames": 720,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "full_decode": "passed",
+    "audio_streams": 0,
+    "bytes": 4840668,
+    "sha256": "44b71a561c09f9d6aec51caaaaa5ee15431e4454d847ec3a4256a8606568760f",
+    "poster_sha256": "2f1d672deafd596664c38f91afcc3f7b7ff560a9a5e54d58fc19fd48b0369323",
+    "frame_samples": [
+      36,
+      138,
+      216,
+      288,
+      360,
+      420,
+      504,
+      576,
+      672
+    ],
+    "scope": "Authored 3D explanation of camera translation/rotation, eight pose decoders, Gumbel-Softmax frame/expert selection, and joint pose/depth scale-shift refinement. The visible refinement is a small geometric fit to projections from the authored scene, not a run of the UNO networks or a paper benchmark. The first pose and one depth scale fix an arbitrary gauge.",
+    "key": "zhao2026unounifiedself",
+    "source": "https://arxiv.org/abs/2506.07013",
+    "demo_video": "/assets/video/uno-motion-and-refinement-30s.mp4",
+    "poster": "/assets/img/publication_preview/uno-motion-and-refinement-30s-16x9.jpg",
+    "credits": "/assets/video/uno-motion-and-refinement-30s-credits.txt"
   }
 }
