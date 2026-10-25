@@ -614,5 +614,29 @@
     "poster": "/assets/img/publication_preview/fam-hri-concept-to-real-30s-16x9.jpg",
     "scope": "Assistive-care concept showing gaze target selection, speech intent and robotic eating assistance. A 2.75-second dissolve begins at 20 seconds and transitions to real FAM-HRI tabletop experiments from the supplied supplementary video. The care scenario is illustrated, not a recorded clinical trial.",
     "acknowledgment_source": "https://arxiv.org/html/2503.16492v2"
+  },
+  "cetus-method-30s.mp4": {
+    "source": "Approved CETUS 30-second method film, rendered with Blender and Remotion from the supplied CETUS presentation",
+    "source_sha256": "326aca645cb36c61fca7e6db0e14e81752fdc305a6a068ba03f5462d74d34d1c",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [[0, 30]],
+    "source_speed_multiplier": 1,
+    "processing": "Complete approved 1080p MP4 copied unchanged, including English narration and captions. Inline controls, muted autoplay, looping and matching 16:9 poster.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 17308661,
+    "sha256": "326aca645cb36c61fca7e6db0e14e81752fdc305a6a068ba03f5462d74d34d1c",
+    "demo_video": "/assets/video/cetus-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/cetus-concept-30s-16x9.jpg",
+    "scope": "Illustration of fixed-window delay, causal KNN spatial encoding, Mamba temporal memory and adaptive variable-rate scheduling. Flight, event responses and schedules are illustrations. Closing qualitative comparisons and reported metrics come from the supplied CETUS presentation.",
+    "reported_metrics": {
+      "window_latency_ms": 0.57,
+      "inference_latency_ms": 2.83,
+      "total_latency_ms": 3.4,
+      "parameters_millions": 0.21
+    }
   }
 }
