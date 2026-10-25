@@ -192,6 +192,15 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.about-biography > p {
+  text-align: justify;
+  text-align-last: left;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  hyphenate-limit-chars: 8 3 3;
+  overflow-wrap: break-word;
+}
+
 .profile {
   width: 100%;
 
