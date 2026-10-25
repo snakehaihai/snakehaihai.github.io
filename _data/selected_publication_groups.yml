@@ -1,0 +1,54 @@
+- id: robot-design
+  title: Robot Design & Mechanisms
+  label: Robot design
+  papers:
+    - yuan2026peralperceptionaware
+    - lee2025magperchamagnetically
+
+- id: counter-uav
+  title: Counter-UAV Sensing & Control
+  label: Counter-UAV
+  papers:
+    - yuan2026adaptive3dperception
+    - yuan2026unsuperviseduavdetection
+    - yuan2024MMAUD
+    - lei2026audiobaseduav
+    - liu2026aerialtargetencirclement
+
+- id: embodied-intelligence
+  title: Embodied Intelligence & Interaction
+  label: Embodied AI
+  papers:
+    - qi2024air
+    - lai2026famhrifoundation
+    - chen2026serve
+    - chen2026nexusbot
+    - xu2026hiconava
+    - zhang2026gpusimbenchtowardsscalable
+
+- id: perception-mapping
+  title: Multimodal Perception & Mapping
+  label: Perception & mapping
+  papers:
+    - qian2026tgsformerscalabletemporal
+    - qian2026splatsscdecoupleddepth
+    - liang2026cetuscausalevent
+    - xu2024airslam
+    - wang2025uavscenesamulti
+
+- id: localization-estimation
+  title: Range-Based Localization & State Estimation
+  label: Localization
+  papers:
+    - yuan2025largescaleuwb
+    - yuan2026mauformer
+    - yuan2026fsuloc
+    - nguyen2022ntu
+
+- id: field-assistive
+  title: Field & Assistive Robotics
+  label: Field & assistive
+  papers:
+    - qiao2026multiagentoff
+    - lu2026emfallembodied
+    - yuan2025starcseethrough

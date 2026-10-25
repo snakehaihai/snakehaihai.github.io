@@ -867,6 +867,42 @@ footer.sticky-bottom {
 .featured-publications {
   margin-top: 1rem;
 
+  .selected-publication-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.75rem;
+
+    a {
+      padding: 0.4rem 0.75rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.35rem;
+      color: var(--global-theme-color);
+      font-size: 0.875rem;
+
+      &:hover,
+      &:focus-visible {
+        border-color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .selected-publication-group {
+    margin-top: 2rem;
+    scroll-margin-top: 6rem;
+
+    h3 {
+      padding-bottom: 0.65rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      color: var(--global-theme-color);
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+  }
+
   ol.bibliography li {
     margin-bottom: 1.25rem;
   }
