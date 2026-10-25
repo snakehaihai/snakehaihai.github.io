@@ -1,0 +1,14 @@
+Energy-Constrained Navigation for Planetary Rovers under Hybrid RTG-Solar Power
+Paper source: https://arxiv.org/abs/2509.15062
+30-second 3D method illustration, 1920 x 1080, 24 fps.
+Blender Cycles renders the scene; Remotion composes the English explanation.
+
+Authored Blender 3D method illustration. Trajectories, signal traces, window changes and power profiles are explanatory animations, not experimental measurements or algorithm benchmarks.
+The film depicts motion and baseline loads, an instantaneous power cap and a cumulative energy budget. RTG and solar input are fixed for the depicted planning interval.
+Original manuscript PDFs, source models and private experiment files are not included in this publication.
+
+Visual assets:
+- Previously authored granular lunar terrain and six-wheel rover, with new RTG hardware and motion.
+- Original explanatory overlays and motion authored for this film.
+- Instrument Sans, Rodrigo Fuenzalida and Jordan Egstad: SIL Open Font License.
+- DM Mono, Colophon Foundry: SIL Open Font License.
