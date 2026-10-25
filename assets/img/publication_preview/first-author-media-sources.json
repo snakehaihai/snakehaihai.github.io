@@ -653,7 +653,7 @@
     "audio_streams": 0,
     "demo_video": "/assets/video/em-fall-method-30s.mp4",
     "poster": "/assets/img/publication_preview/em-fall-concept-30s-16x9.jpg",
-    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
+    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
     "concept_seconds": [0, 20],
     "dissolve_seconds": [19, 20],
     "real_footage_seconds": [19, 30]
@@ -891,7 +891,9 @@
     "scope": "RGB observations, camera poses and a depth prior initialize local Gaussians. Persistent Gaussian memory retains prior regions. Dual temporal encoding and confidence-aware attention exchange current and historical features; confidence-aware voxel fusion merges overlapping primitives. The illustrated semantic geometry is generated from the authored room, not a replay of model predictions.",
     "demo_video": "/assets/video/tgsformer-scene-memory-method-30s.mp4",
     "poster": "/assets/img/publication_preview/tgsformer-scene-memory-concept-30s-16x9.jpg",
-    "credits": "/assets/video/tgsformer-scene-memory-credits.txt"
+    "credits": "/assets/video/tgsformer-scene-memory-credits.txt",
+    "official_presentation_page": "https://cvpr.thecvf.com/virtual/2026/poster/37598",
+    "original_experiment_video": "https://www.youtube.com/watch?v=bzFKayyx168"
   },
   "uno-monocular-odometry-method-30s.mp4": {
     "key": "zhao2026unounifiedself",
@@ -918,5 +920,32 @@
     "demo_video": "/assets/video/uno-monocular-odometry-method-30s.mp4",
     "poster": "/assets/img/publication_preview/uno-monocular-odometry-concept-30s-16x9.jpg",
     "credits": "/assets/video/uno-monocular-odometry-credits.txt"
+  },
+  "uwb-anchor-calibration-ntu-map-30s.mp4": {
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 2636375,
+    "sha256": "058b0d627ccb33ed2de71c0bb1d9da0b0a552494e3188ac67e1fbc8a2fc1dba5",
+    "audio_streams": 0,
+    "full_decode": "passed",
+    "frame_samples": [24, 105, 180, 252, 324, 396, 468, 540, 600, 650, 690, 719],
+    "prefix_only": true,
+    "map_source": "CVlife_Lou_UWB_achor_mapping.pptx / image198.png",
+    "palette": "Viridis, matching the supplied GP heatmap figures",
+    "scope": "Actual NTU survey-map image from the supplied slides. The road-aligned route, range measurements, and prefix-only GP updates are illustrative. The map is a display backdrop and does not enter GP fitting. Anchor truth is used only to synthesize measurements and audit the illustration.",
+    "uncertainty_ratio": 0.7869056175208329,
+    "source": "https://arxiv.org/abs/2412.16880",
+    "code": "https://github.com/luobodan/GP-UWB-calibration",
+    "processing": "Actual NTU survey-map backdrop, paper-style Viridis heatmaps, progressive prefix-only GP updates, and Blender acquisition inset composed with Remotion.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "demo_video": "/assets/video/uwb-anchor-calibration-ntu-map-30s.mp4",
+    "poster": "/assets/img/publication_preview/uwb-anchor-calibration-ntu-map-30s-16x9.jpg",
+    "credits": "/assets/video/uwb-anchor-calibration-ntu-map-credits.txt",
+    "original_experiment_video": "https://youtu.be/oY8jQKdM7lU",
+    "poster_sha256": "84a610cc0a99cb3deef988269545d5127b7a44fa7b3c1257ee6b347610121b90"
   }
 }
