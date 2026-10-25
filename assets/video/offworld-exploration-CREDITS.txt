@@ -1,13 +1,14 @@
-Multi-Agent Off-World Exploration: 30-second method demonstration
+Multi-Agent Off-World Exploration: narrated 30-second method demonstration
 
 Multi-Agent Off-World Exploration for Sparse Evidence Discovery via
 Gaussian Belief Mapping and Dual-Domain Coverage
 Zhuoran Qiao, Tianxin Hu, Thien-Minh Nguyen and Shenghai Yuan. IROS 2026.
 
 Blender lunar environment and Remotion composition. 1920 x 1080, 24 fps,
-720 frames, 30.00 seconds. Approved v3 video copied without modification.
+720 frames, 30.00 seconds. Original v3 encoded visual stream preserved.
+User-provided continuous English narration, normalized and embedded as AAC.
 
 The shared resource and hazard beliefs start unknown and update from local
 synthetic observations as three rovers continue surveying. Unobserved areas
 remain gray. The wide scene, camera and authored routes are preserved.
-This illustrates the method; it does not execute a new online planner.
+This is a method illustration, not a recording of a new online planner.

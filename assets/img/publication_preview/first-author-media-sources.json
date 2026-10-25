@@ -657,5 +657,24 @@
     "concept_seconds": [0, 20],
     "dissolve_seconds": [19, 20],
     "real_footage_seconds": [19, 30]
+  },
+  "offworld-exploration-narrated-30s.mp4": {
+    "source": "Approved off-world exploration v3 film with the user-provided continuous narration",
+    "source_sha256": "37bfadecc620d1f661a223a7cb93aca719180451d539859f65cd28f1de267165",
+    "source_audio_sha256": "03e86ec34588ba1b9635b2cc632ec016518189037caeb5d13e3f43f792c08982",
+    "source_duration_seconds": 30,
+    "source_segments_seconds": [[0, 30]],
+    "source_speed_multiplier": 1,
+    "processing": "Original encoded visual stream preserved. User-supplied narration mixed as one AAC track with two-pass loudness normalization, short edge fades, 0.2 s lead-in and end padding. No narration regeneration or time stretching. No paper-title opening in the homepage version.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 41692422,
+    "sha256": "62580d473f2de5b5fbd500cda3a28f90d6841c962a542a8911920994115a6266",
+    "demo_video": "/assets/video/offworld-exploration-narrated-30s.mp4",
+    "poster": "/assets/img/publication_preview/offworld-exploration-belief-30s-16x9.jpg",
+    "scope": "Synthetic method illustration. Resource and hazard beliefs start unknown and update from local observations shared by three moving rovers. The existing authored routes and fixed-scale wide camera are preserved."
   }
 }
