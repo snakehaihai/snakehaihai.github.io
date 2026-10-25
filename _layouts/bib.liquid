@@ -77,6 +77,8 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {% assign self_first_names = site.scholar.first_name | join: '|' | downcase | split: '|' %}
+      {% assign self_last_names = site.scholar.last_name | join: '|' | downcase | split: '|' %}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -89,8 +91,10 @@
         {%- assign author_first_initials = author.first | upcase | regex_replace: '(\p{L})\p{L}*\.?', '\1.' -%}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
+        {% assign author_first_key = author.first | downcase | strip %}
+        {% assign author_last_key = author_last_name | downcase | strip %}
+        {% if self_last_names contains author_last_key %}
+          {% if self_first_names contains author_first_key %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
@@ -138,7 +142,9 @@
           {%- assign author_first_initials = author.first | upcase | regex_replace: '(\p{L})\p{L}*\.?', '\1.' -%}
           {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
           {% assign author_is_self = false %}
-          {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
+          {% assign author_first_key = author.first | downcase | strip %}
+          {% assign author_last_key = author_last_name | downcase | strip %}
+          {% if self_last_names contains author_last_key and self_first_names contains author_first_key %}
             {% assign author_is_self = true %}
             {% assign more_authors_show = more_authors_show | append: '<strong>' %}
           {% endif %}
