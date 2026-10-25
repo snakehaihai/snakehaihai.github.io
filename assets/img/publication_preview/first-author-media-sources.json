@@ -653,7 +653,7 @@
     "audio_streams": 0,
     "demo_video": "/assets/video/em-fall-method-30s.mp4",
     "poster": "/assets/img/publication_preview/em-fall-concept-30s-16x9.jpg",
-    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19Ã¢â‚¬â€œ20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
+    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
     "concept_seconds": [0, 20],
     "dissolve_seconds": [19, 20],
     "real_footage_seconds": [19, 30]
@@ -744,5 +744,23 @@
       }
     ],
     "original_experiment_video": "https://www.bilibili.com/video/BV1iKpBzGETu/"
+  },
+  "uwb-anchor-calibration-method-30s.mp4": {
+    "source": "https://arxiv.org/abs/2412.16880",
+    "code": "https://github.com/luobodan/GP-UWB-calibration",
+    "processing": "Original Blender Cycles wide campus scene, moving operator and ATV inset, progressive prefix-only GP response fields, and Remotion English explanation.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 3147467,
+    "sha256": "6292e3c123d7f3fe0c0918de7e750db902b1f19ae3a7abfab174a64ba010353a",
+    "audio_streams": 0,
+    "demo_video": "/assets/video/uwb-anchor-calibration-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/uwb-anchor-calibration-concept-30s-16x9.jpg",
+    "credits": "/assets/video/uwb-anchor-calibration-credits.txt",
+    "scope": "Synthetic trajectory and UWB ranges in an authored campus scene. Prefix-only Matern GP on inverse-log-sqrt range, inspired by the paper and public implementation; field maxima infer anchor positions. The curve shows relative average GP predictive standard deviation. This is a progressive calibration illustration, not an online algorithm benchmark.",
+    "original_experiment_video": "https://youtu.be/oY8jQKdM7lU"
   }
 }

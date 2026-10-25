@@ -1,0 +1,24 @@
+GP-UWB / Large-Scale UWB Anchor Calibration and One-Shot Localization Using Gaussian Process
+Shenghai Yuan, Boyang Lou, Thien-Minh Nguyen, Pengyu Yin, Muqing Cao, Xinghang Xu, Jianping Li, Jie Xu, Siyu Chen, Lihua Xie
+IEEE International Conference on Robotics and Automation (ICRA), 2025
+https://arxiv.org/abs/2412.16880
+https://github.com/luobodan/GP-UWB-calibration
+
+Original 30-second Blender / Remotion method illustration, 1920 x 1080, 24 fps.
+The wide campus scene remains visible throughout, with a separate moving-operator acquisition close-up.
+An original campus-inspired environment and ATV sensor rig are used, not a measured reconstruction of the experiment site.
+Synthetic poses and UWB ranges are incrementally fitted with a Matern Gaussian Process.
+The response transform follows the public calibration implementation: 1 / log10(sqrt(range) + 1).
+Learned response maxima provide the illustrated anchor-position estimates; the uncertainty plot is relative GP predictive standard deviation.
+This progressive data-prefix illustration is not a claim of online calibration or a paper benchmark.
+The close-up presents a separate collection segment at normal speed; the overview condenses acquisition time.
+No original manuscript, slide deck, private notes, or raw experiment data are included.
+
+External assets:
+- MakeHuman human base, eyes, clothing, and character assets: CC0.
+  https://www.makehumancommunity.org/content/license.html
+- Industrial Sunset 02 HDRI, Sergej Majboroda / Poly Haven: CC0.
+  https://polyhaven.com/a/industrial_sunset_02
+- Instrument Sans: SIL Open Font License. Rodrigo Fuenzalida / Jordan Egstad.
+- DM Mono: SIL Open Font License. Colophon Foundry.
+All campus architecture, vegetation, cars, ATV, sensor frame, animation and overlays were authored for this illustration.
