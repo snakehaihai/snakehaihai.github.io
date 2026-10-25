@@ -638,5 +638,24 @@
       "total_latency_ms": 3.4,
       "parameters_millions": 0.21
     }
+  },
+  "em-fall-method-30s.mp4": {
+    "source": "EM-Fall 30-second method film, rendered with Blender and Remotion; final release without narration at user request",
+    "source_url": "https://lu-yanshuo.github.io/EM-Fall-Webpage/static/videos/video.mp4",
+    "processing": "Approved visual stream copied unchanged. Draft narration removed. English captions, controls, muted autoplay, looping and matching 16:9 poster.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 18033696,
+    "sha256": "63875664f597d0d080c6d9e6511b72a64e1287cfd695bbdea751b782e649fed5",
+    "audio_streams": 0,
+    "demo_video": "/assets/video/em-fall-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/em-fall-concept-30s-16x9.jpg",
+    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19–20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
+    "concept_seconds": [0, 20],
+    "dissolve_seconds": [19, 20],
+    "real_footage_seconds": [19, 30]
   }
 }
