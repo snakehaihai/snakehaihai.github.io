@@ -947,5 +947,32 @@
     "credits": "/assets/video/uwb-anchor-calibration-ntu-map-credits.txt",
     "original_experiment_video": "https://youtu.be/oY8jQKdM7lU",
     "poster_sha256": "84a610cc0a99cb3deef988269545d5127b7a44fa7b3c1257ee6b347610121b90"
+  },
+  "range-aerial-contact-interception-30s.mp4": {
+    "key": "liu2026aerialtargetencirclement",
+    "stem": "range-aerial-encirclement",
+    "arxiv": "2508.08046",
+    "title": "Aerial Target Encirclement and Interception with Noisy Range Observations",
+    "source": "https://arxiv.org/abs/2508.08046",
+    "processing": "New Blender Cycles scene animation with Remotion method explanation. Native 3D plates at 1440 x 810 and 12 fps; 1080p compositing with 24 fps diagrams and interpolated adjacent plates.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "kind": "encirclement",
+    "duration_seconds": 30,
+    "frames": 720,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "full_decode": "passed",
+    "audio_streams": 0,
+    "bytes": 8690379,
+    "sha256": "a25449bd5dc5802ff46f8c968b4da59813db5ec2b7fffd7776efee39dbcdf5a0",
+    "poster_sha256": "f2e5549466b761696bdac63f82db7757835d2adae54b9286873ad9924776f8e5",
+    "frame_samples": [36, 180, 360, 450, 528, 552, 590, 600, 608, 636, 672, 710],
+    "scope": "Authored Blender 3D method illustration. Trajectories, signal traces, window changes and power profiles are explanatory animations, not experimental measurements or algorithm benchmarks.",
+    "demo_video": "/assets/video/range-aerial-contact-interception-30s.mp4",
+    "poster": "/assets/img/publication_preview/range-aerial-contact-interception-30s-16x9.jpg",
+    "credits": "/assets/video/range-aerial-contact-interception-30s-credits.txt",
+    "revision": "Encirclement, renewed target approach, contact interception, recoil and target descent. Hand-authored Blender animation, with a closer camera for the contact and a final wide view of the protected vehicle."
   }
 }
