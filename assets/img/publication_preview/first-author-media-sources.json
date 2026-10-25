@@ -653,7 +653,7 @@
     "audio_streams": 0,
     "demo_video": "/assets/video/em-fall-method-30s.mp4",
     "poster": "/assets/img/publication_preview/em-fall-concept-30s-16x9.jpg",
-    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19â€“20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
+    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19Ã¢â‚¬â€œ20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
     "concept_seconds": [0, 20],
     "dissolve_seconds": [19, 20],
     "real_footage_seconds": [19, 30]
@@ -702,5 +702,47 @@
       "U3DTE_overall_RMSE_m": 1.76,
       "source": "Supplied ICASSP oral presentation slide 11"
     }
+  },
+  "formation-navigation-method-30s.mp4": {
+    "source": "https://ieeexplore.ieee.org/document/11751627",
+    "doi": "10.1109/JIOT.2026.3746317",
+    "method": "MDS-FGS",
+    "method_details": "Author-provided explanation: convex formation state, ESDF edge samples and directional repulsion, opposing-force scale cost, hybrid kinematic A*/topology and MINCO with graph similarity and platform-specific constraints.",
+    "processing": "Original 30-second Blender Cycles film with realistic robot meshes, licensed PBR ground and HDRI lighting. Remotion adds English captions, projected polygon edge samples, opposing repulsion, scale explanation and per-robot trajectory overlays.",
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 26008314,
+    "sha256": "7167d6894bef63fcff13c25cce3765650de484422b973a51fe15c75d79f34f90",
+    "audio_streams": 0,
+    "demo_video": "/assets/video/formation-navigation-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/formation-navigation-concept-30s-16x9.jpg",
+    "credits": "/assets/video/formation-navigation-credits.txt",
+    "scope": "Original Blender/Remotion concept illustration of MDS-FGS. Boundary potential fields inform formation position and scale; opposing force magnitude is retained even when net force cancels. Per-platform planning and MINCO refinement follow a shared formation reference. Illustrated geometry and trajectories are not benchmark outputs.",
+    "reported_metrics": {
+      "average_formation_similarity_percent": 94.5,
+      "average_replanning_time_reduction_vs_DRRT_FGS_percent": 31.7,
+      "source": "IEEE Xplore abstract for DOI 10.1109/JIOT.2026.3746317"
+    },
+    "assets": [
+      {
+        "name": "Unitree Go2 meshes",
+        "license": "BSD-3-Clause",
+        "source": "https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_go2"
+      },
+      {
+        "name": "Industrial Sunset 02",
+        "license": "CC0",
+        "source": "https://polyhaven.com/a/industrial_sunset_02"
+      },
+      {
+        "name": "Concrete Floor 02",
+        "license": "CC0",
+        "source": "https://polyhaven.com/a/concrete_floor_02"
+      }
+    ],
+    "original_experiment_video": "https://www.bilibili.com/video/BV1iKpBzGETu/"
   }
 }
