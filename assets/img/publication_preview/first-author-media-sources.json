@@ -653,7 +653,7 @@
     "audio_streams": 0,
     "demo_video": "/assets/video/em-fall-method-30s.mp4",
     "poster": "/assets/img/publication_preview/em-fall-concept-30s-16x9.jpg",
-    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19–20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
+    "scope": "Day/night human following and shower-area fall are 3D application illustrations with authored radar returns. A 19â€“20 s dissolve leads to original G1 experiments. The original following footage is already marked 4x; paired normal-light and low-visibility camera/radar fall recordings retain source playback speed and face anonymization.",
     "concept_seconds": [0, 20],
     "dissolve_seconds": [19, 20],
     "real_footage_seconds": [19, 30]
@@ -676,5 +676,31 @@
     "demo_video": "/assets/video/offworld-exploration-narrated-30s.mp4",
     "poster": "/assets/img/publication_preview/offworld-exploration-belief-30s-16x9.jpg",
     "scope": "Synthetic method illustration. Resource and hazard beliefs start unknown and update from local observations shared by three moving rovers. The existing authored routes and fixed-scale wide camera are preserved."
+  },
+  "icassp-tds-method-30s.mp4": {
+    "source": "ICASSP 2026 oral presentation supplied by the author; approved MMAUD reference-site reconstruction and recorded cloud geometry",
+    "processing": "Original 30-second Remotion explanation with English captions. Reconstructed field dissolves into recorded LiDAR, followed by TDS, velocity-change proposals, sequential evidence confirmation and gated association. Closing source GIFs are presented at 1.67x speed.",
+    "source_slides": [5, 6, 7, 8, 9, 10, 11],
+    "source_animation_sha256": [
+      "19d41dcd1ac2af58e6219dfb5b93f069111ab0778ad2456b712e3020ee23a956",
+      "136c0980d7659152a8cf9967ed07e5250a42cea43fdbe6fd9b4f466e3b95dbe2",
+      "e3b89b813c01f37b6780dd2fe8f17f2841ea9d668e4e7c68b3f06b4414428b3f"
+    ],
+    "size": [1920, 1080],
+    "ratio": "16:9",
+    "duration_seconds": 30,
+    "fps": 24,
+    "frames": 720,
+    "bytes": 11976053,
+    "sha256": "434771e4d60cdf428df9855dbbcf3e3fdceb2b47621b6e01e01a02b75aad1729",
+    "audio_streams": 0,
+    "demo_video": "/assets/video/icassp-tds-method-30s.mp4",
+    "poster": "/assets/img/publication_preview/icassp-tds-method-30s-16x9.jpg",
+    "scope": "3D reconstruction and illustrated method explanation, followed by source experimental point-cloud animations. No reinforcement-learning or adaptive-voxel-size claims.",
+    "reported_metrics": {
+      "SLTDS_overall_RMSE_m": 1.45,
+      "U3DTE_overall_RMSE_m": 1.76,
+      "source": "Supplied ICASSP oral presentation slide 11"
+    }
   }
 }
