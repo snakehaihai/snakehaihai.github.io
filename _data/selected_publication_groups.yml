@@ -42,6 +42,7 @@
   title: Range-Based Localization & State Estimation
   label: Localization
   papers:
+    - tang2026policyguided
     - tang2026adaptivehorizon
     - yuan2025largescaleuwb
     - yuan2026mauformer
