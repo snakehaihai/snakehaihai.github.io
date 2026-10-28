@@ -2,6 +2,7 @@
   {% capture selected_publications %}
     {% bibliography --group_by none --query @*[selected=true]* %}
     {% bibliography --file under_review --group_by none %}
+    {% bibliography --file research_manuscripts --group_by none --query @*[selected=true]* %}
   {% endcapture %}
   {{ selected_publications | group_selected_publications: site.data.selected_publication_groups }}
 </div>
