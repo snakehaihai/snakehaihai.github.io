@@ -5,10 +5,7 @@
     "video": "/assets/video/fam-hri-narrated-60s-20261028.mp4",
     "poster": "/assets/img/publication_preview/fam-hri-narrated-60s-20261028-16x9.jpg",
     "duration_seconds": 60,
-    "size": [
-      1920,
-      1080
-    ],
+    "size": [1920, 1080],
     "fps": 24,
     "audio": "Supplied English narration; original speaking tempo.",
     "scope": "Authored assistive-care illustration and animated method breakdown, followed by real tabletop manipulation experiments.",
@@ -24,10 +21,7 @@
     "video": "/assets/video/bmt-exo-narrated-72s-20261028.mp4",
     "poster": "/assets/img/publication_preview/bmt-exo-narrated-72s-20261028-16x9.jpg",
     "duration_seconds": 72,
-    "size": [
-      1920,
-      1080
-    ],
+    "size": [1920, 1080],
     "fps": 24,
     "audio": "Supplied English narration; original speaking tempo.",
     "scope": "Authored 3D soft-glove mechanism and animated method explanation, followed by real experiments.",
