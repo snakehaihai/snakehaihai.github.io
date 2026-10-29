@@ -1,0 +1,38 @@
+NTU-A*STAR joint project
+WP 2.2 Spatially-Grounded Perception and Planning for Embodied AI Agents
+
+Application 2: pharmaceutical sample handling.
+Robot: AgileX Ranger Mini 3.0, lifting carriage and two RealMan RM75 arms.
+Recorded run: pharma_graph_lab_20261029_v2.
+
+The full 15-step pellet-retaining training work order covers collection,
+barcode verification, uncapping, wash dosing, mixing, balanced centrifuge
+loading, target preparation during centrifugation, gated unloading,
+supernatant removal, resuspension, aliquoting, inspection, finished-slot
+registration, material return and cleanup.
+
+Graph as Policy uses a deterministic mission dependency graph with observed
+object bindings and equipment gates. Target preparation and centrifuge
+execution are parallel branches. Unloading requires both completed
+preparation and stopped/unlocked equipment. The Interaction Graph derives
+relations from recorded commands, wait phases, rigid object attachments and
+symbolic device states. Object memory grows from rendered semantic RGB-D
+observations with a known catalog and registered manipulation fixtures.
+
+Presentation: full main-camera video with Mission Graph, Interaction Graph,
+robot RGB-D, incremental Object Graph and matching-camera 3D Object Graph.
+Duration: 337.2 seconds. Resolution: 1600 x 1000. Frame rate: 15 fps.
+No audio. Entire timeline retained in the web encode.
+
+Scope: kinematic training simulation with prescribed robot motion and symbolic
+liquid, barcode, balance, inspection and device acknowledgements. No fluid,
+contact-force or production-process validation is implied. Demonstration
+program times are not production parameters. Cross-embodiment evaluation
+remains a project objective.
+
+Robot mesh provenance:
+AgileX ugv_gazebo_sim commit 27633a956c845903ee630538afeb17fe70afdd84.
+RealMan ros2_rm_robot commit 61db3c367e8f5743ee68cee52c5574ec1ac645ca.
+
+Master SHA-256: dee77661e99cb41384a9bfcafd126ce412654b4d08854a726235e71dac60c6cc
+Web MP4 SHA-256: ce0774fea8d56484aa52da8f1900cb5b307c46ccd57681be3b4745b9f4a3acc6
