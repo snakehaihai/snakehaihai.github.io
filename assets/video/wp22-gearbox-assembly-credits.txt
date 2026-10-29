@@ -1,0 +1,24 @@
+NTU-A*STAR joint project
+WP 2.2 Spatially-Grounded Perception and Planning for Embodied AI Agents
+
+Demonstrator: distributed planetary gearbox assembly in MuJoCo.
+Robot model: AgileX Ranger Mini 3.0 and two RealMan RM75 arms.
+Workflow: explore, build the object graph, select the object chain, collect parts,
+assemble the gearbox, use a wall-mounted driver, fasten three captive screws,
+and return the driver.
+
+Presentation: main video with floating RGB-D, Graph as Policy, object relations,
+and a third-person 3D object graph using the same camera as the main video.
+Duration: 322.2 seconds. Resolution: 1920 x 1080. Frame rate: 15 fps.
+Playback: 3x recorded simulation time, with a final hold. No audio track.
+
+Recorded run: distributed_assembly_full_20261029_091428
+Visual revision: distributed_assembly_visual_20261029_v2
+Camera revision: distributed_assembly_camera_aligned_20261029
+Master SHA-256: 6ae41f22bc7e852036007711daed88054138fbba9624f4694f28836e3f65de92
+Web MP4 SHA-256: 5e97bb5f3a9a3d504191da7d16ae095c8d479e58d2345315823a40ed9d5c3db5
+
+The demonstration uses simulator semantic RGB-D, registered assembly fixtures,
+and reduced captive screw joints. It is a simulation demonstration of one
+workcell. Evaluation across two manufacturing demos and at least two robot
+embodiments or layouts remains a project objective.
