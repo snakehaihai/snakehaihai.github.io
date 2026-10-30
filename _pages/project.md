@@ -52,15 +52,14 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
     <p>A mobile dual-arm robot explores the workcell, builds an object graph and selects a task-dependent chain of objects. It collects gear components from separate tables, assembles the gearbox, retrieves a wall-mounted driver, fastens the cover and returns the tool.</p>
 
     <figure class="wp22-demo">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg' | relative_url }}" aria-label="Simulated planetary gearbox assembly with RGB-D perception, Graph as Policy and a camera-aligned 3D object graph">
+      <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg' | relative_url }}" aria-label="Simulated planetary gearbox assembly with RGB-D perception, Graph as Policy and a camera-aligned 3D object graph">
         <source src="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}" type="video/mp4">
-        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}">Download the assembly demonstration</a>.</p>
+        <p>Your browser does not support embedded video.</p>
       </video>
       <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 14-step demo, 5 min 22 s · 1080p · 3× replay. Mission, Interaction and Object Graph windows sit on the left; head RGB-D with visible-object boxes and both wrist-mounted D405 cameras sit on the right.</figcaption>
     </figure>
 
     <div class="wp22-actions">
-      <a href="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Gearbox_Assembly.mp4">Download demo video (MP4)</a>
       <a href="{{ '/project/gearbox-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen gearbox player</a>
     </div>
 
@@ -80,17 +79,17 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
       <div class="wp22-contact-grid">
         <figure class="wp22-demo">
           <h5>Successful stages · carrier and cover insertion</h5>
-          <video id="contact-success" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-success-20261031.jpg' | relative_url }}" aria-label="Successful PiPER carrier and cover insertion contact simulations">
+          <video controlslist="nodownload" id="contact-success" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-success-20261031.jpg' | relative_url }}" aria-label="Successful PiPER carrier and cover insertion contact simulations">
             <source src="{{ '/assets/video/wp22-piper-contact-success-20261031.mp4' | relative_url }}" type="video/mp4">
-            <p><a href="{{ '/assets/video/wp22-piper-contact-success-20261031.mp4' | relative_url }}">Download successful cases</a>.</p>
+            <p>Your browser does not support embedded video.</p>
           </video>
           <figcaption>30.1 s · Both stages pass grip-retention, seating and model-contact checks. Final vertical error: carrier 1.00 mm; cover 0.07 mm.</figcaption>
         </figure>
         <figure class="wp22-demo">
           <h5>Failed stages · grasp, gear insertion and fastening</h5>
-          <video id="contact-failure" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-failure-20261031.jpg' | relative_url }}" aria-label="Failed PiPER grasp, gear insertion and screw contact simulations">
+          <video controlslist="nodownload" id="contact-failure" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-failure-20261031.jpg' | relative_url }}" aria-label="Failed PiPER grasp, gear insertion and screw contact simulations">
             <source src="{{ '/assets/video/wp22-piper-contact-failure-20261031.mp4' | relative_url }}" type="video/mp4">
-            <p><a href="{{ '/assets/video/wp22-piper-contact-failure-20261031.mp4' | relative_url }}">Download failed cases</a>.</p>
+            <p>Your browser does not support embedded video.</p>
           </video>
           <figcaption>41.9 s · Sun gear slips 9.31 mm; planet gear stops 14.00 mm above its target; screw advances 0.41 mm against a 3 mm target. The insertion and screw cases also fail the initial-contact check.</figcaption>
         </figure>
@@ -110,15 +109,14 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
     <p>The replay connects recorded semantic observations to an authored Mission Graph. The incremental Object Graph joins objects, stations and the room; mission dependencies and equipment gates control the work order; and the Interaction Graph shows current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
 
     <figure class="wp22-demo">
-      <video class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
+      <video controlslist="nodownload" class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
         <source src="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" type="video/mp4">
-        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}">Download the pharmaceutical demonstration</a>.</p>
+        <p>Your browser does not support embedded video.</p>
       </video>
       <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 15-step demo, 1 min 52 s · 1080p. Mission, Interaction and Object Graph windows sit on the left; head RGB-D with visible-object boxes and both wrist-mounted D405 cameras sit on the right. The rear enclosure joins the chassis, while the front retains an open LiDAR recess beneath the canopy.</figcaption>
     </figure>
 
     <div class="wp22-actions">
-      <a href="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Pharmaceutical_Sample_Handling.mp4">Download full pharmaceutical demo (MP4)</a>
       <a href="{{ '/project/pharmaceutical-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen pharmaceutical player</a>
     </div>
 

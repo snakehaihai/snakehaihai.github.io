@@ -45,6 +45,7 @@
             {% assign preview_description = 'concept illustration' %}
           {% endif %}
           <video
+            controlslist="nodownload"
             class="{{ preview_class }} preview-video w-100"
             src="{{ entry.preview_video | relative_url }}"
             poster="{{ preview_poster | relative_url }}"
@@ -57,7 +58,7 @@
             controls
             preload="none"
           >
-            <a href="{{ entry.preview_video | relative_url }}">Watch the {{ preview_description }}</a>
+            Your browser does not support embedded video.
           </video>
         {% elsif entry.preview contains '://' %}
           <img class="{{ preview_class }}" src="{{ entry.preview }}">
@@ -272,11 +273,27 @@
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      {% elsif entry.video contains '.mp4' or entry.video contains '.webm' or entry.video contains '.ogg' %}
+        <button
+          type="button"
+          data-video-src="{{ entry.video | relative_url | escape }}"
+          data-video-title="{{ entry.title | escape }}"
+          class="btn btn-sm z-depth-0"
+        >Video</button>
       {% elsif entry.video %}
         <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
       {% endif %}
       {% if entry.demo %}
-        <a href="{{ entry.demo | relative_url }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+        {% if entry.demo contains '.mp4' or entry.demo contains '.webm' or entry.demo contains '.ogg' %}
+          <button
+            type="button"
+            data-video-src="{{ entry.demo | relative_url | escape }}"
+            data-video-title="{{ entry.title | escape }}"
+            class="btn btn-sm z-depth-0"
+          >Demo</button>
+        {% else %}
+          <a href="{{ entry.demo | relative_url }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+        {% endif %}
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>

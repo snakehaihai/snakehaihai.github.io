@@ -100,6 +100,7 @@ permalink: /project/gearbox-demo/
       <h1>Planetary Gearbox Assembly</h1>
       <p>Complete 14-step demonstration · 5 min 22 s · 1080p · Blender reconstruction</p>
       <video
+        controlslist="nodownload"
         id="demo"
         controls
         playsinline
@@ -108,10 +109,9 @@ permalink: /project/gearbox-demo/
         aria-label="Complete Blender gearbox assembly with three camera views and Mission, Interaction and Object Graph panels"
       >
         <source src="/assets/video/wp22-gearbox-blender-piper-20261030.mp4" type="video/mp4" />
-        <p><a href="/assets/video/wp22-gearbox-blender-piper-20261030.mp4">Download the MP4 video</a>.</p>
+        <p>Your browser does not support embedded video.</p>
       </video>
       <nav aria-label="Video links">
-        <a href="/assets/video/wp22-gearbox-blender-piper-20261030.mp4" download="NTU_ASTAR_WP22_Gearbox_Blender_Demo.mp4">Download MP4</a>
         <a href="/project/#planetary-gearbox-assembly">Back to the Project page</a>
       </nav>
       <p class="scope">
@@ -131,6 +131,7 @@ permalink: /project/gearbox-demo/
           <figure>
             <h3>Successful stages · carrier and cover insertion</h3>
             <video
+              controlslist="nodownload"
               id="contact-success"
               controls
               playsinline
@@ -139,7 +140,7 @@ permalink: /project/gearbox-demo/
               aria-label="Successful PiPER carrier and cover insertion contact simulations"
             >
               <source src="/assets/video/wp22-piper-contact-success-20261031.mp4" type="video/mp4" />
-              <p><a href="/assets/video/wp22-piper-contact-success-20261031.mp4">Download successful cases</a>.</p>
+              <p>Your browser does not support embedded video.</p>
             </video>
             <figcaption>
               30.1 s · Both stages pass grip-retention, seating and model-contact checks. Final XYZ error: carrier (0.03, −0.07, 1.00) mm; cover
@@ -149,6 +150,7 @@ permalink: /project/gearbox-demo/
           <figure>
             <h3>Failed stages · grasp, gear insertion and fastening</h3>
             <video
+              controlslist="nodownload"
               id="contact-failure"
               controls
               playsinline
@@ -157,7 +159,7 @@ permalink: /project/gearbox-demo/
               aria-label="Failed PiPER grasp, gear insertion and screw contact simulations"
             >
               <source src="/assets/video/wp22-piper-contact-failure-20261031.mp4" type="video/mp4" />
-              <p><a href="/assets/video/wp22-piper-contact-failure-20261031.mp4">Download failed cases</a>.</p>
+              <p>Your browser does not support embedded video.</p>
             </video>
             <figcaption>
               41.9 s · Sun gear slips 9.31 mm; planet gear stops 14.00 mm above its target; screw advances 0.41 mm against a 3 mm target. The
@@ -165,9 +167,7 @@ permalink: /project/gearbox-demo/
             </figcaption>
           </figure>
         </div>
-        <nav aria-label="Contact case downloads">
-          <a href="/assets/video/wp22-piper-contact-success-20261031.mp4" download>Download successful cases</a>
-          <a href="/assets/video/wp22-piper-contact-failure-20261031.mp4" download>Download failed cases</a>
+        <nav aria-label="Contact case results">
           <a href="/assets/video/wp22-piper-contact-results-20261031.json">View all 22 test results (JSON)</a>
         </nav>
         <p class="scope">
@@ -182,5 +182,6 @@ permalink: /project/gearbox-demo/
         </p>
       </section>
     </main>
+    <script defer src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>

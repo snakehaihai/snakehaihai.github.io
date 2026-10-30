@@ -78,6 +78,7 @@ permalink: /project/pharmaceutical-demo/
       <h1>Connected Pharmaceutical Laboratory</h1>
       <p>Complete 15-step demonstration · 1 min 52 s · 1080p · Blender reconstruction</p>
       <video
+        controlslist="nodownload"
         id="demo"
         controls
         playsinline
@@ -86,12 +87,9 @@ permalink: /project/pharmaceutical-demo/
         aria-label="Complete pharmaceutical demonstration with an integrated rear enclosure, front LiDAR opening and three camera views"
       >
         <source src="/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4" type="video/mp4" />
-        <p><a href="/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4">Download the MP4 video</a>.</p>
+        <p>Your browser does not support embedded video.</p>
       </video>
       <nav aria-label="Video links">
-        <a href="/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4" download="NTU_ASTAR_WP22_Pharmaceutical_Blender_Demo.mp4"
-          >Download MP4</a
-        >
         <a href="/project/#pharmaceutical-sample-handling">Back to the Project page</a>
       </nav>
       <p class="scope">
@@ -104,5 +102,6 @@ permalink: /project/pharmaceutical-demo/
         instance masks. Robot and object geometry was checked at 120 Hz; liquid and equipment states are symbolic.
       </p>
     </main>
+    <script defer src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>
