@@ -16,7 +16,7 @@ document.addEventListener("click", (event) => {
       .research-video-player { width: min(1200px, 94vw); max-width: 94vw; padding: 16px; border: 1px solid #35515c; border-radius: 12px; background: #091820; color: #fff; }
       .research-video-player::backdrop { background: rgba(0, 0, 0, .82); }
       .research-video-player header { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 12px; }
-      .research-video-player h2 { font: 500 18px/1.4 system-ui, sans-serif; margin: 0; }
+      .research-video-player h2 { font: 500 18px/1.4 system-ui, sans-serif; margin: 0; color: #fff; }
       .research-video-player button { padding: 7px 14px; background: transparent; color: #fff; border: 1px solid #91aab5; border-radius: 5px; cursor: pointer; }
       .research-video-player video { display: block; width: 100%; max-height: 76vh; background: #000; }
     </style>
