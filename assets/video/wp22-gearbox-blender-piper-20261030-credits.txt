@@ -1,0 +1,20 @@
+NTU-A*STAR WP 2.2: Planetary Gearbox Assembly
+Blender 4.5.3; 1920 x 1080; 15 fps; 4833 frames; 322.2 seconds.
+Video SHA-256: 957df41983949b12834d9b08a9420487d9b7a8a052689fda3a19bf58aa5f875d
+
+Ranger Mini 3.0 and PiPER meshes: AgileX Robotics official model repositories.
+D405 housing: RealSense realsense-ros repository, Apache-2.0.
+https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/meshes/d405.stl
+Enclosure, mounts, narrow task fingers and factory integration use illustrative dimensions.
+
+The complete 14-tool workflow preserves recorded workpiece, screw and driver poses
+from distributed_assembly_camera_aligned_20261029. The original run used dual RM75
+arms; this Blender version retargets the motion to dual PiPER arms. PiPER contact
+forces are not resimulated. The robot base backs off 9 cm around the third screw
+and tool return; empty-hand approach/retract motions are adjusted for clearance.
+Parallel-jaw symmetry avoids wrist limits while retaining held TCP positions.
+
+Main view: 15 fps. Head RGB-D and both rigid wrist cameras: 5 Hz samples.
+Boxes use visible instance masks, not learned object detection. Recorded Mission
+and Object Graph data are retained. Animation geometry is checked separately from
+the source dynamics, with active grip surfaces and mounting interfaces declared.
