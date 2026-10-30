@@ -1,0 +1,21 @@
+NTU-A*STAR joint project | WP 2.2
+Spatially-Grounded Perception and Planning for Embodied AI Agents
+
+Connected Pharmaceutical Laboratory - supported Blender revision, 2026-10-30.
+Robot geometry: AgileX Ranger Mini 3.0 and two official PiPER models.
+Lifting carriage and laboratory supports: illustrative integration.
+Native Blender reconstruction of the preserved 15-step training work order.
+Mission Graph: authored dependencies and symbolic equipment gates.
+Object Graph: recorded semantic observations, registered station/room hierarchy.
+Interaction Graph: actions, grasp states and support relationships.
+134 final nodes, 137 edges, 271 connected recorded graph snapshots.
+
+Video: 1920 x 1080, 15 fps, 1687 frames, 112.4667 seconds. No audio.
+SHA-256: 5f114e7f9af716894fe622538650f96ac2da09b86a043682fc325607238b3239
+Source: Connected_Pharmaceutical_Lab_Full_Demo.mp4, geometry_revision.
+
+Geometry: 13489 evaluated Blender poses at 120 Hz; 419235 mesh queries;
+zero non-interface intersections. Explicit assembled interfaces are excluded.
+53956 work-tube support checks and 30 background rack fits pass.
+These are sampled geometric checks, not contact-force, fluid or hardware validation.
+Process timings and device acknowledgements are demonstration settings.
