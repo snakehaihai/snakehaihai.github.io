@@ -19,7 +19,7 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
   .wp22-project .wp22-objectives li { padding-left: .3rem; margin-bottom: .85rem; line-height: 1.65; }
   .wp22-project .wp22-demo { margin: 1.1rem 0 0; }
   .wp22-project video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #0c1b26; border: 1px solid var(--global-divider-color); border-radius: 8px; }
-  .wp22-project .wp22-pharma-video { aspect-ratio: 8 / 5; }
+  .wp22-project .wp22-pharma-video { aspect-ratio: 16 / 9; }
   .wp22-project figcaption { color: var(--global-text-color-light); font-size: .88rem; line-height: 1.55; margin-top: .65rem; }
   .wp22-project .wp22-actions { display: flex; flex-wrap: wrap; gap: .7rem 1.4rem; margin: 1rem 0 1.5rem; }
   .wp22-project .wp22-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0; list-style: none; border-top: 1px solid var(--global-divider-color); border-bottom: 1px solid var(--global-divider-color); }
@@ -74,20 +74,20 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
 
   <div class="wp22-section" id="pharmaceutical-sample-handling" aria-labelledby="wp22-pharma-title">
     <h3 id="wp22-pharma-title">Application 2: pharmaceutical sample handling</h3>
-    <p>The same mobile dual-arm robot carries out a complete 15-step training work order across five laboratory stations: materials storage, liquid handling, mixing, centrifugation and finished-sample storage. It collects and identifies sample S01, adds wash solution, mixes and centrifuges the sample, retains the pellet, resuspends it and prepares two labeled aliquots, S01-A and S01-B, before inspection, storage and cleanup.</p>
-    <p>Graph as Policy connects the observed objects to the work order. An incremental Object Graph records the explored room; the Mission Graph controls task dependencies and equipment gates; and the Interaction Graph shows which arm, tool, sample or device is involved in the current action. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
+    <p>A Ranger Mini mobile base with a lifting carriage and two PiPER arms carries out a complete 15-step training work order across five laboratory stations: materials storage, liquid handling, mixing, centrifugation and finished-sample storage. It collects and identifies sample S01, adds wash solution, mixes and centrifuges the sample, retains the pellet, resuspends it and prepares two labeled aliquots, S01-A and S01-B, before inspection, storage and cleanup.</p>
+    <p>The replay connects recorded semantic observations to an authored Mission Graph. The incremental Object Graph joins objects, stations and the room; mission dependencies and equipment gates control the work order; and the Interaction Graph shows current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
 
     <figure class="wp22-demo">
-      <video class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-sample-handling-poster.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
-        <source src="{{ '/assets/video/wp22-pharmaceutical-sample-handling.mp4' | relative_url }}" type="video/mp4">
-        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-pharmaceutical-sample-handling.mp4' | relative_url }}">Download the pharmaceutical demonstration</a>.</p>
+      <video class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-blender-supported-20261030.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
+        <source src="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}" type="video/mp4">
+        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}">Download the pharmaceutical demonstration</a>.</p>
       </video>
-      <figcaption>AgileX Ranger Mini 3.0 with a lifting carriage and two RealMan RM75 arms · Full demo, 5 min 37 s. Five floating views show the Mission Graph, Interaction Graph, robot RGB-D, incremental Object Graph and a 3D Object Graph aligned with the main camera.</figcaption>
+      <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 15-step demo, 1 min 52 s · 1080p. Five floating views show the Mission Graph, Interaction Graph, robot RGB-D, incremental Object Graph and a 3D Object Graph aligned with the main camera.</figcaption>
     </figure>
 
     <div class="wp22-actions">
-      <a href="{{ '/assets/video/wp22-pharmaceutical-sample-handling.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Pharmaceutical_Sample_Handling.mp4">Download full pharmaceutical demo (MP4)</a>
-      <a href="{{ '/assets/video/wp22-pharmaceutical-sample-handling.mp4' | relative_url }}" target="_blank" rel="noopener">Open pharmaceutical video in a new tab</a>
+      <a href="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Pharmaceutical_Sample_Handling.mp4">Download full pharmaceutical demo (MP4)</a>
+      <a href="{{ '/project/pharmaceutical-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen pharmaceutical player</a>
     </div>
 
     <ol class="wp22-flow" aria-label="Pharmaceutical sample-handling workflow">
@@ -98,7 +98,7 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
       <li><span>05 · ALIQUOT AND INSPECT</span>Dispense into S01-A and S01-B, cap, scan and inspect</li>
       <li><span>06 · STORE AND CLOSE</span>Register finished samples, return materials and clear the work area</li>
     </ol>
-    <p class="wp22-note">This is a kinematic training simulation with prescribed robot motion and symbolic liquid, barcode and equipment acknowledgements. The 30-second mixing and 5-minute centrifuge cycles are demonstration settings; release also requires stopped and unlocked states. Barcode mismatches, equipment alarms and sample anomalies pause the work order for reporting. The demo illustrates the graph-based workflow; physical process validation and cross-embodiment evaluation remain project objectives.</p>
+    <p class="wp22-note">This is a kinematic training replay with symbolic liquid, barcode and equipment acknowledgements. Tubes have modeled support fixtures; the robot and objects pass sampled geometric intersection checks at 120 Hz. Demonstration timings are not production parameters. Physical process validation and cross-embodiment evaluation remain project objectives.</p>
 
   </div>
 </section>
