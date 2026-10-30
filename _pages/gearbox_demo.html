@@ -67,6 +67,31 @@ permalink: /project/gearbox-demo/
         max-width: 1000px;
         font-size: 0.9rem;
       }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+      }
+      .contact-grid figure {
+        margin: 0;
+      }
+      .contact-grid h3 {
+        font-size: 1.05rem;
+      }
+      .contact-grid figcaption {
+        color: #afc5ce;
+        font-size: 0.9rem;
+        margin-top: 12px;
+      }
+      #contact-cases {
+        margin-top: 40px;
+        scroll-margin-top: 24px;
+      }
+      @media (max-width: 767px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+      }
     </style>
   </head>
   <body>
@@ -95,9 +120,67 @@ permalink: /project/gearbox-demo/
         the left; head RGB-D and both wrist D405 views sit on the right.
       </p>
       <p class="scope">
-        Kinematic retarget of the recorded MuJoCo assembly workflow. Workpiece, screw and tool poses are retained; PiPER contact forces are not
-        resimulated. Visible-object boxes are rendered instance annotations. Playback runs at 3× the recorded simulation time.
+        This full-workflow video is a kinematic retarget of the recorded MuJoCo assembly workflow. Workpiece, screw and tool poses are retained.
+        Visible-object boxes are rendered instance annotations. Playback runs at 3× the recorded simulation time. Separate PiPER contact simulations
+        are shown below.
       </p>
+      <section id="contact-cases" aria-labelledby="contact-title">
+        <h2 id="contact-title">PiPER contact simulation: successes and failures</h2>
+        <p>Recorded contact dynamics, rendered in Blender at normal speed. Motor-driven arms and fingers manipulate free parts under gravity.</p>
+        <div class="contact-grid">
+          <figure>
+            <h3>Successful stages · carrier and cover insertion</h3>
+            <video
+              id="contact-success"
+              controls
+              playsinline
+              preload="metadata"
+              poster="/assets/img/projects/wp22-piper-contact-success-20261031.jpg"
+              aria-label="Successful PiPER carrier and cover insertion contact simulations"
+            >
+              <source src="/assets/video/wp22-piper-contact-success-20261031.mp4" type="video/mp4" />
+              <p><a href="/assets/video/wp22-piper-contact-success-20261031.mp4">Download successful cases</a>.</p>
+            </video>
+            <figcaption>
+              30.1 s · Both stages pass grip-retention, seating and model-contact checks. Final XYZ error: carrier (0.03, −0.07, 1.00) mm; cover
+              (−0.55, −0.44, −0.07) mm.
+            </figcaption>
+          </figure>
+          <figure>
+            <h3>Failed stages · grasp, gear insertion and fastening</h3>
+            <video
+              id="contact-failure"
+              controls
+              playsinline
+              preload="metadata"
+              poster="/assets/img/projects/wp22-piper-contact-failure-20261031.jpg"
+              aria-label="Failed PiPER grasp, gear insertion and screw contact simulations"
+            >
+              <source src="/assets/video/wp22-piper-contact-failure-20261031.mp4" type="video/mp4" />
+              <p><a href="/assets/video/wp22-piper-contact-failure-20261031.mp4">Download failed cases</a>.</p>
+            </video>
+            <figcaption>
+              41.9 s · Sun gear slips 9.31 mm; planet gear stops 14.00 mm above its target; screw advances 0.41 mm against a 3 mm target. The
+              insertion and screw cases also fail the initial-contact check.
+            </figcaption>
+          </figure>
+        </div>
+        <nav aria-label="Contact case downloads">
+          <a href="/assets/video/wp22-piper-contact-success-20261031.mp4" download>Download successful cases</a>
+          <a href="/assets/video/wp22-piper-contact-failure-20261031.mp4" download>Download failed cases</a>
+          <a href="/assets/video/wp22-piper-contact-results-20261031.json">View all 22 test results (JSON)</a>
+        </nav>
+        <p class="scope">
+          These are fixed-mount stage tests initialized from recorded states, with illustrative motor and contact parameters. Parts move through
+          integrated contact forces, with no grasp attachment or runtime object-pose resets. Of 16 nominal tests, 0/7 grasps, 2/6 insertions and 0/3
+          fastening stages pass; six additional timestep/control checks complete the 22-case audit. The complete PiPER assembly sequence has not yet
+          passed contact validation.
+        </p>
+        <p class="scope">
+          Screw advance uses a passive captive helical joint. Thread-flank stress and clamp load are outside this model. Initial support-hand overlaps
+          invalidate some insertion and screw cases; those recordings are retained as diagnostics.
+        </p>
+      </section>
     </main>
   </body>
 </html>

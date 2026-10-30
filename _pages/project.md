@@ -26,6 +26,10 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
   .wp22-project .wp22-flow li { padding: .9rem 1rem .9rem 0; line-height: 1.5; }
   .wp22-project .wp22-flow span { display: block; font-size: .75rem; font-weight: 600; color: var(--global-theme-color); margin-bottom: .25rem; }
   .wp22-project .wp22-note { color: var(--global-text-color-light); font-size: .9rem; line-height: 1.6; }
+  .wp22-project .wp22-contact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
+  .wp22-project .wp22-contact-grid h5 { font-size: 1.05rem; margin-bottom: .6rem; }
+  .wp22-project #contact-cases { scroll-margin-top: 5.5rem; margin-top: 2rem; }
+  @media (max-width: 767px) { .wp22-project .wp22-contact-grid { grid-template-columns: 1fr; } }
   @media (max-width: 575px) { .wp22-project .wp22-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 </style>
 
@@ -68,7 +72,35 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
       <li><span>05 · FASTEN</span>Retrieve the driver and tighten three screws</li>
       <li><span>06 · RETURN</span>Return the driver to its wall cradle</li>
     </ol>
-    <p class="wp22-note">This Blender replay preserves the workpiece, screw and tool motion from the recorded MuJoCo assembly run and retargets the robot motion to the laboratory demo's dual PiPER platform. It retains the recorded task and object graphs. Object boxes come from visible rendered instance masks; PiPER contact dynamics are not resimulated. The two-demo and cross-embodiment evaluations remain project objectives.</p>
+    <p class="wp22-note">This full-workflow Blender replay preserves the workpiece, screw and tool motion from the recorded MuJoCo assembly run and retargets the robot motion to the laboratory demo's dual PiPER platform. It retains the recorded task and object graphs. Object boxes come from visible rendered instance masks. Separate PiPER contact simulations are shown below.</p>
+
+    <section id="contact-cases" aria-labelledby="contact-cases-title">
+      <h4 id="contact-cases-title">PiPER contact simulation: successes and failures</h4>
+      <p>Recorded contact dynamics, rendered in Blender at normal speed. Motor-driven arms and fingers manipulate free parts under gravity.</p>
+      <div class="wp22-contact-grid">
+        <figure class="wp22-demo">
+          <h5>Successful stages · carrier and cover insertion</h5>
+          <video id="contact-success" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-success-20261031.jpg' | relative_url }}" aria-label="Successful PiPER carrier and cover insertion contact simulations">
+            <source src="{{ '/assets/video/wp22-piper-contact-success-20261031.mp4' | relative_url }}" type="video/mp4">
+            <p><a href="{{ '/assets/video/wp22-piper-contact-success-20261031.mp4' | relative_url }}">Download successful cases</a>.</p>
+          </video>
+          <figcaption>30.1 s · Both stages pass grip-retention, seating and model-contact checks. Final vertical error: carrier 1.00 mm; cover 0.07 mm.</figcaption>
+        </figure>
+        <figure class="wp22-demo">
+          <h5>Failed stages · grasp, gear insertion and fastening</h5>
+          <video id="contact-failure" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-piper-contact-failure-20261031.jpg' | relative_url }}" aria-label="Failed PiPER grasp, gear insertion and screw contact simulations">
+            <source src="{{ '/assets/video/wp22-piper-contact-failure-20261031.mp4' | relative_url }}" type="video/mp4">
+            <p><a href="{{ '/assets/video/wp22-piper-contact-failure-20261031.mp4' | relative_url }}">Download failed cases</a>.</p>
+          </video>
+          <figcaption>41.9 s · Sun gear slips 9.31 mm; planet gear stops 14.00 mm above its target; screw advances 0.41 mm against a 3 mm target. The insertion and screw cases also fail the initial-contact check.</figcaption>
+        </figure>
+      </div>
+      <p class="wp22-note">These are fixed-mount stage tests initialized from recorded states, with illustrative motor and contact parameters. Of 16 nominal tests, 0/7 grasps, 2/6 insertions and 0/3 fastening stages pass; six additional timestep/control checks complete the 22-case audit. The complete PiPER assembly sequence has not yet passed contact validation.</p>
+      <div class="wp22-actions">
+        <a href="{{ '/project/gearbox-demo/#contact-cases' | relative_url }}">Open contact-case players and results</a>
+        <a href="{{ '/assets/video/wp22-piper-contact-results-20261031.json' | relative_url }}">View all 22 test results (JSON)</a>
+      </div>
+    </section>
 
   </div>
 
