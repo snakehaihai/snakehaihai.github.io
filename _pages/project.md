@@ -5,7 +5,7 @@ title: Project
 description: NTU–A*STAR joint project on spatial intelligence for manufacturing robots.
 nav: true
 nav_order: 7
-og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
+og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
 ---
 
 <style>
@@ -43,21 +43,21 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
     </ul>
   </div>
 
-  <div class="wp22-section" aria-labelledby="wp22-demo-title">
+  <div class="wp22-section" id="planetary-gearbox-assembly" aria-labelledby="wp22-demo-title">
     <h3 id="wp22-demo-title">Application 1: planetary gearbox assembly</h3>
     <p>A mobile dual-arm robot explores the workcell, builds an object graph and selects a task-dependent chain of objects. It collects gear components from separate tables, assembles the gearbox, retrieves a wall-mounted driver, fastens the cover and returns the tool.</p>
 
     <figure class="wp22-demo">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-gearbox-assembly-poster.jpg' | relative_url }}" aria-label="Simulated planetary gearbox assembly with RGB-D perception, Graph as Policy and a camera-aligned 3D object graph">
-        <source src="{{ '/assets/video/wp22-gearbox-assembly.mp4' | relative_url }}" type="video/mp4">
-        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-gearbox-assembly.mp4' | relative_url }}">Download the assembly demonstration</a>.</p>
+      <video controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg' | relative_url }}" aria-label="Simulated planetary gearbox assembly with RGB-D perception, Graph as Policy and a camera-aligned 3D object graph">
+        <source src="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}" type="video/mp4">
+        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}">Download the assembly demonstration</a>.</p>
       </video>
-      <figcaption>Ranger Mini 3.0 with two RealMan RM75 arms · 5 min 22 s · 3× replay. Floating views show RGB-D perception, Graph as Policy, object relations and a 3D object graph aligned with the main camera.</figcaption>
+      <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 14-step demo, 5 min 22 s · 1080p · 3× replay. Mission, Interaction and Object Graph windows sit on the left; head RGB-D with visible-object boxes and both wrist-mounted D405 cameras sit on the right.</figcaption>
     </figure>
 
     <div class="wp22-actions">
-      <a href="{{ '/assets/video/wp22-gearbox-assembly.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Gearbox_Assembly.mp4">Download demo video (MP4)</a>
-      <a href="{{ '/assets/video/wp22-gearbox-assembly.mp4' | relative_url }}" target="_blank" rel="noopener">Open video in a new tab</a>
+      <a href="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Gearbox_Assembly.mp4">Download demo video (MP4)</a>
+      <a href="{{ '/project/gearbox-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen gearbox player</a>
     </div>
 
     <ol class="wp22-flow" aria-label="Demonstrated workflow">
@@ -68,7 +68,7 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
       <li><span>05 · FASTEN</span>Retrieve the driver and tighten three screws</li>
       <li><span>06 · RETURN</span>Return the driver to its wall cradle</li>
     </ol>
-    <p class="wp22-note">This demonstrator uses a MuJoCo factory simulation with semantic RGB-D observations, registered assembly fixtures and captive screw joints. The two-demo and cross-embodiment evaluations are project objectives.</p>
+    <p class="wp22-note">This Blender replay preserves the workpiece, screw and tool motion from the recorded MuJoCo assembly run and retargets the robot motion to the laboratory demo's dual PiPER platform. It retains the recorded task and object graphs. Object boxes come from visible rendered instance masks; PiPER contact dynamics are not resimulated. The two-demo and cross-embodiment evaluations remain project objectives.</p>
 
   </div>
 
