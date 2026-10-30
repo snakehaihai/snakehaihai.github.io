@@ -1,0 +1,23 @@
+NTU-A*STAR WP 2.2: Connected Pharmaceutical Laboratory
+Integrated rear enclosure and front LiDAR opening, 30 October 2026
+
+Blender 4.5.3; 1920 x 1080; 15 fps; 1,687 frames; 112.466667 seconds.
+Video SHA-256: 96d3c63771cee8d2021d43bc57266bb0d7496cd769e554b20685695c0a043c5b
+
+Ranger Mini 3.0 and PiPER meshes: AgileX Robotics official model repositories.
+D405 housing: RealSense official realsense-ros repository, Apache-2.0.
+https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/meshes/d405.stl
+Enclosure, canopy, mounts and integration use illustrative dimensions.
+
+Three synchronized rendered cameras show head RGB-D and two fixed wrist viewpoints.
+Visible-object boxes come from occlusion-resolved instance masks, not a learned detector.
+The authored Mission Graph and recorded semantic observations are preserved.
+Main video is 15 fps; observation samples are 5 Hz. The complete 15-step work order
+includes parallel preparation and stopped/unlocked gating before unloading.
+
+The rear housing reaches the fixed chassis deck; the front LiDAR recess is open.
+The geometry audit checks 24 added meshes and two relocated fixed LiDAR meshes
+over 13,489 poses at 120 Hz, with 164,605 triangle queries and no non-interface
+intersections. 1,585 original meshes and all original trajectories are unchanged.
+Declared mounting interfaces are excluded. Original tube supports and grasps remain.
+These are sampled animation-geometry checks; liquid and equipment states are symbolic.

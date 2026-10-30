@@ -78,15 +78,15 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
     <p>The replay connects recorded semantic observations to an authored Mission Graph. The incremental Object Graph joins objects, stations and the room; mission dependencies and equipment gates control the work order; and the Interaction Graph shows current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
 
     <figure class="wp22-demo">
-      <video class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-blender-supported-20261030.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
-        <source src="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}" type="video/mp4">
-        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}">Download the pharmaceutical demonstration</a>.</p>
+      <video class="wp22-pharma-video" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg' | relative_url }}" aria-label="Complete pharmaceutical sample-handling training simulation with Mission Graph, Interaction Graph, RGB-D and incremental object graphs">
+        <source src="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" type="video/mp4">
+        <p>Your browser does not support embedded video. <a href="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}">Download the pharmaceutical demonstration</a>.</p>
       </video>
-      <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 15-step demo, 1 min 52 s · 1080p. Five floating views show the Mission Graph, Interaction Graph, robot RGB-D, incremental Object Graph and a 3D Object Graph aligned with the main camera.</figcaption>
+      <figcaption>Blender reconstruction · Ranger Mini 3.0 with dual PiPER arms · Complete 15-step demo, 1 min 52 s · 1080p. Mission, Interaction and Object Graph windows sit on the left; head RGB-D with visible-object boxes and both wrist-mounted D405 cameras sit on the right. The rear enclosure joins the chassis, while the front retains an open LiDAR recess beneath the canopy.</figcaption>
     </figure>
 
     <div class="wp22-actions">
-      <a href="{{ '/assets/video/wp22-pharmaceutical-blender-supported-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Pharmaceutical_Sample_Handling.mp4">Download full pharmaceutical demo (MP4)</a>
+      <a href="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" download="NTU_ASTAR_WP22_Pharmaceutical_Sample_Handling.mp4">Download full pharmaceutical demo (MP4)</a>
       <a href="{{ '/project/pharmaceutical-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen pharmaceutical player</a>
     </div>
 
@@ -98,7 +98,7 @@ og_image: /assets/img/projects/wp22-gearbox-assembly-poster.jpg
       <li><span>05 · ALIQUOT AND INSPECT</span>Dispense into S01-A and S01-B, cap, scan and inspect</li>
       <li><span>06 · STORE AND CLOSE</span>Register finished samples, return materials and clear the work area</li>
     </ol>
-    <p class="wp22-note">This is a kinematic training replay with symbolic liquid, barcode and equipment acknowledgements. Tubes have modeled support fixtures; the robot and objects pass sampled geometric intersection checks at 120 Hz. Demonstration timings are not production parameters. Physical process validation and cross-embodiment evaluation remain project objectives.</p>
+    <p class="wp22-note">This is a kinematic training replay with an authored Mission Graph and symbolic liquid, barcode and equipment acknowledgements. Object boxes are simulation annotations from visible rendered instance masks. Tubes have modeled support fixtures; the robot and objects pass sampled geometric intersection checks at 120 Hz. Demonstration timings are not production parameters. Physical process validation and cross-embodiment evaluation remain project objectives.</p>
 
   </div>
 </section>
