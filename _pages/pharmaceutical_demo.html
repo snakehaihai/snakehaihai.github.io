@@ -4,15 +4,13 @@ permalink: /project/pharmaceutical-demo/
 ---
 
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pharmaceutical Laboratory Demo | NTU–A*STAR WP 2.2</title>
-    <meta
-      name="description"
-      content="Complete Blender laboratory demo with an integrated rear enclosure, front LiDAR opening, two wrist D405 cameras and connected graphs."
-    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Biological sample handling</title>
+    <meta content="Biological sample handling with a mobile dual-arm robot." name="description" />
     <style>
       :root {
         color-scheme: dark;
@@ -75,33 +73,35 @@ permalink: /project/pharmaceutical-demo/
   <body>
     <main>
       <div class="kicker">NTU–A*STAR JOINT PROJECT · WP 2.2</div>
-      <h1>Connected Pharmaceutical Laboratory</h1>
-      <p>Complete 15-step demonstration · 1 min 52 s · 1080p · Blender reconstruction</p>
+      <h1>Biological sample handling</h1>
+      <p>Ranger Mini 3.0 · Dual PiPER arms · Simulation</p>
       <video
+        aria-label="Biological sample handling system demonstration"
+        controls=""
         controlslist="nodownload"
         id="demo"
-        controls
-        playsinline
-        preload="metadata"
+        playsinline=""
         poster="/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg"
-        aria-label="Complete pharmaceutical demonstration with an integrated rear enclosure, front LiDAR opening and three camera views"
+        preload="metadata"
       >
         <source src="/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4" type="video/mp4" />
         <p>Your browser does not support embedded video.</p>
       </video>
+      <p class="wp22-description">
+        A Ranger Mini mobile base with a lifting carriage and two PiPER arms carries out a 15-step workflow across five laboratory stations: materials
+        storage, liquid handling, mixing, centrifugation and finished-sample storage. It collects and identifies sample S01, adds wash solution, mixes
+        and centrifuges the sample. It then retains the pellet—the material collected at the bottom of the tube—mixes it back into liquid and prepares
+        two labeled aliquots, or measured portions, S01-A and S01-B, before inspection, storage and cleanup.
+      </p>
+      <p class="wp22-description">
+        The Mission Graph organizes the work order and its dependencies. The Object Graph connects samples, equipment and the room; the Interaction
+        Graph tracks current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes
+        available only after preparation is complete, the rotor has stopped and the lid is unlocked.
+      </p>
       <nav aria-label="Video links">
-        <a href="/project/#pharmaceutical-sample-handling">Back to the Project page</a>
+        <a href="/project/#pharmaceutical-sample-handling">Project</a>
       </nav>
-      <p class="scope">
-        Ranger Mini base with an integrated rear enclosure, an open front LiDAR recess and two PiPER arms with wrist-mounted D405 cameras. Mission,
-        Interaction and Object Graph windows sit on the left; head RGB-D and both wrist views sit on the right. Upright tubes remain supported by
-        racks, device holders or grippers throughout the 15-step work order.
-      </p>
-      <p class="scope">
-        Kinematic training replay with an authored Mission Graph and recorded semantic observations. Object boxes are obtained from visible rendered
-        instance masks. Robot and object geometry was checked at 120 Hz; liquid and equipment states are symbolic.
-      </p>
     </main>
-    <script defer src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
+    <script defer="" src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>

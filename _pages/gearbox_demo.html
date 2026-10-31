@@ -4,12 +4,13 @@ permalink: /project/gearbox-demo/
 ---
 
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Planetary Gearbox Assembly | NTU–A*STAR WP 2.2</title>
-    <meta name="description" content="Complete Blender gearbox assembly with dual PiPER arms, three mounted cameras and connected task graphs." />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Planetary gearbox assembly</title>
+    <meta content="Planetary gearbox assembly with a mobile dual-arm robot." name="description" />
     <style>
       :root {
         color-scheme: dark;
@@ -97,91 +98,65 @@ permalink: /project/gearbox-demo/
   <body>
     <main>
       <div class="kicker">NTU–A*STAR JOINT PROJECT · WP 2.2</div>
-      <h1>Planetary Gearbox Assembly</h1>
-      <p>Complete 14-step demonstration · 5 min 22 s · 1080p · Blender reconstruction</p>
+      <h1>Planetary gearbox assembly</h1>
+      <p>Ranger Mini 3.0 · Dual PiPER arms · Simulation</p>
       <video
+        aria-label="Planetary gearbox assembly system demonstration"
+        controls=""
         controlslist="nodownload"
         id="demo"
-        controls
-        playsinline
-        preload="metadata"
+        playsinline=""
         poster="/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg"
-        aria-label="Complete Blender gearbox assembly with three camera views and Mission, Interaction and Object Graph panels"
+        preload="metadata"
       >
         <source src="/assets/video/wp22-gearbox-blender-piper-20261030.mp4" type="video/mp4" />
         <p>Your browser does not support embedded video.</p>
       </video>
+      <p class="wp22-description">
+        A mobile dual-arm robot explores the workcell, builds an object graph and selects a task-dependent chain of objects. It collects gear
+        components from separate tables, assembles the gearbox, retrieves a wall-mounted driver, fastens the cover and returns the tool.
+      </p>
       <nav aria-label="Video links">
-        <a href="/project/#planetary-gearbox-assembly">Back to the Project page</a>
+        <a href="/project/#planetary-gearbox-assembly">Project</a>
       </nav>
-      <p class="scope">
-        The same integrated Ranger Mini base, lift and dual PiPER robot used in the laboratory demonstration collects six parts, assembles the
-        gearbox, retrieves the wall driver, fastens three captive screws and returns the tool. Mission, Interaction and Object Graph windows sit on
-        the left; head RGB-D and both wrist D405 views sit on the right.
-      </p>
-      <p class="scope">
-        This full-workflow video is a kinematic retarget of the recorded MuJoCo assembly workflow. Workpiece, screw and tool poses are retained.
-        Visible-object boxes are rendered instance annotations. Playback runs at 3× the recorded simulation time. Separate PiPER contact simulations
-        are shown below.
-      </p>
-      <section id="contact-cases" aria-labelledby="contact-title">
-        <h2 id="contact-title">PiPER contact simulation: successes and failures</h2>
-        <p>Recorded contact dynamics, rendered in Blender at normal speed. Motor-driven arms and fingers manipulate free parts under gravity.</p>
+      <section aria-labelledby="contact-title" id="contact-cases">
+        <h2 id="contact-title">Contact simulation · stage tests</h2>
         <div class="contact-grid">
           <figure>
-            <h3>Successful stages · carrier and cover insertion</h3>
+            <h3>Carrier and cover insertion</h3>
             <video
+              aria-label="Successful PiPER carrier and cover insertion contact simulations"
+              controls=""
               controlslist="nodownload"
               id="contact-success"
-              controls
-              playsinline
-              preload="metadata"
+              playsinline=""
               poster="/assets/img/projects/wp22-piper-contact-success-20261031.jpg"
-              aria-label="Successful PiPER carrier and cover insertion contact simulations"
+              preload="metadata"
             >
               <source src="/assets/video/wp22-piper-contact-success-20261031.mp4" type="video/mp4" />
               <p>Your browser does not support embedded video.</p>
             </video>
-            <figcaption>
-              30.1 s · Both stages pass grip-retention, seating and model-contact checks. Final XYZ error: carrier (0.03, −0.07, 1.00) mm; cover
-              (−0.55, −0.44, −0.07) mm.
-            </figcaption>
+            <figcaption>Both stages reach their seated positions.</figcaption>
           </figure>
           <figure>
-            <h3>Failed stages · grasp, gear insertion and fastening</h3>
+            <h3>Remaining manipulation challenges</h3>
             <video
+              aria-label="Failed PiPER grasp, gear insertion and screw contact simulations"
+              controls=""
               controlslist="nodownload"
               id="contact-failure"
-              controls
-              playsinline
-              preload="metadata"
+              playsinline=""
               poster="/assets/img/projects/wp22-piper-contact-failure-20261031.jpg"
-              aria-label="Failed PiPER grasp, gear insertion and screw contact simulations"
+              preload="metadata"
             >
               <source src="/assets/video/wp22-piper-contact-failure-20261031.mp4" type="video/mp4" />
               <p>Your browser does not support embedded video.</p>
             </video>
-            <figcaption>
-              41.9 s · Sun gear slips 9.31 mm; planet gear stops 14.00 mm above its target; screw advances 0.41 mm against a 3 mm target. The
-              insertion and screw cases also fail the initial-contact check.
-            </figcaption>
+            <figcaption>Grasp slip, incomplete insertion and limited screw travel.</figcaption>
           </figure>
         </div>
-        <nav aria-label="Contact case results">
-          <a href="/assets/video/wp22-piper-contact-results-20261031.json">View all 22 test results (JSON)</a>
-        </nav>
-        <p class="scope">
-          These are fixed-mount stage tests initialized from recorded states, with illustrative motor and contact parameters. Parts move through
-          integrated contact forces, with no grasp attachment or runtime object-pose resets. Of 16 nominal tests, 0/7 grasps, 2/6 insertions and 0/3
-          fastening stages pass; six additional timestep/control checks complete the 22-case audit. The complete PiPER assembly sequence has not yet
-          passed contact validation.
-        </p>
-        <p class="scope">
-          Screw advance uses a passive captive helical joint. Thread-flank stress and clamp load are outside this model. Initial support-hand overlaps
-          invalidate some insertion and screw cases; those recordings are retained as diagnostics.
-        </p>
       </section>
     </main>
-    <script defer src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
+    <script defer="" src="{{ '/assets/js/video-player.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>

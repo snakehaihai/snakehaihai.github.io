@@ -4,9 +4,10 @@ permalink: /project/electric-meter-demo/
 ---
 
 <!doctype html>
+
 <html lang="en">
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Learning result · Electric meter handling</title>
+  <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Simulated Pipeline · Electric meter testing and calibration</title>
   <style>
     * {
       box-sizing: border-box;
@@ -103,38 +104,46 @@ permalink: /project/electric-meter-demo/
   <main>
     <header>
       <div>
-        <h1>Learning result · Electric meter handling</h1>
+        <h1>Simulated Pipeline · Electric meter testing and calibration</h1>
         <small>Unit Test Room → belt, trays and racks → slots and meters</small>
       </div>
       <nav aria-label="View selection">
-        <button data-view="/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4" aria-pressed="true">Full dashboard</button
-        ><button data-view="/assets/video/wp22-electric-meter-rm65-20261031-main.mp4" aria-pressed="false">Main scene</button
-        ><button data-view="/assets/video/wp22-electric-meter-rm65-20261031-head.mp4" aria-pressed="false">Head RGB-D</button
-        ><button data-view="/assets/video/wp22-electric-meter-rm65-20261031-left.mp4" aria-pressed="false">Left D405</button
-        ><button data-view="/assets/video/wp22-electric-meter-rm65-20261031-right.mp4" aria-pressed="false">Right D405</button>
+        <button aria-pressed="true" data-view="/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4">Full dashboard</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-main.mp4">Main scene</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-head.mp4">Head RGB-D</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-left.mp4">Left D405</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-right.mp4">Right D405</button>
       </nav>
     </header>
     <video
-      id="video"
-      controls
+      controls=""
       controlslist="nodownload"
-      preload="metadata"
-      playsinline
+      id="video"
+      playsinline=""
       poster="/assets/img/projects/wp22-electric-meter-rm65-graph-v7-20261101.jpg"
+      preload="metadata"
       src="/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4"
     ></video>
+    <p class="wp22-description">
+      A mobile robot with two RealMan RM65 arms and custom grippers collects a loaded tray from an external roller station, installs two pairs of
+      meters along 60-degree guide channels, moves the empty tray to the rear deck and returns it to the station.
+    </p>
+    <p class="wp22-description">
+      The column-foot joint turns the mast and upper body together. Lift, arm, column and base movements run sequentially. Mission, Interaction and 3D
+      Object Graphs follow the task; the head RGB-D view and both wrist-mounted D405 views show the same operation from their rigid camera mounts.
+    </p>
     <footer>
       <div>
-        <select id="chapter" aria-label="Jump to mission step">
+        <select aria-label="Jump to mission step" id="chapter">
           <option value="">Jump to mission step</option>
         </select>
         <label><input id="loop" type="checkbox" /> Loop</label>
       </div>
-      <span id="status">59.1 s · silent master · synchronized camera views</span><small>Blender camera simulation · authored scene relations</small>
+      <span id="status">Full dashboard</span><small>Dual RealMan RM65 · Custom grippers · Simulation</small>
     </footer>
     <p>
-      <a href="/project/#electric-meter-handling" style="color: #78e6d4">Back to the Project page</a> ·
-      <a href="/project/electric-meter-learning/" style="color: #78e6d4">Watch the learning process</a>
+      <a href="/project/#electric-meter-handling" style="color: #78e6d4">Project</a> ·
+      <a href="/project/electric-meter-learning/" style="color: #78e6d4">RSI</a>
     </p>
   </main>
   <script>
@@ -180,12 +189,12 @@ permalink: /project/electric-meter-demo/
             { once: true }
           );
           document.querySelectorAll("[data-view]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-          status.textContent = b.textContent + " · same 59.1 s timeline";
+          status.textContent = b.textContent;
         })
     );
     v.addEventListener("error", () => {
       status.textContent = "Video error: " + ((v.error && v.error.message) || "cannot load");
     });
   </script>
-  <script defer src="/assets/js/video-player.js"></script>
+  <script defer="" src="/assets/js/video-player.js"></script>
 </html>
