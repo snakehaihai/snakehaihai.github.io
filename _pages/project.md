@@ -83,8 +83,8 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 </figure>
 <figure class="wp22-challenge-one">
 <h5>Challenge 1 · Uncertain 3D boundaries</h5>
-<a aria-label="Enlarge the boundary and depth uncertainty figure" class="wp22-media" href="{{ '/assets/img/projects/wp22-meter-boundary-depth-20261101.png' | relative_url }}" rel="noopener" target="_blank"><img alt="Meter boundary overlays and a seven-frame depth variation map showing greater uncertainty near the edges" height="752" loading="lazy" src="{{ '/assets/img/projects/wp22-meter-boundary-depth-20261101.png' | relative_url }}" width="1061"/></a>
-<figcaption>Unstable boundaries and frame-to-frame depth variation make the meter’s 3D extent uncertain, complicating grasp placement and clearance checks.</figcaption>
+<a aria-label="Enlarge the combined bounding-box and depth-uncertainty figure" class="wp22-media" href="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-20261101.svg' | relative_url }}" rel="noopener" target="_blank"><img alt="Combined diagnostics: 2D and 3D meter bounding boxes on the left; boundary overlays and depth variation maps on the right" height="848" loading="lazy" src="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-20261101.svg' | relative_url }}" width="1556"/></a>
+<figcaption>The 2D and 3D bounding boxes locate the meter, but uncertain boundaries and depth variation make its exact extent unclear, complicating grasp placement and clearance checks.</figcaption>
 </figure>
 <figure class="wp22-real-two" data-gif-card="">
 <h5>Real robot · view 2</h5>
@@ -97,19 +97,8 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 <figcaption>Residual points can remain inside the meter’s volume after it is removed from the scene model. A planner may treat these points as obstacles and reject a feasible grasp.</figcaption>
 </figure>
 </div></section></div>
-<div aria-labelledby="wp22-pharma-title" class="wp22-section" id="pharmaceutical-sample-handling">
-<h3 id="wp22-pharma-title">Application 2: biological sample handling</h3>
-<p><strong>Task. </strong>Prepare biological samples through washing, mixing, centrifugation, aliquoting and storage.<br/><strong>Challenge. </strong>Handle small tubes accurately, track sample identity and coordinate parallel steps with equipment readiness.</p><p class="wp22-description">A Ranger Mini mobile base with a lifting carriage and two PiPER arms carries out a 15-step workflow across five laboratory stations: materials storage, liquid handling, mixing, centrifugation and finished-sample storage. It collects and identifies sample S01, adds wash solution, mixes and centrifuges the sample. It then retains the pellet—the material collected at the bottom of the tube—mixes it back into liquid and prepares two labeled aliquots, or measured portions, S01-A and S01-B, before inspection, storage and cleanup.</p><p class="wp22-description">The Mission Graph organizes the work order and its dependencies. The Object Graph connects samples, equipment and the room; the Interaction Graph tracks current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
-<figure class="wp22-demo">
-<video aria-label="Biological sample-handling system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg' | relative_url }}" preload="metadata">
-<source src="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" type="video/mp4"/>
-<p>Your browser does not support embedded video.</p>
-</video>
-<figcaption>Ranger Mini 3.0 · Dual PiPER arms · Simulation</figcaption>
-</figure>
-</div>
 <div aria-labelledby="wp22-demo-title" class="wp22-section" id="planetary-gearbox-assembly">
-<h3 id="wp22-demo-title">Application 3: planetary gearbox assembly</h3>
+<h3 id="wp22-demo-title">Application 2: planetary gearbox assembly</h3>
 <p><strong>Task. </strong>Collect components, assemble a planetary gearbox and fasten its cover.<br/><strong>Challenge. </strong>Align parts within tight clearances while maintaining stable grasps and coordinating both arms.</p><p class="wp22-description">A mobile dual-arm robot explores the workcell, builds an object graph and selects a task-dependent chain of objects. It collects gear components from separate tables, assembles the gearbox, retrieves a wall-mounted driver, fastens the cover and returns the tool.</p>
 <figure class="wp22-demo">
 <video aria-label="Planetary gearbox assembly system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg' | relative_url }}" preload="metadata">
@@ -139,6 +128,17 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 </figure>
 </div>
 </section>
+</div>
+<div aria-labelledby="wp22-pharma-title" class="wp22-section" id="pharmaceutical-sample-handling">
+<h3 id="wp22-pharma-title">Application 3: biological sample handling</h3>
+<p><strong>Task. </strong>Prepare biological samples through washing, mixing, centrifugation, aliquoting and storage.<br/><strong>Challenge. </strong>Handle small tubes accurately, track sample identity and coordinate parallel steps with equipment readiness.</p><p class="wp22-description">A Ranger Mini mobile base with a lifting carriage and two PiPER arms carries out a 15-step workflow across five laboratory stations: materials storage, liquid handling, mixing, centrifugation and finished-sample storage. It collects and identifies sample S01, adds wash solution, mixes and centrifuges the sample. It then retains the pellet—the material collected at the bottom of the tube—mixes it back into liquid and prepares two labeled aliquots, or measured portions, S01-A and S01-B, before inspection, storage and cleanup.</p><p class="wp22-description">The Mission Graph organizes the work order and its dependencies. The Object Graph connects samples, equipment and the room; the Interaction Graph tracks current actions, grasps and support relationships. Target-tube preparation runs alongside centrifugation. Unloading becomes available only after preparation is complete, the rotor has stopped and the lid is unlocked.</p>
+<figure class="wp22-demo">
+<video aria-label="Biological sample-handling system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-pharmaceutical-integrated-base-20261030.jpg' | relative_url }}" preload="metadata">
+<source src="{{ '/assets/video/wp22-pharmaceutical-integrated-base-20261030.mp4' | relative_url }}" type="video/mp4"/>
+<p>Your browser does not support embedded video.</p>
+</video>
+<figcaption>Ranger Mini 3.0 · Dual PiPER arms · Simulation</figcaption>
+</figure>
 </div>
 </section>
 <script defer="" src="{{ '/assets/js/project-media.js' | relative_url | bust_file_cache }}"></script>
