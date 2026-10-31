@@ -83,7 +83,7 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 </figure>
 <figure class="wp22-challenge-one">
 <h5>Challenge 1 · Uncertain 3D boundaries</h5>
-<a aria-label="Enlarge the combined bounding-box and depth-uncertainty figure" class="wp22-media" href="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-20261101.svg' | relative_url }}" rel="noopener" target="_blank"><img alt="Combined diagnostics: 2D and 3D meter bounding boxes on the left; boundary overlays and depth variation maps on the right" height="848" loading="lazy" src="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-20261101.svg' | relative_url }}" width="1556"/></a>
+<a aria-label="Enlarge the combined bounding-box and depth-uncertainty figure" class="wp22-media" href="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-en-20261101.svg' | relative_url }}" rel="noopener" target="_blank"><img alt="Combined diagnostics: 2D and 3D meter bounding boxes on the left; boundary overlays and depth variation maps on the right" height="848" loading="lazy" src="{{ '/assets/img/projects/wp22-meter-bounds-uncertainty-en-20261101.svg' | relative_url }}" width="1556"/></a>
 <figcaption>The 2D and 3D bounding boxes locate the meter, but uncertain boundaries and depth variation make its exact extent unclear, complicating grasp placement and clearance checks.</figcaption>
 </figure>
 <figure class="wp22-real-two" data-gif-card="">
