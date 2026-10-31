@@ -136,14 +136,15 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
     <h3 id="wp22-meter-title">Application 3: electric meter handling</h3>
     <p>A mobile robot with two RealMan RM65 arms and custom grippers collects a loaded tray from an external roller station, installs two pairs of meters along 60-degree guide channels, moves the empty tray to the rear deck and returns it to the station.</p>
     <p>The column-foot joint turns the mast and upper body together. Lift, arm, column and base movements run sequentially. Mission, Interaction and 3D Object Graphs follow the task; the head RGB-D view and both wrist-mounted D405 views show the same operation from their rigid camera mounts.</p>
+    <h4 id="electric-meter-learning-result">Learning result</h4>
     <figure class="wp22-demo">
       <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-electric-meter-rm65-20261031.jpg' | relative_url }}" aria-label="Electric meter handling with RealMan RM65 arms, custom grippers and synchronized graphs and cameras">
         <source src="{{ '/assets/video/wp22-electric-meter-rm65-20261031.mp4' | relative_url }}" type="video/mp4">
         <p>Your browser does not support embedded video.</p>
       </video>
-      <figcaption>Blender + Remotion · Dual RM65 arms · 12 mission steps · 59 s · 1080p. The full-screen player switches between the dashboard, main scene, head RGB-D and two wrist views while keeping the same playback position.</figcaption>
+      <figcaption>Complete workflow replay · Blender + Remotion · Dual RM65 arms · 12 mission steps · 59 s · 1080p. The full-screen player switches between the dashboard, main scene, head RGB-D and two wrist views while keeping the same playback position.</figcaption>
     </figure>
-    <div class="wp22-actions"><a href="{{ '/project/electric-meter-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen electric meter player</a></div>
+    <div class="wp22-actions"><a href="{{ '/project/electric-meter-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen learning result</a></div>
     <ol class="wp22-flow" aria-label="Electric meter workflow">
       <li><span>01 · COLLECT</span>Dock, grasp the tray and lift clear</li>
       <li><span>02 · TRANSFER</span>Withdraw, turn the column and load the front deck</li>
@@ -153,5 +154,19 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
       <li><span>06 · RETURN</span>Raise the tray, approach the station and hand off</li>
     </ol>
     <p class="wp22-note">Kinematic reconstruction from the supplied task videos, using official RM65 link geometry. Custom gripper dimensions are estimated from the video. Graph relations follow authored attachment states; object boxes use visible rendered instance masks. Joint limits, sequential motion and geometric intersections were checked across all 1,417 authored poses.</p>
+
+    <section id="electric-meter-learning-process" aria-labelledby="wp22-meter-learning-title" style="scroll-margin-top:5.5rem;margin-top:2rem">
+      <h4 id="wp22-meter-learning-title">Learning process</h4>
+      <p>The intermediate RSI learning process improves the meter-insertion policy through execution feedback. The first graph requests insertion before the lift settles. Adding a wait lets the lower pair complete; adding wrist observation and lateral alignment then resolves the upper-row offset. Three runs of the same task model complete 0, 2 and 4 target meters.</p>
+      <figure class="wp22-demo">
+        <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-electric-meter-rsi-ava-20261101.jpg' | relative_url }}" aria-label="Learning process: three RSI graph revisions for electric meter handling">
+          <source src="{{ '/assets/video/wp22-electric-meter-rsi-ava-20261101.mp4' | relative_url }}" type="video/mp4">
+          <p>Your browser does not support embedded video.</p>
+        </video>
+        <figcaption>Learning process · 60 s · Narrated · 1080p. Controlled task-model execution with rule-based graph repair; Blender and Remotion visualize the graph changes and resulting actions.</figcaption>
+      </figure>
+      <div class="wp22-actions"><a href="{{ '/project/electric-meter-learning/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen learning process</a></div>
+    </section>
+
   </div>
 </section>
