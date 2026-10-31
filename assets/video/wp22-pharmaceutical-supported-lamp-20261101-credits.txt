@@ -1,0 +1,23 @@
+NTU-A*STAR WP 2.2: Connected Pharmaceutical Laboratory
+Supported centrifuge task light, 1 November 2026
+
+1920 x 1080; 15 fps; 1,687 frames; 112.466667 seconds.
+Video SHA-256: a5653c14fcd3a688880cb5712b90199df3564573a38c336c47452000d13a4bab
+
+Ranger Mini 3.0 and PiPER meshes: AgileX Robotics official model repositories.
+D405 housing: RealSense official realsense-ros repository, Apache-2.0.
+https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/meshes/d405.stl
+Enclosure, canopy, mounts and integration use illustrative dimensions.
+
+Three synchronized rendered cameras show head RGB-D and two fixed wrist viewpoints.
+Visible-object boxes come from occlusion-resolved instance masks, not a learned detector.
+The authored Mission Graph and recorded semantic observations are preserved.
+Main video is 15 fps; observation samples are 5 Hz. The complete 15-step work order
+includes parallel preparation and stopped/unlocked gating before unloading.
+
+
+The centrifuge task lamp is raised by 150 mm. Its seven connected parts join
+the worktop through a mounting foot. All 2,898 original animation curves match
+the previous integrated-enclosure scene. The changed lamp parts remain clear
+of the robot and equipment over 13,489 sampled poses; the bench-foot interface
+is the only intended intersection in the checked geometry.
