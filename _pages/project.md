@@ -138,8 +138,8 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
     <p>The column-foot joint turns the mast and upper body together. Lift, arm, column and base movements run sequentially. Mission, Interaction and 3D Object Graphs follow the task; the head RGB-D view and both wrist-mounted D405 views show the same operation from their rigid camera mounts.</p>
     <h4 id="electric-meter-learning-result">Learning result</h4>
     <figure class="wp22-demo">
-      <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-electric-meter-rm65-20261031.jpg' | relative_url }}" aria-label="Electric meter handling with RealMan RM65 arms, custom grippers and synchronized graphs and cameras">
-        <source src="{{ '/assets/video/wp22-electric-meter-rm65-20261031.mp4' | relative_url }}" type="video/mp4">
+      <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-electric-meter-rm65-graph-v6-20261101.jpg' | relative_url }}" aria-label="Electric meter handling with RealMan RM65 arms, custom grippers and synchronized graphs and cameras">
+        <source src="{{ '/assets/video/wp22-electric-meter-rm65-graph-v6-20261101.mp4' | relative_url }}" type="video/mp4">
         <p>Your browser does not support embedded video.</p>
       </video>
       <figcaption>Complete workflow replay · Blender + Remotion · Dual RM65 arms · 12 mission steps · 59 s · 1080p. The full-screen player switches between the dashboard, main scene, head RGB-D and two wrist views while keeping the same playback position.</figcaption>
@@ -153,7 +153,7 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
       <li><span>05 · RESTACK</span>Transfer the empty tray to the rear deck</li>
       <li><span>06 · RETURN</span>Raise the tray, approach the station and hand off</li>
     </ol>
-    <p class="wp22-note">Kinematic reconstruction from the supplied task videos, using official RM65 link geometry. Custom gripper dimensions are estimated from the video. Graph relations follow authored attachment states; object boxes use visible rendered instance masks. Joint limits, sequential motion and geometric intersections were checked across all 1,417 authored poses.</p>
+    <p class="wp22-note">Kinematic reconstruction from the supplied task videos, using official RM65 link geometry. Custom gripper dimensions are estimated from the video. The scene graph includes all 34 slots and 13 meters across both racks, with individual insertion and occupancy relations. Task-object boxes use visible rendered instance masks. Joint limits, sequential motion and geometric intersections were checked across all 1,417 authored poses.</p>
 
     <section id="electric-meter-learning-process" aria-labelledby="wp22-meter-learning-title" style="scroll-margin-top:5.5rem;margin-top:2rem">
       <h4 id="wp22-meter-learning-title">Learning process</h4>
