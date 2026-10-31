@@ -101,8 +101,8 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 <h3 id="wp22-demo-title">Application 2: planetary gearbox assembly</h3>
 <p><strong>Task. </strong>Collect components, assemble a planetary gearbox and fasten its cover.<br/><strong>Challenge. </strong>Align parts within tight clearances while maintaining stable grasps and coordinating both arms.</p><p class="wp22-description">A mobile dual-arm robot explores the workcell, builds an object graph and selects a task-dependent chain of objects. It collects gear components from separate tables, assembles the gearbox, retrieves a wall-mounted driver, fastens the cover and returns the tool.</p>
 <figure class="wp22-demo">
-<video aria-label="Planetary gearbox assembly system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg' | relative_url }}" preload="metadata">
-<source src="{{ '/assets/video/wp22-gearbox-blender-piper-20261030.mp4' | relative_url }}" type="video/mp4"/>
+<video aria-label="Planetary gearbox assembly system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-gearbox-detailed-workcell-20261101.jpg' | relative_url }}" preload="metadata">
+<source src="{{ '/assets/video/wp22-gearbox-detailed-workcell-20261101.mp4' | relative_url }}" type="video/mp4"/>
 <p>Your browser does not support embedded video.</p>
 </video>
 <figcaption>Ranger Mini 3.0 · Dual PiPER arms · Simulation</figcaption>
