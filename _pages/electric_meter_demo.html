@@ -20,5 +20,5 @@ const v=document.getElementById('video'),chapter=document.getElementById('chapte
 chapter.onchange=()=>{if(chapter.value!=='')v.currentTime=Number(chapter.value)};
 document.getElementById('loop').onchange=e=>v.loop=e.target.checked;
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{const t=v.currentTime,playing=!v.paused;v.pause();v.src=b.dataset.view;v.addEventListener('loadedmetadata',()=>{v.currentTime=Math.min(t,v.duration-.001);if(playing)v.play()},{once:true});document.querySelectorAll('[data-view]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));status.textContent=b.textContent+' · same 59.1 s timeline'});
-v.addEventListener('error',()=>{status.textContent='Video error: '+(v.error?.message||'cannot load')});
+v.addEventListener('error',()=>{status.textContent='Video error: '+((v.error && v.error.message)||'cannot load')});
 </script><script defer src="/assets/js/video-player.js"></script></html>
