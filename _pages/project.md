@@ -73,7 +73,9 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 </video>
 </figure>
 </section>
-<section aria-labelledby="wp22-deployment-title" id="electric-meter-deployment"><h4 id="wp22-deployment-title">Real-world deployment &amp; open challenges</h4><div aria-label="Real robot operation and remaining perception challenges" class="wp22-evidence">
+<section aria-labelledby="wp22-deployment-title" id="electric-meter-deployment"><h4 id="wp22-deployment-title">Real-world deployment &amp; open challenges</h4>
+<p class="wp22-description">The real robot can complete the basic tray-handling and meter-insertion workflow, though execution is still relatively slow. Perception remains a challenge: uncertain object boundaries, noisy depth estimates and residual scene points can affect grasping and alignment.</p>
+<div aria-label="Real robot operation and remaining perception challenges" class="wp22-evidence">
 <figure class="wp22-real-one" data-gif-card="">
 <h5>Real robot · view 1</h5>
 <div class="wp22-media"><img alt="Real robot transferring a tray beside the production-line test racks" data-animation="{{ '/assets/img/projects/wp22-meter-real-1-20261101.gif' | relative_url }}" data-still="{{ '/assets/img/projects/wp22-meter-real-1-20261101.jpg' | relative_url }}" height="248" loading="lazy" src="{{ '/assets/img/projects/wp22-meter-real-1-20261101.gif' | relative_url }}" width="512"/></div>
