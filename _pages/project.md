@@ -131,4 +131,27 @@ og_image: /assets/img/projects/wp22-gearbox-blender-piper-20261030.jpg
     <p class="wp22-note">This is a kinematic training replay with an authored Mission Graph and symbolic liquid, barcode and equipment acknowledgements. Object boxes are simulation annotations from visible rendered instance masks. Tubes have modeled support fixtures; the robot and objects pass sampled geometric intersection checks at 120 Hz. Demonstration timings are not production parameters. Physical process validation and cross-embodiment evaluation remain project objectives.</p>
 
   </div>
+
+  <div class="wp22-section" id="electric-meter-handling" aria-labelledby="wp22-meter-title">
+    <h3 id="wp22-meter-title">Application 3: electric meter handling</h3>
+    <p>A mobile robot with two RealMan RM65 arms and custom grippers collects a loaded tray from an external roller station, installs two pairs of meters along 60-degree guide channels, moves the empty tray to the rear deck and returns it to the station.</p>
+    <p>The column-foot joint turns the mast and upper body together. Lift, arm, column and base movements run sequentially. Mission, Interaction and 3D Object Graphs follow the task; the head RGB-D view and both wrist-mounted D405 views show the same operation from their rigid camera mounts.</p>
+    <figure class="wp22-demo">
+      <video controlslist="nodownload" controls playsinline preload="metadata" poster="{{ '/assets/img/projects/wp22-electric-meter-rm65-20261031.jpg' | relative_url }}" aria-label="Electric meter handling with RealMan RM65 arms, custom grippers and synchronized graphs and cameras">
+        <source src="{{ '/assets/video/wp22-electric-meter-rm65-20261031.mp4' | relative_url }}" type="video/mp4">
+        <p>Your browser does not support embedded video.</p>
+      </video>
+      <figcaption>Blender + Remotion · Dual RM65 arms · 12 mission steps · 59 s · 1080p. The full-screen player switches between the dashboard, main scene, head RGB-D and two wrist views while keeping the same playback position.</figcaption>
+    </figure>
+    <div class="wp22-actions"><a href="{{ '/project/electric-meter-demo/' | relative_url }}" target="_blank" rel="noopener">Open the full-screen electric meter player</a></div>
+    <ol class="wp22-flow" aria-label="Electric meter workflow">
+      <li><span>01 · COLLECT</span>Dock, grasp the tray and lift clear</li>
+      <li><span>02 · TRANSFER</span>Withdraw, turn the column and load the front deck</li>
+      <li><span>03 · POSITION</span>Translate sideways and raise the meter pair</li>
+      <li><span>04 · INSTALL</span>Enter the guides, slide down and release</li>
+      <li><span>05 · RESTACK</span>Transfer the empty tray to the rear deck</li>
+      <li><span>06 · RETURN</span>Raise the tray, approach the station and hand off</li>
+    </ol>
+    <p class="wp22-note">Kinematic reconstruction from the supplied task videos, using official RM65 link geometry. Custom gripper dimensions are estimated from the video. Graph relations follow authored attachment states; object boxes use visible rendered instance masks. Joint limits, sequential motion and geometric intersections were checked across all 1,417 authored poses.</p>
+  </div>
 </section>
