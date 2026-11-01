@@ -108,11 +108,11 @@ permalink: /project/electric-meter-demo/
         <small>Unit Test Room → belt, trays and racks → slots and meters</small>
       </div>
       <nav aria-label="View selection">
-        <button aria-pressed="true" data-view="/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4">Full dashboard</button
-        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-main.mp4">Main scene</button
-        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-head.mp4">Head RGB-D</button
-        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-left.mp4">Left D405</button
-        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-rm65-20261031-right.mp4">Right D405</button>
+        <button aria-pressed="true" data-view="/assets/video/wp22-electric-meter-side-profile-v9-20261101.mp4">Full dashboard</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-side-profile-v9-20261101-main.mp4">Main scene</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-side-profile-v9-20261101-head.mp4">Head RGB-D</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-side-profile-v9-20261101-left.mp4">Left D405</button
+        ><button aria-pressed="false" data-view="/assets/video/wp22-electric-meter-side-profile-v9-20261101-right.mp4">Right D405</button>
       </nav>
     </header>
     <video
@@ -120,9 +120,9 @@ permalink: /project/electric-meter-demo/
       controlslist="nodownload"
       id="video"
       playsinline=""
-      poster="/assets/img/projects/wp22-electric-meter-rm65-graph-v7-20261101.jpg"
+      poster="/assets/img/projects/wp22-electric-meter-side-profile-v9-20261101.jpg"
       preload="metadata"
-      src="/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4"
+      src="/assets/video/wp22-electric-meter-side-profile-v9-20261101.mp4"
     ></video>
     <p class="wp22-description">
       A mobile robot with two RealMan RM65 arms and custom grippers collects a loaded tray from an external roller station, installs two pairs of
@@ -154,15 +154,15 @@ permalink: /project/electric-meter-demo/
       { id: 0, start: 0.0, end: 2.0, label: "Dock", detail: "External station" },
       { id: 1, start: 2.0, end: 6.0, label: "Collect tray", detail: "Two-hand pickup" },
       { id: 2, start: 6.0, end: 10.75, label: "Clear + turn", detail: "Column-foot rotation" },
-      { id: 3, start: 10.75, end: 13.75, label: "Load deck", detail: "Front roller deck" },
-      { id: 4, start: 13.75, end: 17.0, label: "To test rack", detail: "Omnidirectional base" },
-      { id: 5, start: 17.0, end: 26.5, label: "Lower pair", detail: "60\u00b0 guide insertion" },
-      { id: 6, start: 26.5, end: 36.25, label: "Upper pair", detail: "60\u00b0 guide insertion" },
-      { id: 7, start: 36.25, end: 40.75, label: "Clear rack", detail: "Return to transfer area" },
-      { id: 8, start: 40.75, end: 49.25, label: "Empty tray", detail: "Move to rear stack" },
-      { id: 9, start: 49.25, end: 51.25, label: "Return dock", detail: "Lift tray for docking" },
-      { id: 10, start: 51.25, end: 56.75, label: "Unload", detail: "Two-hand handoff" },
-      { id: 11, start: 56.75, end: 59.083333333333336, label: "Clear lane", detail: "Cycle complete" },
+      { id: 3, start: 10.75, end: 14.25, label: "Load deck", detail: "Front roller deck" },
+      { id: 4, start: 14.25, end: 17.5, label: "To test rack", detail: "Omnidirectional base" },
+      { id: 5, start: 17.5, end: 35.25, label: "Lower pair", detail: "60\u00b0 guide insertion" },
+      { id: 6, start: 35.25, end: 52.25, label: "Upper pair", detail: "60\u00b0 guide insertion" },
+      { id: 7, start: 52.25, end: 56.75, label: "Clear rack", detail: "Return to transfer area" },
+      { id: 8, start: 56.75, end: 66.0, label: "Empty tray", detail: "Move to rear stack" },
+      { id: 9, start: 66.0, end: 68.25, label: "Return dock", detail: "Lift tray for docking" },
+      { id: 10, start: 68.25, end: 73.75, label: "Unload", detail: "Two-hand handoff" },
+      { id: 11, start: 73.75, end: 76.08333333333333, label: "Clear lane", detail: "Cycle complete" },
     ].forEach((m) => {
       const o = document.createElement("option");
       o.value = m.start;

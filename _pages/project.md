@@ -58,8 +58,8 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 <p><strong>Task. </strong>Pre-shipment testing and calibration in an electric-meter manufacturing and assembly plant.<br/><strong>Challenge. </strong>Reliable tray handling and precise rack insertion despite uncertain depth and object boundaries.</p><p class="wp22-description">A mobile robot with two RealMan RM65 arms and custom grippers collects a loaded tray from an external roller station, installs two pairs of meters along 60-degree guide channels, moves the empty tray to the rear deck and returns it to the station.</p><p class="wp22-description">The column-foot joint turns the mast and upper body together. Lift, arm, column and base movements run sequentially. Mission, Interaction and 3D Object Graphs follow the task; the head RGB-D view and both wrist-mounted D405 views show the same operation from their rigid camera mounts.</p>
 <h4 id="electric-meter-learning-result">Simulated Pipeline</h4>
 <figure class="wp22-demo">
-<video aria-label="Electric meter unit-testing system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-electric-meter-rm65-graph-v7-20261101.jpg' | relative_url }}" preload="metadata">
-<source src="{{ '/assets/video/wp22-electric-meter-rm65-graph-v7-20261101.mp4' | relative_url }}" type="video/mp4"/>
+<video aria-label="Electric meter unit-testing system demonstration" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-electric-meter-side-profile-v9-20261101.jpg' | relative_url }}" preload="metadata">
+<source src="{{ '/assets/video/wp22-electric-meter-side-profile-v9-20261101.mp4' | relative_url }}" type="video/mp4"/>
 <p>Your browser does not support embedded video.</p>
 </video>
 <figcaption>Dual RealMan RM65 arms · Custom grippers · Simulation</figcaption>
@@ -67,8 +67,8 @@ og_image: /assets/img/projects/wp22-meter-real-2-20261101.jpg
 <section aria-labelledby="wp22-meter-learning-title" id="electric-meter-learning-process">
 <h4 id="wp22-meter-learning-title">Recursive self-improvement (RSI)</h4><p>The intermediate RSI learning process improves the meter-insertion policy through execution feedback. The first graph requests insertion before the lift settles. Adding a wait lets the lower pair complete; adding wrist observation and lateral alignment then resolves the upper-row offset. Three runs of the same task model complete 0, 2 and 4 target meters.</p>
 <figure class="wp22-demo">
-<video aria-label="Recursive self-improvement across three graph policy revisions" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-electric-meter-rsi-ava-20261101.jpg' | relative_url }}" preload="metadata">
-<source src="{{ '/assets/video/wp22-electric-meter-rsi-ava-20261101.mp4' | relative_url }}" type="video/mp4"/>
+<video aria-label="Recursive self-improvement across three graph policy revisions" controls="" controlslist="nodownload" playsinline="" poster="{{ '/assets/img/projects/wp22-electric-meter-rsi-side-profile-v9-20261101.jpg' | relative_url }}" preload="metadata">
+<source src="{{ '/assets/video/wp22-electric-meter-rsi-side-profile-v9-20261101.mp4' | relative_url }}" type="video/mp4"/>
 <p>Your browser does not support embedded video.</p>
 </video>
 </figure>
