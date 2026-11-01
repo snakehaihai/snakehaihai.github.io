@@ -1,0 +1,5 @@
+Electric meter handling
+Robot platform: dual RealMan RM65-B arms, video-referenced custom grippers and rigid RGB-D cameras.
+RM65-B meshes: Copyright 2024 realman-robotics; Apache License 2.0.
+https://github.com/RealManRobot/rm_models
+https://www.apache.org/licenses/LICENSE-2.0
