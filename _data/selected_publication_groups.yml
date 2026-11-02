@@ -28,6 +28,7 @@
   title: Autonomous Navigation & Planning
   label: Navigation
   papers:
+    - zhong2026spqr
     - liao2026g2navgrounded
     - yang2026audiovisualnavigation
     - mao2026predictbeforeyou
