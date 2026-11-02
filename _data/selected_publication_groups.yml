@@ -58,6 +58,7 @@
   title: UWB Localization & State Estimation
   label: Localization
   papers:
+    - yuan2026careuwb
     - tang2026policyguided
     - tang2026adaptivehorizon
     - yuan2025largescaleuwb
