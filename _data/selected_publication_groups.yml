@@ -11,6 +11,7 @@
   label: Datasets
   papers:
     - wang2025uavscenesamulti
+    - nguyen2024mcd
     - nguyen2022ntu
     - yuan2024MMAUD
     - zhang2026gpusimbenchtowardsscalable
